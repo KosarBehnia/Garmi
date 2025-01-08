@@ -1,0 +1,10 @@
+{
+  "package_name": "panda_motion_generator_msgs",
+  "non_idl_tuples": [
+    "/home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/panda_motion_generator_msgs:msg/JointPose.msg",
+    "/home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/panda_motion_generator_msgs:msg/SetTimeScaling.msg",
+    "/home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/panda_motion_generator_msgs:msg/SimpleActionResult.msg",
+    "/home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/panda_motion_generator_msgs:action/CartesianViaMotion.action",
+    "/home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/panda_motion_generator_msgs:action/JointViaMotion.action"
+  ]
+}

@@ -1,0 +1,110 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+-- Found FastRTPS: /opt/ros/humble/include  
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Found rclcpp_action: 16.0.10 (/opt/ros/humble/share/rclcpp_action/cmake)
+-- Found rclcpp_components: 16.0.10 (/opt/ros/humble/share/rclcpp_components/cmake)
+-- Found std_srvs: 4.2.4 (/opt/ros/humble/share/std_srvs/cmake)
+-- Found franka_msgs: 0.0.0 (/home/user/humble_ws/install/franka_msgs/share/franka_msgs/cmake)
+-- Found hardware_interface: 2.44.0 (/opt/ros/humble/share/hardware_interface/cmake)
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread chrono 
+-- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so   
+-- Found ament_cmake_clang_format: 0.12.11 (/opt/ros/humble/share/ament_cmake_clang_format/cmake)
+-- Found ament_cmake_copyright: 0.12.11 (/opt/ros/humble/share/ament_cmake_copyright/cmake)
+-- Found ament_cmake_cppcheck: 0.12.11 (/opt/ros/humble/share/ament_cmake_cppcheck/cmake)
+-- Found ament_cmake_flake8: 0.12.11 (/opt/ros/humble/share/ament_cmake_flake8/cmake)
+-- Found ament_cmake_lint_cmake: 0.12.11 (/opt/ros/humble/share/ament_cmake_lint_cmake/cmake)
+-- Found ament_cmake_pep257: 0.12.11 (/opt/ros/humble/share/ament_cmake_pep257/cmake)
+-- Found ament_cmake_xmllint: 0.12.11 (/opt/ros/humble/share/ament_cmake_xmllint/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/user/humble_ws/build/franka_hardware
+[ 14%] Building CXX object CMakeFiles/franka_hardware.dir/src/franka_mujoco_multi_hardware_interface.cpp.o
+[ 14%] Building CXX object CMakeFiles/franka_hardware.dir/src/robot_sim.cpp.o
+[ 21%] Building CXX object CMakeFiles/franka_hardware.dir/src/garmi_head_sim.cpp.o
+[ 28%] Building CXX object CMakeFiles/franka_hardware.dir/src/robot.cpp.o
+[ 35%] Building CXX object CMakeFiles/franka_hardware.dir/src/garmi_mujoco_hardware_interface.cpp.o
+[ 42%] Building CXX object CMakeFiles/franka_hardware.dir/src/franka_multi_hardware_interface.cpp.o
+[ 50%] Building CXX object CMakeFiles/franka_hardware.dir/src/mobile_base_sim.cpp.o
+[ 57%] Building CXX object CMakeFiles/franka_hardware.dir/src/franka_error_recovery_service_server.cpp.o
+[ 64%] Building CXX object CMakeFiles/franka_hardware.dir/src/gripper_sim_action_server.cpp.o
+[ 71%] Building CXX object CMakeFiles/franka_hardware.dir/src/franka_executor.cpp.o
+[ 78%] Building CXX object CMakeFiles/franka_hardware.dir/src/control_mode.cpp.o
+[ 85%] Building CXX object CMakeFiles/franka_hardware.dir/src/franka_param_service_server.cpp.o
+[ 92%] Building CXX object CMakeFiles/franka_hardware.dir/src/helper_functions.cpp.o
+[100%] Linking CXX shared library libfranka_hardware.so
+[100%] Built target franka_hardware
+-- Install configuration: "Release"
+-- Installing: /home/user/humble_ws/install/franka_hardware/share/franka_hardware/franka_hardware.xml
+-- Installing: /home/user/humble_ws/install/franka_hardware/lib/libfranka_hardware.so
+-- Set runtime path of "/home/user/humble_ws/install/franka_hardware/lib/libfranka_hardware.so" to ""
+-- Installing: /home/user/humble_ws/install/franka_hardware/include
+-- Installing: /home/user/humble_ws/install/franka_hardware/include/franka_hardware
+-- Installing: /home/user/humble_ws/install/franka_hardware/include/franka_hardware/mobile_base_sim.hpp
+-- Installing: /home/user/humble_ws/install/franka_hardware/include/franka_hardware/robot.hpp
+-- Installing: /home/user/humble_ws/install/franka_hardware/include/franka_hardware/franka_mujoco_multi_hardware_interface.hpp
+-- Installing: /home/user/humble_ws/install/franka_hardware/include/franka_hardware/franka_hardware_interface.hpp
+-- Installing: /home/user/humble_ws/install/franka_hardware/include/franka_hardware/control_mode.h
+-- Installing: /home/user/humble_ws/install/franka_hardware/include/franka_hardware/franka_executor.hpp
+-- Installing: /home/user/humble_ws/install/franka_hardware/include/franka_hardware/mujoco_pose_service.hpp
+-- Installing: /home/user/humble_ws/install/franka_hardware/include/franka_hardware/model_franka.hpp
+-- Installing: /home/user/humble_ws/install/franka_hardware/include/franka_hardware/garmi_head_sim.hpp
+-- Installing: /home/user/humble_ws/install/franka_hardware/include/franka_hardware/robot_sim.hpp
+-- Installing: /home/user/humble_ws/install/franka_hardware/include/franka_hardware/gripper_sim_action_server.hpp
+-- Installing: /home/user/humble_ws/install/franka_hardware/include/franka_hardware/franka_multi_hardware_interface.hpp
+-- Installing: /home/user/humble_ws/install/franka_hardware/include/franka_hardware/garmi_mujoco_hardware_interface.hpp
+-- Installing: /home/user/humble_ws/install/franka_hardware/include/franka_hardware/franka_error_recovery_service_server.hpp
+-- Installing: /home/user/humble_ws/install/franka_hardware/include/franka_hardware/helper_functions.hpp
+-- Installing: /home/user/humble_ws/install/franka_hardware/include/franka_hardware/model_base.hpp
+-- Installing: /home/user/humble_ws/install/franka_hardware/include/franka_hardware/mujoco_visualizer.hpp
+-- Installing: /home/user/humble_ws/install/franka_hardware/include/franka_hardware/model.hpp
+-- Installing: /home/user/humble_ws/install/franka_hardware/include/franka_hardware/franka_mujoco_hardware_interface.hpp
+-- Installing: /home/user/humble_ws/install/franka_hardware/include/franka_hardware/franka_param_service_server.hpp
+-- Installing: /home/user/humble_ws/install/franka_hardware/include/franka_hardware/model_sim.hpp
+-- Installing: /home/user/humble_ws/install/franka_hardware/share/franka_hardware/environment/library_path.sh
+-- Installing: /home/user/humble_ws/install/franka_hardware/share/franka_hardware/environment/library_path.dsv
+-- Installing: /home/user/humble_ws/install/franka_hardware/share/ament_index/resource_index/package_run_dependencies/franka_hardware
+-- Installing: /home/user/humble_ws/install/franka_hardware/share/ament_index/resource_index/parent_prefix_path/franka_hardware
+-- Installing: /home/user/humble_ws/install/franka_hardware/share/franka_hardware/environment/ament_prefix_path.sh
+-- Installing: /home/user/humble_ws/install/franka_hardware/share/franka_hardware/environment/ament_prefix_path.dsv
+-- Installing: /home/user/humble_ws/install/franka_hardware/share/franka_hardware/environment/path.sh
+-- Installing: /home/user/humble_ws/install/franka_hardware/share/franka_hardware/environment/path.dsv
+-- Installing: /home/user/humble_ws/install/franka_hardware/share/franka_hardware/local_setup.bash
+-- Installing: /home/user/humble_ws/install/franka_hardware/share/franka_hardware/local_setup.sh
+-- Installing: /home/user/humble_ws/install/franka_hardware/share/franka_hardware/local_setup.zsh
+-- Installing: /home/user/humble_ws/install/franka_hardware/share/franka_hardware/local_setup.dsv
+-- Installing: /home/user/humble_ws/install/franka_hardware/share/franka_hardware/package.dsv
+-- Installing: /home/user/humble_ws/install/franka_hardware/share/ament_index/resource_index/packages/franka_hardware
+-- Installing: /home/user/humble_ws/install/franka_hardware/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/franka_hardware
+-- Installing: /home/user/humble_ws/install/franka_hardware/share/franka_hardware/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/user/humble_ws/install/franka_hardware/share/franka_hardware/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/user/humble_ws/install/franka_hardware/share/franka_hardware/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/user/humble_ws/install/franka_hardware/share/franka_hardware/cmake/franka_hardwareConfig.cmake
+-- Installing: /home/user/humble_ws/install/franka_hardware/share/franka_hardware/cmake/franka_hardwareConfig-version.cmake
+-- Installing: /home/user/humble_ws/install/franka_hardware/share/franka_hardware/package.xml

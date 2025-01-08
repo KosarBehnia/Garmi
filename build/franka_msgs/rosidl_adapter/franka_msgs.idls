@@ -1,0 +1,17 @@
+/home/user/humble_ws/build/franka_msgs/rosidl_adapter/franka_msgs:action/Grasp.idl
+/home/user/humble_ws/build/franka_msgs/rosidl_adapter/franka_msgs:action/Homing.idl
+/home/user/humble_ws/build/franka_msgs/rosidl_adapter/franka_msgs:action/Move.idl
+/home/user/humble_ws/build/franka_msgs/rosidl_adapter/franka_msgs:srv/ErrorRecovery.idl
+/home/user/humble_ws/build/franka_msgs/rosidl_adapter/franka_msgs:srv/SetCartesianStiffness.idl
+/home/user/humble_ws/build/franka_msgs/rosidl_adapter/franka_msgs:srv/SetTCPFrame.idl
+/home/user/humble_ws/build/franka_msgs/rosidl_adapter/franka_msgs:srv/SetForceTorqueCollisionBehavior.idl
+/home/user/humble_ws/build/franka_msgs/rosidl_adapter/franka_msgs:srv/SetFullCollisionBehavior.idl
+/home/user/humble_ws/build/franka_msgs/rosidl_adapter/franka_msgs:srv/SetJointStiffness.idl
+/home/user/humble_ws/build/franka_msgs/rosidl_adapter/franka_msgs:srv/SetStiffnessFrame.idl
+/home/user/humble_ws/build/franka_msgs/rosidl_adapter/franka_msgs:srv/SetLoad.idl
+/home/user/humble_ws/build/franka_msgs/rosidl_adapter/franka_msgs:srv/SetMujocoPoses.idl
+/home/user/humble_ws/build/franka_msgs/rosidl_adapter/franka_msgs:msg/GraspEpsilon.idl
+/home/user/humble_ws/build/franka_msgs/rosidl_adapter/franka_msgs:msg/FrankaState.idl
+/home/user/humble_ws/build/franka_msgs/rosidl_adapter/franka_msgs:msg/FrankaModel.idl
+/home/user/humble_ws/build/franka_msgs/rosidl_adapter/franka_msgs:msg/Errors.idl
+/home/user/humble_ws/build/franka_msgs/rosidl_adapter/franka_msgs:msg/PoseStampedArray.idl

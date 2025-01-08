@@ -1,0 +1,6 @@
+--2025-01-07 11:48:52--  https://media.istockphoto.com/id/492527773/photo/untidy-pile-of-dirty-laundry.jpg?s=612x612
+Resolving media.istockphoto.com (media.istockphoto.com)... 18.165.140.11, 18.165.140.71, 18.165.140.25, ...
+Connecting to media.istockphoto.com (media.istockphoto.com)|18.165.140.11|:443... connected.
+HTTP request sent, awaiting response... 400 Bad Request
+2025-01-07 11:48:53 ERROR 400: Bad Request.
+

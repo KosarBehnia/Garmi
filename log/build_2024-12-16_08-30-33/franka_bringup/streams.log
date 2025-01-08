@@ -1,0 +1,74 @@
+[0.015s] Invoking command in '/home/user/humble_ws/build/franka_bringup': AMENT_PREFIX_PATH=/home/user/humble_ws/install/franka_hardware:/home/user/humble_ws/install/franka_msgs:/home/user/humble_ws/install/franka_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/user/humble_ws/install/franka_hardware:/home/user/humble_ws/install/franka_msgs:/home/user/humble_ws/install/franka_description:~/Libraries/libfranka/lib/cmake:~/Libraries/mujoco/lib/cmake:/opt/ros/humble LD_LIBRARY_PATH=/home/user/humble_ws/install/franka_hardware/lib:/home/user/humble_ws/install/franka_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/user/humble_ws/install/franka_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/user/humble_ws/src/bimanual_architecture/franka_bringup -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/user/humble_ws/install/franka_bringup
+[0.063s] -- The C compiler identification is GNU 11.4.0
+[0.110s] -- The CXX compiler identification is GNU 11.4.0
+[0.115s] -- Detecting C compiler ABI info
+[0.177s] -- Detecting C compiler ABI info - done
+[0.185s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.185s] -- Detecting C compile features
+[0.185s] -- Detecting C compile features - done
+[0.187s] -- Detecting CXX compiler ABI info
+[0.253s] -- Detecting CXX compiler ABI info - done
+[0.261s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.261s] -- Detecting CXX compile features
+[0.261s] -- Detecting CXX compile features - done
+[0.263s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.371s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.444s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.511s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.515s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.516s] -- Added test 'lint_cmake' to check CMake code style
+[0.516s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.518s] -- Added test 'xmllint' to check XML markup files
+[0.519s] -- Configuring done
+[0.521s] -- Generating done
+[0.522s] -- Build files have been written to: /home/user/humble_ws/build/franka_bringup
+[0.525s] Invoked command in '/home/user/humble_ws/build/franka_bringup' returned '0': AMENT_PREFIX_PATH=/home/user/humble_ws/install/franka_hardware:/home/user/humble_ws/install/franka_msgs:/home/user/humble_ws/install/franka_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/user/humble_ws/install/franka_hardware:/home/user/humble_ws/install/franka_msgs:/home/user/humble_ws/install/franka_description:~/Libraries/libfranka/lib/cmake:~/Libraries/mujoco/lib/cmake:/opt/ros/humble LD_LIBRARY_PATH=/home/user/humble_ws/install/franka_hardware/lib:/home/user/humble_ws/install/franka_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/user/humble_ws/install/franka_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/user/humble_ws/src/bimanual_architecture/franka_bringup -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/user/humble_ws/install/franka_bringup
+[0.526s] Invoking command in '/home/user/humble_ws/build/franka_bringup': AMENT_PREFIX_PATH=/home/user/humble_ws/install/franka_hardware:/home/user/humble_ws/install/franka_msgs:/home/user/humble_ws/install/franka_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/user/humble_ws/install/franka_hardware:/home/user/humble_ws/install/franka_msgs:/home/user/humble_ws/install/franka_description:~/Libraries/libfranka/lib/cmake:~/Libraries/mujoco/lib/cmake:/opt/ros/humble LD_LIBRARY_PATH=/home/user/humble_ws/install/franka_hardware/lib:/home/user/humble_ws/install/franka_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/user/humble_ws/install/franka_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/user/humble_ws/build/franka_bringup -- -j12 -l12
+[0.560s] Invoked command in '/home/user/humble_ws/build/franka_bringup' returned '0': AMENT_PREFIX_PATH=/home/user/humble_ws/install/franka_hardware:/home/user/humble_ws/install/franka_msgs:/home/user/humble_ws/install/franka_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/user/humble_ws/install/franka_hardware:/home/user/humble_ws/install/franka_msgs:/home/user/humble_ws/install/franka_description:~/Libraries/libfranka/lib/cmake:~/Libraries/mujoco/lib/cmake:/opt/ros/humble LD_LIBRARY_PATH=/home/user/humble_ws/install/franka_hardware/lib:/home/user/humble_ws/install/franka_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/user/humble_ws/install/franka_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/user/humble_ws/build/franka_bringup -- -j12 -l12
+[0.582s] Invoking command in '/home/user/humble_ws/build/franka_bringup': AMENT_PREFIX_PATH=/home/user/humble_ws/install/franka_hardware:/home/user/humble_ws/install/franka_msgs:/home/user/humble_ws/install/franka_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/user/humble_ws/install/franka_hardware:/home/user/humble_ws/install/franka_msgs:/home/user/humble_ws/install/franka_description:~/Libraries/libfranka/lib/cmake:~/Libraries/mujoco/lib/cmake:/opt/ros/humble LD_LIBRARY_PATH=/home/user/humble_ws/install/franka_hardware/lib:/home/user/humble_ws/install/franka_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/user/humble_ws/install/franka_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/user/humble_ws/build/franka_bringup
+[0.591s] -- Install configuration: "Release"
+[0.591s] -- Installing: /home/user/humble_ws/install/franka_bringup/share/franka_bringup/config
+[0.592s] -- Installing: /home/user/humble_ws/install/franka_bringup/share/franka_bringup/config/mujoco
+[0.592s] -- Installing: /home/user/humble_ws/install/franka_bringup/share/franka_bringup/config/mujoco/mj_objects.yaml
+[0.592s] -- Installing: /home/user/humble_ws/install/franka_bringup/share/franka_bringup/config/sim_controllers.yaml
+[0.592s] -- Installing: /home/user/humble_ws/install/franka_bringup/share/franka_bringup/config/dual_sim_controllers.yaml
+[0.592s] -- Installing: /home/user/humble_ws/install/franka_bringup/share/franka_bringup/config/mixed_quad_multimode.yaml
+[0.592s] -- Installing: /home/user/humble_ws/install/franka_bringup/share/franka_bringup/config/controllers.yaml
+[0.592s] -- Installing: /home/user/humble_ws/install/franka_bringup/share/franka_bringup/config/dual_multimode.yaml
+[0.592s] -- Installing: /home/user/humble_ws/install/franka_bringup/share/franka_bringup/config/garmi_sim_multimode.yaml
+[0.592s] -- Installing: /home/user/humble_ws/install/franka_bringup/share/franka_bringup/config/dual_sim_multimode.yaml
+[0.592s] -- Installing: /home/user/humble_ws/install/franka_bringup/share/franka_bringup/config/multimode.yaml
+[0.592s] -- Installing: /home/user/humble_ws/install/franka_bringup/share/franka_bringup/config/dual_controllers.yaml
+[0.593s] -- Installing: /home/user/humble_ws/install/franka_bringup/share/franka_bringup/config/mixed_dual_multimode.yaml
+[0.593s] -- Installing: /home/user/humble_ws/install/franka_bringup/share/franka_bringup/launch
+[0.593s] -- Installing: /home/user/humble_ws/install/franka_bringup/share/franka_bringup/launch/mixed
+[0.593s] -- Installing: /home/user/humble_ws/install/franka_bringup/share/franka_bringup/launch/mixed/mixed_dual_multimode_franka.launch.py
+[0.593s] -- Installing: /home/user/humble_ws/install/franka_bringup/share/franka_bringup/launch/mixed/mixed_quad_multimode_franka.launch.py
+[0.593s] -- Installing: /home/user/humble_ws/install/franka_bringup/share/franka_bringup/launch/sim
+[0.593s] -- Installing: /home/user/humble_ws/install/franka_bringup/share/franka_bringup/launch/sim/franka_sim.launch.py
+[0.593s] -- Installing: /home/user/humble_ws/install/franka_bringup/share/franka_bringup/launch/sim/dual_multimode_sim.launch.py
+[0.593s] -- Installing: /home/user/humble_ws/install/franka_bringup/share/franka_bringup/launch/sim/dual_franka_sim.launch.py
+[0.593s] -- Installing: /home/user/humble_ws/install/franka_bringup/share/franka_bringup/launch/sim/multimode_sim.launch.py
+[0.594s] -- Installing: /home/user/humble_ws/install/franka_bringup/share/franka_bringup/launch/real
+[0.594s] -- Installing: /home/user/humble_ws/install/franka_bringup/share/franka_bringup/launch/real/franka.launch.py
+[0.594s] -- Installing: /home/user/humble_ws/install/franka_bringup/share/franka_bringup/launch/real/multimode_franka.launch.py
+[0.594s] -- Installing: /home/user/humble_ws/install/franka_bringup/share/franka_bringup/launch/real/dual_multimode_franka.launch.py
+[0.594s] -- Installing: /home/user/humble_ws/install/franka_bringup/share/franka_bringup/launch/real/dual_franka.launch.py
+[0.594s] -- Installing: /home/user/humble_ws/install/franka_bringup/share/franka_bringup/launch/garmi
+[0.594s] -- Installing: /home/user/humble_ws/install/franka_bringup/share/franka_bringup/launch/garmi/sim_garmi.launch.py
+[0.595s] -- Installing: /home/user/humble_ws/install/franka_bringup/share/ament_index/resource_index/package_run_dependencies/franka_bringup
+[0.595s] -- Installing: /home/user/humble_ws/install/franka_bringup/share/ament_index/resource_index/parent_prefix_path/franka_bringup
+[0.595s] -- Installing: /home/user/humble_ws/install/franka_bringup/share/franka_bringup/environment/ament_prefix_path.sh
+[0.595s] -- Installing: /home/user/humble_ws/install/franka_bringup/share/franka_bringup/environment/ament_prefix_path.dsv
+[0.595s] -- Installing: /home/user/humble_ws/install/franka_bringup/share/franka_bringup/environment/path.sh
+[0.595s] -- Installing: /home/user/humble_ws/install/franka_bringup/share/franka_bringup/environment/path.dsv
+[0.595s] -- Installing: /home/user/humble_ws/install/franka_bringup/share/franka_bringup/local_setup.bash
+[0.595s] -- Installing: /home/user/humble_ws/install/franka_bringup/share/franka_bringup/local_setup.sh
+[0.595s] -- Installing: /home/user/humble_ws/install/franka_bringup/share/franka_bringup/local_setup.zsh
+[0.595s] -- Installing: /home/user/humble_ws/install/franka_bringup/share/franka_bringup/local_setup.dsv
+[0.596s] -- Installing: /home/user/humble_ws/install/franka_bringup/share/franka_bringup/package.dsv
+[0.596s] -- Installing: /home/user/humble_ws/install/franka_bringup/share/ament_index/resource_index/packages/franka_bringup
+[0.596s] -- Installing: /home/user/humble_ws/install/franka_bringup/share/franka_bringup/cmake/franka_bringupConfig.cmake
+[0.596s] -- Installing: /home/user/humble_ws/install/franka_bringup/share/franka_bringup/cmake/franka_bringupConfig-version.cmake
+[0.596s] -- Installing: /home/user/humble_ws/install/franka_bringup/share/franka_bringup/package.xml
+[0.597s] Invoked command in '/home/user/humble_ws/build/franka_bringup' returned '0': AMENT_PREFIX_PATH=/home/user/humble_ws/install/franka_hardware:/home/user/humble_ws/install/franka_msgs:/home/user/humble_ws/install/franka_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/user/humble_ws/install/franka_hardware:/home/user/humble_ws/install/franka_msgs:/home/user/humble_ws/install/franka_description:~/Libraries/libfranka/lib/cmake:~/Libraries/mujoco/lib/cmake:/opt/ros/humble LD_LIBRARY_PATH=/home/user/humble_ws/install/franka_hardware/lib:/home/user/humble_ws/install/franka_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/user/humble_ws/install/franka_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/user/humble_ws/build/franka_bringup

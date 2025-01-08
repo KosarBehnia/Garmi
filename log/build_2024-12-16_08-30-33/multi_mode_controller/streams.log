@@ -1,0 +1,738 @@
+[0.027s] Invoking command in '/home/user/humble_ws/build/multi_mode_controller': AMENT_PREFIX_PATH=/home/user/humble_ws/install/franka_semantic_components:/home/user/humble_ws/install/multi_mode_control_msgs:/home/user/humble_ws/install/franka_hardware:/home/user/humble_ws/install/franka_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/user/humble_ws/install/franka_semantic_components:/home/user/humble_ws/install/multi_mode_control_msgs:/home/user/humble_ws/install/franka_hardware:/home/user/humble_ws/install/franka_msgs:~/Libraries/libfranka/lib/cmake:~/Libraries/mujoco/lib/cmake:/opt/ros/humble LD_LIBRARY_PATH=/home/user/humble_ws/install/franka_semantic_components/lib:/home/user/humble_ws/install/multi_mode_control_msgs/lib:/home/user/humble_ws/install/franka_hardware/lib:/home/user/humble_ws/install/franka_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/user/humble_ws/install/multi_mode_control_msgs/local/lib/python3.10/dist-packages:/home/user/humble_ws/install/franka_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/user/humble_ws/install/multi_mode_controller
+[0.078s] -- The C compiler identification is GNU 11.4.0
+[0.116s] -- The CXX compiler identification is GNU 11.4.0
+[0.121s] -- Detecting C compiler ABI info
+[0.173s] -- Detecting C compiler ABI info - done
+[0.181s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.181s] -- Detecting C compile features
+[0.181s] -- Detecting C compile features - done
+[0.185s] -- Detecting CXX compiler ABI info
+[0.260s] -- Detecting CXX compiler ABI info - done
+[0.269s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.269s] -- Detecting CXX compile features
+[0.269s] -- Detecting CXX compile features - done
+[0.274s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.389s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.479s] -- Found builtin_interfaces: 1.2.1 (/opt/ros/humble/share/builtin_interfaces/cmake)
+[0.505s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.510s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.517s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.532s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.546s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.562s] -- Found control_msgs: 4.7.0 (/opt/ros/humble/share/control_msgs/cmake)
+[0.648s] -- Found multi_mode_control_msgs: 0.0.0 (/home/user/humble_ws/install/multi_mode_control_msgs/share/multi_mode_control_msgs/cmake)
+[0.680s] -- Found controller_interface: 2.44.0 (/opt/ros/humble/share/controller_interface/cmake)
+[0.751s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.754s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.777s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.838s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.842s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.852s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.855s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.864s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.875s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.883s] -- Looking for pthread.h
+[0.957s] -- Looking for pthread.h - found
+[0.957s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.040s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.041s] -- Found Threads: TRUE  
+[1.118s] -- Found controller_manager: 2.44.0 (/opt/ros/humble/share/controller_manager/cmake)
+[1.175s] -- Found franka_semantic_components: 0.0.0 (/home/user/humble_ws/install/franka_semantic_components/share/franka_semantic_components/cmake)
+[1.201s] -- Found generate_parameter_library: 0.3.9 (/opt/ros/humble/share/generate_parameter_library/cmake)
+[1.205s] -- Found parameter_traits: 0.3.9 (/opt/ros/humble/share/parameter_traits/cmake)
+[1.282s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.362s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.362s] -- Configured cppcheck include dirs: /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller/include
+[1.363s] -- Configured cppcheck exclude dirs and/or files: 
+[1.364s] -- Added test 'lint_cmake' to check CMake code style
+[1.369s] -- Added test 'uncrustify' to check C / C++ code style
+[1.369s] -- Configured uncrustify additional arguments: 
+[1.370s] -- Added test 'xmllint' to check XML markup files
+[1.373s] -- Configuring done
+[1.420s] -- Generating done
+[1.422s] -- Build files have been written to: /home/user/humble_ws/build/multi_mode_controller
+[1.431s] Invoked command in '/home/user/humble_ws/build/multi_mode_controller' returned '0': AMENT_PREFIX_PATH=/home/user/humble_ws/install/franka_semantic_components:/home/user/humble_ws/install/multi_mode_control_msgs:/home/user/humble_ws/install/franka_hardware:/home/user/humble_ws/install/franka_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/user/humble_ws/install/franka_semantic_components:/home/user/humble_ws/install/multi_mode_control_msgs:/home/user/humble_ws/install/franka_hardware:/home/user/humble_ws/install/franka_msgs:~/Libraries/libfranka/lib/cmake:~/Libraries/mujoco/lib/cmake:/opt/ros/humble LD_LIBRARY_PATH=/home/user/humble_ws/install/franka_semantic_components/lib:/home/user/humble_ws/install/multi_mode_control_msgs/lib:/home/user/humble_ws/install/franka_hardware/lib:/home/user/humble_ws/install/franka_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/user/humble_ws/install/multi_mode_control_msgs/local/lib/python3.10/dist-packages:/home/user/humble_ws/install/franka_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/user/humble_ws/install/multi_mode_controller
+[1.433s] Invoking command in '/home/user/humble_ws/build/multi_mode_controller': AMENT_PREFIX_PATH=/home/user/humble_ws/install/franka_semantic_components:/home/user/humble_ws/install/multi_mode_control_msgs:/home/user/humble_ws/install/franka_hardware:/home/user/humble_ws/install/franka_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/user/humble_ws/install/franka_semantic_components:/home/user/humble_ws/install/multi_mode_control_msgs:/home/user/humble_ws/install/franka_hardware:/home/user/humble_ws/install/franka_msgs:~/Libraries/libfranka/lib/cmake:~/Libraries/mujoco/lib/cmake:/opt/ros/humble LD_LIBRARY_PATH=/home/user/humble_ws/install/franka_semantic_components/lib:/home/user/humble_ws/install/multi_mode_control_msgs/lib:/home/user/humble_ws/install/franka_hardware/lib:/home/user/humble_ws/install/franka_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/user/humble_ws/install/multi_mode_control_msgs/local/lib/python3.10/dist-packages:/home/user/humble_ws/install/franka_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/user/humble_ws/build/multi_mode_controller -- -j12 -l12
+[1.504s] [  5%] Building C object CMakeFiles/openGJK.dir/src/openGJK.c.o
+[1.506s] [ 10%] Building CXX object CMakeFiles/synchronous_client.dir/src/synchronous_client.cpp.o
+[2.858s] [ 15%] Linking C static library libopenGJK.a
+[3.298s] [ 15%] Built target openGJK
+[3.391s] [ 20%] Building CXX object CMakeFiles/multi_mode_controller.dir/src/robot_data.cpp.o
+[3.398s] [ 25%] Building CXX object CMakeFiles/multi_mode_controller.dir/src/controller_factory.cpp.o
+[3.417s] [ 30%] Building CXX object CMakeFiles/multi_mode_controller.dir/src/redundancy_resolution.cpp.o
+[3.417s] [ 35%] Building CXX object CMakeFiles/multi_mode_controller.dir/src/comless_dual_cartesian_impedance_controller.cpp.o
+[3.422s] [ 40%] Building CXX object CMakeFiles/multi_mode_controller.dir/src/comless_panda_cartesian_impedance_controller.cpp.o
+[3.438s] [ 45%] Building CXX object CMakeFiles/multi_mode_controller.dir/src/comless_coupled_dual_cartesian_impedance_controller.cpp.o
+[3.444s] [ 50%] Building CXX object CMakeFiles/multi_mode_controller.dir/src/comless_dual_joint_impedance_controller.cpp.o
+[3.444s] [ 55%] Building CXX object CMakeFiles/multi_mode_controller.dir/src/panda_cartesian_impedance_controller.cpp.o
+[3.454s] [ 60%] Building CXX object CMakeFiles/multi_mode_controller.dir/src/comless_panda_joint_impedance_controller.cpp.o
+[3.457s] [ 65%] Building CXX object CMakeFiles/multi_mode_controller.dir/src/dual_cartesian_impedance_controller.cpp.o
+[3.481s] [ 70%] Building CXX object CMakeFiles/multi_mode_controller.dir/src/twin_cartesian_impedance_controller.cpp.o
+[10.544s] /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller/src/redundancy_resolution.cpp: In function ‘Eigen::Matrix4d redundancy_resolution::FK(const VectorXd&, int, bool)’:
+[10.545s] /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller/src/redundancy_resolution.cpp:55:12: warning: unused variable ‘width’ [-Wunused-variable]
+[10.545s]    55 |     double width = 0.75; // base plotting
+[10.545s]       |            ^~~~~
+[10.545s] /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller/src/redundancy_resolution.cpp:57:12: warning: unused variable ‘depth’ [-Wunused-variable]
+[10.545s]    57 |     double depth = 0.75; // base plotting
+[10.545s]       |            ^~~~~
+[10.545s] /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller/src/redundancy_resolution.cpp:58:12: warning: unused variable ‘wheelRadius’ [-Wunused-variable]
+[10.545s]    58 |     double wheelRadius = height / 2;
+[10.545s]       |            ^~~~~~~~~~~
+[11.854s] In file included from /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller/src/robot_data.cpp:1:
+[11.854s] /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller/include/multi_mode_controller/utils/robot_data.h: In constructor ‘panda_controllers::RobotData::RobotData(panda_controllers::RobotData&&)’:
+[11.854s] /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller/include/multi_mode_controller/utils/robot_data.h:52:65: warning: ‘panda_controllers::RobotData::frm_’ will be initialized after [-Wreorder]
+[11.855s]    52 |   std::unique_ptr<franka_semantic_components::FrankaRobotModel> frm_;
+[11.855s]       |                                                                 ^~~~
+[11.855s] /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller/include/multi_mode_controller/utils/robot_data.h:50:21: warning:   ‘const string panda_controllers::RobotData::resource_’ [-Wreorder]
+[11.855s]    50 |   const std::string resource_;
+[11.855s]       |                     ^~~~~~~~~
+[11.866s] /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller/src/robot_data.cpp:8:1: warning:   when initialized here [-Wreorder]
+[11.866s]     8 | RobotData::RobotData(RobotData&& rd) : frm_(std::move(rd.frm_)),
+[11.866s]       | ^~~~~~~~~
+[12.586s] /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller/src/redundancy_resolution.cpp: In function ‘void redundancy_resolution::computeDynamics(const VectorXd&, const VectorXd&, Eigen::MatrixXd&, Eigen::MatrixXd&, Eigen::VectorXd&)’:
+[12.586s] /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller/src/redundancy_resolution.cpp:300:57: warning: unused parameter ‘Qdot’ [-Wunused-parameter]
+[12.586s]   300 | void computeDynamics(const VectorXd& Q, const VectorXd& Qdot, MatrixXd& M, MatrixXd& C, VectorXd& G) {
+[12.586s]       |                                         ~~~~~~~~~~~~~~~~^~~~
+[12.797s] In file included from /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller/include/multi_mode_controller/base/panda_controller_base.h:6,
+[12.797s]                  from /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller/include/multi_mode_controller/controllers/comless_dual_cartesian_impedance_controller.h:4,
+[12.797s]                  from /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller/src/comless_dual_cartesian_impedance_controller.cpp:1:
+[12.797s] /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller/include/multi_mode_controller/utils/buffered.h:37:3: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+[12.797s]    37 |   const T* const operator->() {
+[12.797s]       |   ^~~~~
+[12.797s] /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller/include/multi_mode_controller/utils/buffered.h:76:3: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+[12.798s]    76 |   T* const operator->() {
+[12.798s]       |   ^
+[14.508s] /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller/src/redundancy_resolution.cpp: In function ‘redundancy_resolution::ControlOutput redundancy_resolution::wholeBodyController(const Eigen::Matrix<double, 6, 2>&, const VectorXd&, const VectorXd&, const VectorXd&, double)’:
+[14.508s] /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller/src/redundancy_resolution.cpp:621:12: warning: unused variable ‘gain_x’ [-Wunused-variable]
+[14.508s]   621 |     double gain_x = 10.0; // Gain for disturbance in the x direction
+[14.508s]       |            ^~~~~~
+[14.509s] /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller/src/redundancy_resolution.cpp:622:12: warning: unused variable ‘gain_theta’ [-Wunused-variable]
+[14.509s]   622 |     double gain_theta = 12.0; // Gain for disturbance in the theta direction
+[14.509s]       |            ^~~~~~~~~~
+[15.406s] [ 75%] Linking CXX shared library libsynchronous_client.so
+[16.326s] [ 75%] Built target synchronous_client
+[16.367s] [ 80%] Building CXX object CMakeFiles/multi_mode_controller.dir/src/des_coupled_dual_cartesian_impedance_controller.cpp.o
+[16.422s] [ 85%] Building CXX object CMakeFiles/multi_mode_controller.dir/src/panda_joint_impedance_controller.cpp.o
+[17.472s] In file included from /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller/include/multi_mode_controller/base/panda_controller_base.h:6,
+[17.473s]                  from /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller/include/multi_mode_controller/controllers/comless_coupled_dual_cartesian_impedance_controller.h:4,
+[17.473s]                  from /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller/src/comless_coupled_dual_cartesian_impedance_controller.cpp:1:
+[17.474s] /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller/include/multi_mode_controller/utils/buffered.h:37:3: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+[17.480s]    37 |   const T* const operator->() {
+[17.480s]       |   ^~~~~
+[17.480s] /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller/include/multi_mode_controller/utils/buffered.h:76:3: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+[17.481s]    76 |   T* const operator->() {
+[17.481s]       |   ^
+[19.191s] In file included from /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller/include/multi_mode_controller/base/panda_controller_base.h:6,
+[19.191s]                  from /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller/include/multi_mode_controller/controllers/comless_dual_joint_impedance_controller.h:4,
+[19.191s]                  from /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller/src/comless_dual_joint_impedance_controller.cpp:1:
+[19.191s] /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller/include/multi_mode_controller/utils/buffered.h:37:3: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+[19.191s]    37 |   const T* const operator->() {
+[19.192s]       |   ^~~~~
+[19.192s] /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller/include/multi_mode_controller/utils/buffered.h:76:3: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+[19.192s]    76 |   T* const operator->() {
+[19.192s]       |   ^
+[19.580s] In file included from /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller/include/multi_mode_controller/base/panda_controller_base.h:6,
+[19.580s]                  from /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller/include/multi_mode_controller/controllers/comless_panda_joint_impedance_controller.h:4,
+[19.580s]                  from /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller/src/comless_panda_joint_impedance_controller.cpp:1:
+[19.580s] /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller/include/multi_mode_controller/utils/buffered.h:37:3: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+[19.580s]    37 |   const T* const operator->() {
+[19.580s]       |   ^~~~~
+[19.580s] /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller/include/multi_mode_controller/utils/buffered.h:76:3: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+[19.580s]    76 |   T* const operator->() {
+[19.581s]       |   ^
+[19.966s] In file included from /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller/include/multi_mode_controller/base/panda_controller_base.h:6,
+[19.966s]                  from /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller/include/multi_mode_controller/base/panda_controller_ros_interface.h:12,
+[19.966s]                  from /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller/include/multi_mode_controller/controllers/panda_cartesian_impedance_controller.h:5,
+[19.967s]                  from /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller/src/panda_cartesian_impedance_controller.cpp:1:
+[19.967s] /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller/include/multi_mode_controller/utils/buffered.h:37:3: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+[19.967s]    37 |   const T* const operator->() {
+[19.967s]       |   ^~~~~
+[19.975s] /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller/include/multi_mode_controller/utils/buffered.h:76:3: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+[19.975s]    76 |   T* const operator->() {
+[19.975s]       |   ^
+[19.993s] [ 90%] Building CXX object CMakeFiles/multi_mode_controller.dir/src/panda_joint_velocity_controller.cpp.o
+[21.331s] /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller/src/panda_cartesian_impedance_controller.cpp: In member function ‘virtual bool panda_controllers::PandaCartesianImpedanceController::setParametersCallbackImpl(panda_controllers::Parameters&, const Parameters&, const std::shared_ptr<multi_mode_control_msgs::srv::SetCartesianImpedance_Request_<std::allocator<void> > >&, const std::shared_ptr<multi_mode_control_msgs::srv::SetCartesianImpedance_Response_<std::allocator<void> > >&)’:
+[21.331s] /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller/src/panda_cartesian_impedance_controller.cpp:52:79: warning: unused parameter ‘p’ [-Wunused-parameter]
+[21.331s]    52 | bool Controller::setParametersCallbackImpl(Parameters& p_d, const Parameters& p,
+[21.332s]       |                                                             ~~~~~~~~~~~~~~~~~~^
+[21.332s] /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller/src/panda_cartesian_impedance_controller.cpp:53:99: warning: unused parameter ‘response’ [-Wunused-parameter]
+[21.332s]    53 |             const std::shared_ptr<ConfigRequest>& request, const std::shared_ptr<ConfigResponse>& response) {
+[21.332s]       |                                                            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~
+[21.772s] In file included from /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller/include/multi_mode_controller/base/panda_controller_base.h:6,
+[21.772s]                  from /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller/include/multi_mode_controller/controllers/comless_panda_cartesian_impedance_controller.h:4,
+[21.772s]                  from /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller/src/comless_panda_cartesian_impedance_controller.cpp:1:
+[21.773s] /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller/include/multi_mode_controller/utils/buffered.h:37:3: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+[21.773s]    37 |   const T* const operator->() {
+[21.773s]       |   ^~~~~
+[21.773s] /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller/include/multi_mode_controller/utils/buffered.h:76:3: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+[21.774s]    76 |   T* const operator->() {
+[21.774s]       |   ^
+[22.704s] In file included from /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller/include/multi_mode_controller/base/panda_controller_ros_interface.h:12,
+[22.704s]                  from /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller/include/multi_mode_controller/controllers/panda_cartesian_impedance_controller.h:5,
+[22.704s]                  from /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller/src/panda_cartesian_impedance_controller.cpp:1:
+[22.704s] /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller/include/multi_mode_controller/base/panda_controller_base.h: In instantiation of ‘bool panda_controllers::PandaControllerBase<Parameters, Pose>::initImpl(const std::vector<panda_controllers::RobotData*>&, rclcpp_lifecycle::LifecycleNode::SharedPtr&, std::string, std::string) [with Parameters = panda_controllers::PandaCartesianImpedanceControllerParams; Pose = panda_controllers::PandaCartesianImpedanceControllerPose; rclcpp_lifecycle::LifecycleNode::SharedPtr = std::shared_ptr<rclcpp_lifecycle::LifecycleNode>; std::string = std::__cxx11::basic_string<char>]’:
+[22.704s] /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller/include/multi_mode_controller/base/panda_controller_base.h:102:16:   required from here
+[22.704s] /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller/include/multi_mode_controller/base/panda_controller_base.h:102:56: warning: unused parameter ‘robot_data’ [-Wunused-parameter]
+[22.705s]   102 |   virtual bool initImpl(const std::vector<RobotData*>& robot_data, rclcpp_lifecycle::LifecycleNode::SharedPtr& node, std::string name, std::string resource) {
+[22.705s]       |                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~
+[22.705s] /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller/include/multi_mode_controller/base/panda_controller_base.h:102:112: warning: unused parameter ‘node’ [-Wunused-parameter]
+[22.705s]   102 |   virtual bool initImpl(const std::vector<RobotData*>& robot_data, rclcpp_lifecycle::LifecycleNode::SharedPtr& node, std::string name, std::string resource) {
+[22.705s]       |                                                                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~
+[22.706s] /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller/include/multi_mode_controller/base/panda_controller_base.h:102:130: warning: unused parameter ‘name’ [-Wunused-parameter]
+[22.706s]   102 |   virtual bool initImpl(const std::vector<RobotData*>& robot_data, rclcpp_lifecycle::LifecycleNode::SharedPtr& node, std::string name, std::string resource) {
+[22.706s]       |                                                                                                                      ~~~~~~~~~~~~^~~~
+[22.707s] /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller/include/multi_mode_controller/base/panda_controller_base.h:102:148: warning: unused parameter ‘resource’ [-Wunused-parameter]
+[22.707s]   102 |   virtual bool initImpl(const std::vector<RobotData*>& robot_data, rclcpp_lifecycle::LifecycleNode::SharedPtr& node, std::string name, std::string resource) {
+[22.707s]       |                                                                                                                                        ~~~~~~~~~~~~^~~~~~~~
+[22.715s] In file included from /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller/include/multi_mode_controller/controllers/panda_cartesian_impedance_controller.h:5,
+[22.715s]                  from /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller/src/panda_cartesian_impedance_controller.cpp:1:
+[22.715s] /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller/include/multi_mode_controller/base/panda_controller_ros_interface.h: In instantiation of ‘void panda_controllers::ControllerRosInterface<ServiceParameter, DesPoseMsg, Parameters, Pose>::startROSCom() [with ServiceParameter = multi_mode_control_msgs::srv::SetCartesianImpedance; DesPoseMsg = multi_mode_control_msgs::msg::CartesianImpedanceGoal_<std::allocator<void> >; Parameters = panda_controllers::PandaCartesianImpedanceControllerParams; Pose = panda_controllers::PandaCartesianImpedanceControllerPose]’:
+[22.715s] /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller/include/multi_mode_controller/base/panda_controller_ros_interface.h:85:5:   required from ‘void panda_controllers::ControllerRosInterface<ServiceParameter, DesPoseMsg, Parameters, Pose>::start_() [with ServiceParameter = multi_mode_control_msgs::srv::SetCartesianImpedance; DesPoseMsg = multi_mode_control_msgs::msg::CartesianImpedanceGoal_<std::allocator<void> >; Parameters = panda_controllers::PandaCartesianImpedanceControllerParams; Pose = panda_controllers::PandaCartesianImpedanceControllerPose]’
+[22.716s] /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller/include/multi_mode_controller/base/panda_controller_base.h:105:16:   required from here
+[22.716s] /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller/include/multi_mode_controller/base/panda_controller_ros_interface.h:30:40: warning: comparison of integer expressions of different signedness: ‘int’ and ‘const size_type’ {aka ‘const long unsigned int’} [-Wsign-compare]
+[22.716s]    30 |     while ((pos = resource.find(amps)) != std::string::npos)
+[22.716s]       |            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~
+[23.066s] In file included from /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller/include/multi_mode_controller/base/panda_controller_base.h:6,
+[23.066s]                  from /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller/include/multi_mode_controller/base/panda_controller_ros_interface.h:12,
+[23.067s]                  from /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller/include/multi_mode_controller/controllers/twin_cartesian_impedance_controller.h:5,
+[23.067s]                  from /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller/src/twin_cartesian_impedance_controller.cpp:1:
+[23.067s] /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller/include/multi_mode_controller/utils/buffered.h:37:3: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+[23.067s]    37 |   const T* const operator->() {
+[23.067s]       |   ^~~~~
+[23.068s] /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller/include/multi_mode_controller/utils/buffered.h:76:3: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+[23.068s]    76 |   T* const operator->() {
+[23.068s]       |   ^
+[24.595s] In file included from /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller/include/multi_mode_controller/base/panda_controller_base.h:6,
+[24.595s]                  from /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller/include/multi_mode_controller/base/panda_controller_ros_interface.h:12,
+[24.596s]                  from /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller/include/multi_mode_controller/controllers/dual_cartesian_impedance_controller.h:5,
+[24.596s]                  from /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller/src/dual_cartesian_impedance_controller.cpp:1:
+[24.596s] /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller/include/multi_mode_controller/utils/buffered.h:37:3: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+[24.596s]    37 |   const T* const operator->() {
+[24.596s]       |   ^~~~~
+[24.606s] /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller/include/multi_mode_controller/utils/buffered.h:76:3: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+[24.606s]    76 |   T* const operator->() {
+[24.606s]       |   ^
+[25.384s] /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller/src/twin_cartesian_impedance_controller.cpp: In member function ‘virtual bool panda_controllers::TwinCartesianImpedanceController::setParametersCallbackImpl(panda_controllers::Parameters&, const Parameters&, const std::shared_ptr<multi_mode_control_msgs::srv::SetCartesianImpedance_Request_<std::allocator<void> > >&, const std::shared_ptr<multi_mode_control_msgs::srv::SetCartesianImpedance_Response_<std::allocator<void> > >&)’:
+[25.385s] /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller/src/twin_cartesian_impedance_controller.cpp:71:79: warning: unused parameter ‘p’ [-Wunused-parameter]
+[25.385s]    71 | bool Controller::setParametersCallbackImpl(Parameters& p_d, const Parameters& p,
+[25.385s]       |                                                             ~~~~~~~~~~~~~~~~~~^
+[25.385s] /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller/src/twin_cartesian_impedance_controller.cpp:72:99: warning: unused parameter ‘response’ [-Wunused-parameter]
+[25.385s]    72 |             const std::shared_ptr<ConfigRequest>& request, const std::shared_ptr<ConfigResponse>& response) {
+[25.385s]       |                                                            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~
+[26.331s] /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller/src/dual_cartesian_impedance_controller.cpp: In member function ‘virtual bool panda_controllers::DualCartesianImpedanceController::setParametersCallbackImpl(panda_controllers::Parameters&, const Parameters&, const std::shared_ptr<multi_mode_control_msgs::srv::SetCartesianImpedance_Request_<std::allocator<void> > >&, const std::shared_ptr<multi_mode_control_msgs::srv::SetCartesianImpedance_Response_<std::allocator<void> > >&)’:
+[26.331s] /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller/src/dual_cartesian_impedance_controller.cpp:71:79: warning: unused parameter ‘p’ [-Wunused-parameter]
+[26.332s]    71 | bool Controller::setParametersCallbackImpl(Parameters& p_d, const Parameters& p,
+[26.332s]       |                                                             ~~~~~~~~~~~~~~~~~~^
+[26.332s] /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller/src/dual_cartesian_impedance_controller.cpp:72:99: warning: unused parameter ‘response’ [-Wunused-parameter]
+[26.332s]    72 |             const std::shared_ptr<ConfigRequest>& request, const std::shared_ptr<ConfigResponse>& response) {
+[26.332s]       |                                                            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~
+[27.261s] In file included from /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller/include/multi_mode_controller/base/panda_controller_ros_interface.h:12,
+[27.261s]                  from /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller/include/multi_mode_controller/controllers/twin_cartesian_impedance_controller.h:5,
+[27.261s]                  from /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller/src/twin_cartesian_impedance_controller.cpp:1:
+[27.262s] /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller/include/multi_mode_controller/base/panda_controller_base.h: In instantiation of ‘bool panda_controllers::PandaControllerBase<Parameters, Pose>::initImpl(const std::vector<panda_controllers::RobotData*>&, rclcpp_lifecycle::LifecycleNode::SharedPtr&, std::string, std::string) [with Parameters = panda_controllers::DualCartesianImpedanceControllerParams; Pose = panda_controllers::DualCartesianImpedanceControllerPose; rclcpp_lifecycle::LifecycleNode::SharedPtr = std::shared_ptr<rclcpp_lifecycle::LifecycleNode>; std::string = std::__cxx11::basic_string<char>]’:
+[27.262s] /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller/include/multi_mode_controller/base/panda_controller_base.h:102:16:   required from here
+[27.262s] /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller/include/multi_mode_controller/base/panda_controller_base.h:102:56: warning: unused parameter ‘robot_data’ [-Wunused-parameter]
+[27.262s]   102 |   virtual bool initImpl(const std::vector<RobotData*>& robot_data, rclcpp_lifecycle::LifecycleNode::SharedPtr& node, std::string name, std::string resource) {
+[27.262s]       |                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~
+[27.264s] /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller/include/multi_mode_controller/base/panda_controller_base.h:102:112: warning: unused parameter ‘node’ [-Wunused-parameter]
+[27.264s]   102 |   virtual bool initImpl(const std::vector<RobotData*>& robot_data, rclcpp_lifecycle::LifecycleNode::SharedPtr& node, std::string name, std::string resource) {
+[27.265s]       |                                                                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~
+[27.265s] /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller/include/multi_mode_controller/base/panda_controller_base.h:102:130: warning: unused parameter ‘name’ [-Wunused-parameter]
+[27.265s]   102 |   virtual bool initImpl(const std::vector<RobotData*>& robot_data, rclcpp_lifecycle::LifecycleNode::SharedPtr& node, std::string name, std::string resource) {
+[27.265s]       |                                                                                                                      ~~~~~~~~~~~~^~~~
+[27.265s] /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller/include/multi_mode_controller/base/panda_controller_base.h:102:148: warning: unused parameter ‘resource’ [-Wunused-parameter]
+[27.265s]   102 |   virtual bool initImpl(const std::vector<RobotData*>& robot_data, rclcpp_lifecycle::LifecycleNode::SharedPtr& node, std::string name, std::string resource) {
+[27.266s]       |                                                                                                                                        ~~~~~~~~~~~~^~~~~~~~
+[27.279s] In file included from /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller/include/multi_mode_controller/controllers/twin_cartesian_impedance_controller.h:5,
+[27.279s]                  from /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller/src/twin_cartesian_impedance_controller.cpp:1:
+[27.279s] /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller/include/multi_mode_controller/base/panda_controller_ros_interface.h: In instantiation of ‘void panda_controllers::ControllerRosInterface<ServiceParameter, DesPoseMsg, Parameters, Pose>::startROSCom() [with ServiceParameter = multi_mode_control_msgs::srv::SetCartesianImpedance; DesPoseMsg = multi_mode_control_msgs::msg::CartesianImpedanceGoal_<std::allocator<void> >; Parameters = panda_controllers::DualCartesianImpedanceControllerParams; Pose = panda_controllers::DualCartesianImpedanceControllerPose]’:
+[27.280s] /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller/include/multi_mode_controller/base/panda_controller_ros_interface.h:85:5:   required from ‘void panda_controllers::ControllerRosInterface<ServiceParameter, DesPoseMsg, Parameters, Pose>::start_() [with ServiceParameter = multi_mode_control_msgs::srv::SetCartesianImpedance; DesPoseMsg = multi_mode_control_msgs::msg::CartesianImpedanceGoal_<std::allocator<void> >; Parameters = panda_controllers::DualCartesianImpedanceControllerParams; Pose = panda_controllers::DualCartesianImpedanceControllerPose]’
+[27.280s] /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller/include/multi_mode_controller/base/panda_controller_base.h:105:16:   required from here
+[27.280s] /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller/include/multi_mode_controller/base/panda_controller_ros_interface.h:30:40: warning: comparison of integer expressions of different signedness: ‘int’ and ‘const size_type’ {aka ‘const long unsigned int’} [-Wsign-compare]
+[27.280s]    30 |     while ((pos = resource.find(amps)) != std::string::npos)
+[27.280s]       |            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~
+[27.751s] In file included from /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller/include/multi_mode_controller/controllers/comless_dual_joint_impedance_controller.h:4,
+[27.752s]                  from /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller/src/comless_dual_joint_impedance_controller.cpp:1:
+[27.752s] /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller/include/multi_mode_controller/base/panda_controller_base.h: In instantiation of ‘bool panda_controllers::PandaControllerBase<Parameters, Pose>::initImpl(const std::vector<panda_controllers::RobotData*>&, rclcpp_lifecycle::LifecycleNode::SharedPtr&, std::string, std::string) [with Parameters = double; Pose = panda_controllers::DualJointImpedanceControllerPose; rclcpp_lifecycle::LifecycleNode::SharedPtr = std::shared_ptr<rclcpp_lifecycle::LifecycleNode>; std::string = std::__cxx11::basic_string<char>]’:
+[27.752s] /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller/include/multi_mode_controller/base/panda_controller_base.h:102:16:   required from here
+[27.752s] /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller/include/multi_mode_controller/base/panda_controller_base.h:102:56: warning: unused parameter ‘robot_data’ [-Wunused-parameter]
+[27.752s]   102 |   virtual bool initImpl(const std::vector<RobotData*>& robot_data, rclcpp_lifecycle::LifecycleNode::SharedPtr& node, std::string name, std::string resource) {
+[27.753s]       |                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~
+[27.753s] /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller/include/multi_mode_controller/base/panda_controller_base.h:102:112: warning: unused parameter ‘node’ [-Wunused-parameter]
+[27.753s]   102 |   virtual bool initImpl(const std::vector<RobotData*>& robot_data, rclcpp_lifecycle::LifecycleNode::SharedPtr& node, std::string name, std::string resource) {
+[27.753s]       |                                                                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~
+[27.753s] /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller/include/multi_mode_controller/base/panda_controller_base.h:102:130: warning: unused parameter ‘name’ [-Wunused-parameter]
+[27.753s]   102 |   virtual bool initImpl(const std::vector<RobotData*>& robot_data, rclcpp_lifecycle::LifecycleNode::SharedPtr& node, std::string name, std::string resource) {
+[27.754s]       |                                                                                                                      ~~~~~~~~~~~~^~~~
+[27.754s] /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller/include/multi_mode_controller/base/panda_controller_base.h:102:148: warning: unused parameter ‘resource’ [-Wunused-parameter]
+[27.754s]   102 |   virtual bool initImpl(const std::vector<RobotData*>& robot_data, rclcpp_lifecycle::LifecycleNode::SharedPtr& node, std::string name, std::string resource) {
+[27.754s]       |                                                                                                                                        ~~~~~~~~~~~~^~~~~~~~
+[27.899s] In file included from /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller/include/multi_mode_controller/base/panda_controller_base.h:6,
+[27.899s]                  from /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller/include/multi_mode_controller/base/panda_controller_ros_interface.h:12,
+[27.899s]                  from /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller/include/multi_mode_controller/controllers/panda_joint_impedance_controller.h:5,
+[27.899s]                  from /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller/src/panda_joint_impedance_controller.cpp:1:
+[27.899s] /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller/include/multi_mode_controller/utils/buffered.h:37:3: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+[27.899s]    37 |   const T* const operator->() {
+[27.900s]       |   ^~~~~
+[27.900s] /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller/include/multi_mode_controller/utils/buffered.h:76:3: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+[27.900s]    76 |   T* const operator->() {
+[27.900s]       |   ^
+[28.079s] /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller/src/panda_joint_impedance_controller.cpp: In member function ‘virtual bool panda_controllers::PandaJointImpedanceController::setParametersCallbackImpl(Params&, const Params&, const SharedPtr&, const SharedPtr&)’:
+[28.079s] /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller/src/panda_joint_impedance_controller.cpp:37:71: warning: unused parameter ‘p’ [-Wunused-parameter]
+[28.080s]    37 | bool Controller::setParametersCallbackImpl(Params& p_d, const Params& p,
+[28.080s]       |                                                         ~~~~~~~~~~~~~~^
+[28.080s] /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller/src/panda_joint_impedance_controller.cpp:38:79: warning: unused parameter ‘response’ [-Wunused-parameter]
+[28.080s]    38 |     const ConfigRequest::SharedPtr& request, const ConfigResponse::SharedPtr& response) {
+[28.080s]       |                                              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~
+[28.245s] In file included from /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller/include/multi_mode_controller/base/panda_controller_ros_interface.h:12,
+[28.245s]                  from /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller/include/multi_mode_controller/controllers/dual_cartesian_impedance_controller.h:5,
+[28.245s]                  from /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller/src/dual_cartesian_impedance_controller.cpp:1:
+[28.246s] /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller/include/multi_mode_controller/base/panda_controller_base.h: In instantiation of ‘bool panda_controllers::PandaControllerBase<Parameters, Pose>::initImpl(const std::vector<panda_controllers::RobotData*>&, rclcpp_lifecycle::LifecycleNode::SharedPtr&, std::string, std::string) [with Parameters = panda_controllers::DualCartesianImpedanceControllerParams; Pose = panda_controllers::DualCartesianImpedanceControllerPose; rclcpp_lifecycle::LifecycleNode::SharedPtr = std::shared_ptr<rclcpp_lifecycle::LifecycleNode>; std::string = std::__cxx11::basic_string<char>]’:
+[28.246s] /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller/include/multi_mode_controller/base/panda_controller_base.h:102:16:   required from here
+[28.246s] /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller/include/multi_mode_controller/base/panda_controller_base.h:102:56: warning: unused parameter ‘robot_data’ [-Wunused-parameter]
+[28.246s]   102 |   virtual bool initImpl(const std::vector<RobotData*>& robot_data, rclcpp_lifecycle::LifecycleNode::SharedPtr& node, std::string name, std::string resource) {
+[28.246s]       |                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~
+[28.246s] /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller/include/multi_mode_controller/base/panda_controller_base.h:102:112: warning: unused parameter ‘node’ [-Wunused-parameter]
+[28.247s]   102 |   virtual bool initImpl(const std::vector<RobotData*>& robot_data, rclcpp_lifecycle::LifecycleNode::SharedPtr& node, std::string name, std::string resource) {
+[28.247s]       |                                                                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~
+[28.247s] /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller/include/multi_mode_controller/base/panda_controller_base.h:102:130: warning: unused parameter ‘name’ [-Wunused-parameter]
+[28.247s]   102 |   virtual bool initImpl(const std::vector<RobotData*>& robot_data, rclcpp_lifecycle::LifecycleNode::SharedPtr& node, std::string name, std::string resource) {
+[28.247s]       |                                                                                                                      ~~~~~~~~~~~~^~~~
+[28.247s] /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller/include/multi_mode_controller/base/panda_controller_base.h:102:148: warning: unused parameter ‘resource’ [-Wunused-parameter]
+[28.247s]   102 |   virtual bool initImpl(const std::vector<RobotData*>& robot_data, rclcpp_lifecycle::LifecycleNode::SharedPtr& node, std::string name, std::string resource) {
+[28.248s]       |                                                                                                                                        ~~~~~~~~~~~~^~~~~~~~
+[28.255s] In file included from /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller/include/multi_mode_controller/controllers/dual_cartesian_impedance_controller.h:5,
+[28.255s]                  from /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller/src/dual_cartesian_impedance_controller.cpp:1:
+[28.255s] /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller/include/multi_mode_controller/base/panda_controller_ros_interface.h: In instantiation of ‘void panda_controllers::ControllerRosInterface<ServiceParameter, DesPoseMsg, Parameters, Pose>::startROSCom() [with ServiceParameter = multi_mode_control_msgs::srv::SetCartesianImpedance; DesPoseMsg = multi_mode_control_msgs::msg::DualCartesianImpedanceGoal_<std::allocator<void> >; Parameters = panda_controllers::DualCartesianImpedanceControllerParams; Pose = panda_controllers::DualCartesianImpedanceControllerPose]’:
+[28.255s] /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller/include/multi_mode_controller/base/panda_controller_ros_interface.h:85:5:   required from ‘void panda_controllers::ControllerRosInterface<ServiceParameter, DesPoseMsg, Parameters, Pose>::start_() [with ServiceParameter = multi_mode_control_msgs::srv::SetCartesianImpedance; DesPoseMsg = multi_mode_control_msgs::msg::DualCartesianImpedanceGoal_<std::allocator<void> >; Parameters = panda_controllers::DualCartesianImpedanceControllerParams; Pose = panda_controllers::DualCartesianImpedanceControllerPose]’
+[28.255s] /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller/include/multi_mode_controller/base/panda_controller_base.h:105:16:   required from here
+[28.255s] /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller/include/multi_mode_controller/base/panda_controller_ros_interface.h:30:40: warning: comparison of integer expressions of different signedness: ‘int’ and ‘const size_type’ {aka ‘const long unsigned int’} [-Wsign-compare]
+[28.256s]    30 |     while ((pos = resource.find(amps)) != std::string::npos)
+[28.256s]       |            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~
+[28.987s] In file included from /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller/include/multi_mode_controller/base/panda_controller_base.h:6,
+[28.991s]                  from /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller/include/multi_mode_controller/base/panda_controller_ros_interface.h:12,
+[28.991s]                  from /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller/include/multi_mode_controller/controllers/des_coupled_dual_cartesian_impedance_controller.h:5,
+[28.991s]                  from /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller/src/des_coupled_dual_cartesian_impedance_controller.cpp:1:
+[28.991s] /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller/include/multi_mode_controller/utils/buffered.h:37:3: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+[28.992s]    37 |   const T* const operator->() {
+[28.992s]       |   ^~~~~
+[28.992s] /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller/include/multi_mode_controller/utils/buffered.h:76:3: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+[28.992s]    76 |   T* const operator->() {
+[28.992s]       |   ^
+[29.099s] In file included from /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller/include/multi_mode_controller/controllers/comless_panda_joint_impedance_controller.h:4,
+[29.099s]                  from /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller/src/comless_panda_joint_impedance_controller.cpp:1:
+[29.099s] /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller/include/multi_mode_controller/base/panda_controller_base.h: In instantiation of ‘bool panda_controllers::PandaControllerBase<Parameters, Pose>::initImpl(const std::vector<panda_controllers::RobotData*>&, rclcpp_lifecycle::LifecycleNode::SharedPtr&, std::string, std::string) [with Parameters = double; Pose = panda_controllers::PandaJointImpedanceControllerPose; rclcpp_lifecycle::LifecycleNode::SharedPtr = std::shared_ptr<rclcpp_lifecycle::LifecycleNode>; std::string = std::__cxx11::basic_string<char>]’:
+[29.100s] /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller/include/multi_mode_controller/base/panda_controller_base.h:102:16:   required from here
+[29.100s] /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller/include/multi_mode_controller/base/panda_controller_base.h:102:56: warning: unused parameter ‘robot_data’ [-Wunused-parameter]
+[29.100s]   102 |   virtual bool initImpl(const std::vector<RobotData*>& robot_data, rclcpp_lifecycle::LifecycleNode::SharedPtr& node, std::string name, std::string resource) {
+[29.100s]       |                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~
+[29.100s] /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller/include/multi_mode_controller/base/panda_controller_base.h:102:112: warning: unused parameter ‘node’ [-Wunused-parameter]
+[29.100s]   102 |   virtual bool initImpl(const std::vector<RobotData*>& robot_data, rclcpp_lifecycle::LifecycleNode::SharedPtr& node, std::string name, std::string resource) {
+[29.100s]       |                                                                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~
+[29.100s] /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller/include/multi_mode_controller/base/panda_controller_base.h:102:130: warning: unused parameter ‘name’ [-Wunused-parameter]
+[29.100s]   102 |   virtual bool initImpl(const std::vector<RobotData*>& robot_data, rclcpp_lifecycle::LifecycleNode::SharedPtr& node, std::string name, std::string resource) {
+[29.100s]       |                                                                                                                      ~~~~~~~~~~~~^~~~
+[29.101s] /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller/include/multi_mode_controller/base/panda_controller_base.h:102:148: warning: unused parameter ‘resource’ [-Wunused-parameter]
+[29.101s]   102 |   virtual bool initImpl(const std::vector<RobotData*>& robot_data, rclcpp_lifecycle::LifecycleNode::SharedPtr& node, std::string name, std::string resource) {
+[29.101s]       |                                                                                                                                        ~~~~~~~~~~~~^~~~~~~~
+[29.700s] In file included from /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller/include/multi_mode_controller/base/panda_controller_ros_interface.h:12,
+[29.700s]                  from /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller/include/multi_mode_controller/controllers/panda_joint_impedance_controller.h:5,
+[29.700s]                  from /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller/src/panda_joint_impedance_controller.cpp:1:
+[29.700s] /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller/include/multi_mode_controller/base/panda_controller_base.h: In instantiation of ‘bool panda_controllers::PandaControllerBase<Parameters, Pose>::initImpl(const std::vector<panda_controllers::RobotData*>&, rclcpp_lifecycle::LifecycleNode::SharedPtr&, std::string, std::string) [with Parameters = double; Pose = panda_controllers::PandaJointImpedanceControllerPose; rclcpp_lifecycle::LifecycleNode::SharedPtr = std::shared_ptr<rclcpp_lifecycle::LifecycleNode>; std::string = std::__cxx11::basic_string<char>]’:
+[29.700s] /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller/include/multi_mode_controller/base/panda_controller_base.h:102:16:   required from here
+[29.700s] /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller/include/multi_mode_controller/base/panda_controller_base.h:102:56: warning: unused parameter ‘robot_data’ [-Wunused-parameter]
+[29.701s]   102 |   virtual bool initImpl(const std::vector<RobotData*>& robot_data, rclcpp_lifecycle::LifecycleNode::SharedPtr& node, std::string name, std::string resource) {
+[29.701s]       |                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~
+[29.701s] /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller/include/multi_mode_controller/base/panda_controller_base.h:102:112: warning: unused parameter ‘node’ [-Wunused-parameter]
+[29.701s]   102 |   virtual bool initImpl(const std::vector<RobotData*>& robot_data, rclcpp_lifecycle::LifecycleNode::SharedPtr& node, std::string name, std::string resource) {
+[29.701s]       |                                                                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~
+[29.701s] /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller/include/multi_mode_controller/base/panda_controller_base.h:102:130: warning: unused parameter ‘name’ [-Wunused-parameter]
+[29.701s]   102 |   virtual bool initImpl(const std::vector<RobotData*>& robot_data, rclcpp_lifecycle::LifecycleNode::SharedPtr& node, std::string name, std::string resource) {
+[29.701s]       |                                                                                                                      ~~~~~~~~~~~~^~~~
+[29.701s] /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller/include/multi_mode_controller/base/panda_controller_base.h:102:148: warning: unused parameter ‘resource’ [-Wunused-parameter]
+[29.701s]   102 |   virtual bool initImpl(const std::vector<RobotData*>& robot_data, rclcpp_lifecycle::LifecycleNode::SharedPtr& node, std::string name, std::string resource) {
+[29.702s]       |                                                                                                                                        ~~~~~~~~~~~~^~~~~~~~
+[29.706s] In file included from /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller/include/multi_mode_controller/controllers/panda_joint_impedance_controller.h:5,
+[29.706s]                  from /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller/src/panda_joint_impedance_controller.cpp:1:
+[29.706s] /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller/include/multi_mode_controller/base/panda_controller_ros_interface.h: In instantiation of ‘void panda_controllers::ControllerRosInterface<ServiceParameter, DesPoseMsg, Parameters, Pose>::startROSCom() [with ServiceParameter = multi_mode_control_msgs::srv::SetJointImpedance; DesPoseMsg = multi_mode_control_msgs::msg::JointGoal_<std::allocator<void> >; Parameters = double; Pose = panda_controllers::PandaJointImpedanceControllerPose]’:
+[29.706s] /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller/include/multi_mode_controller/base/panda_controller_ros_interface.h:85:5:   required from ‘void panda_controllers::ControllerRosInterface<ServiceParameter, DesPoseMsg, Parameters, Pose>::start_() [with ServiceParameter = multi_mode_control_msgs::srv::SetJointImpedance; DesPoseMsg = multi_mode_control_msgs::msg::JointGoal_<std::allocator<void> >; Parameters = double; Pose = panda_controllers::PandaJointImpedanceControllerPose]’
+[29.706s] /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller/include/multi_mode_controller/base/panda_controller_base.h:105:16:   required from here
+[29.706s] /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller/include/multi_mode_controller/base/panda_controller_ros_interface.h:30:40: warning: comparison of integer expressions of different signedness: ‘int’ and ‘const size_type’ {aka ‘const long unsigned int’} [-Wsign-compare]
+[29.707s]    30 |     while ((pos = resource.find(amps)) != std::string::npos)
+[29.707s]       |            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~
+[29.938s] /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller/src/des_coupled_dual_cartesian_impedance_controller.cpp: In member function ‘virtual bool panda_controllers::DesCoupledDualCartesianImpedanceController::setParametersCallbackImpl(panda_controllers::Parameters&, const Parameters&, const std::shared_ptr<multi_mode_control_msgs::srv::SetCartesianImpedance_Request_<std::allocator<void> > >&, const std::shared_ptr<multi_mode_control_msgs::srv::SetCartesianImpedance_Response_<std::allocator<void> > >&)’:
+[29.938s] /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller/src/des_coupled_dual_cartesian_impedance_controller.cpp:65:79: warning: unused parameter ‘p’ [-Wunused-parameter]
+[29.938s]    65 | bool Controller::setParametersCallbackImpl(Parameters& p_d, const Parameters& p,
+[29.939s]       |                                                             ~~~~~~~~~~~~~~~~~~^
+[29.939s] /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller/src/des_coupled_dual_cartesian_impedance_controller.cpp:66:99: warning: unused parameter ‘response’ [-Wunused-parameter]
+[29.939s]    66 |             const std::shared_ptr<ConfigRequest>& request, const std::shared_ptr<ConfigResponse>& response) {
+[29.939s]       |                                                            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~
+[31.250s] In file included from /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller/include/multi_mode_controller/base/panda_controller_ros_interface.h:12,
+[31.250s]                  from /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller/include/multi_mode_controller/controllers/des_coupled_dual_cartesian_impedance_controller.h:5,
+[31.251s]                  from /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller/src/des_coupled_dual_cartesian_impedance_controller.cpp:1:
+[31.251s] /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller/include/multi_mode_controller/base/panda_controller_base.h: In instantiation of ‘bool panda_controllers::PandaControllerBase<Parameters, Pose>::initImpl(const std::vector<panda_controllers::RobotData*>&, rclcpp_lifecycle::LifecycleNode::SharedPtr&, std::string, std::string) [with Parameters = panda_controllers::DualCartesianImpedanceControllerParams; Pose = panda_controllers::DualCartesianImpedanceControllerPose; rclcpp_lifecycle::LifecycleNode::SharedPtr = std::shared_ptr<rclcpp_lifecycle::LifecycleNode>; std::string = std::__cxx11::basic_string<char>]’:
+[31.251s] /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller/include/multi_mode_controller/base/panda_controller_base.h:102:16:   required from here
+[31.251s] /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller/include/multi_mode_controller/base/panda_controller_base.h:102:56: warning: unused parameter ‘robot_data’ [-Wunused-parameter]
+[31.251s]   102 |   virtual bool initImpl(const std::vector<RobotData*>& robot_data, rclcpp_lifecycle::LifecycleNode::SharedPtr& node, std::string name, std::string resource) {
+[31.251s]       |                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~
+[31.251s] /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller/include/multi_mode_controller/base/panda_controller_base.h:102:112: warning: unused parameter ‘node’ [-Wunused-parameter]
+[31.251s]   102 |   virtual bool initImpl(const std::vector<RobotData*>& robot_data, rclcpp_lifecycle::LifecycleNode::SharedPtr& node, std::string name, std::string resource) {
+[31.252s]       |                                                                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~
+[31.252s] /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller/include/multi_mode_controller/base/panda_controller_base.h:102:130: warning: unused parameter ‘name’ [-Wunused-parameter]
+[31.252s]   102 |   virtual bool initImpl(const std::vector<RobotData*>& robot_data, rclcpp_lifecycle::LifecycleNode::SharedPtr& node, std::string name, std::string resource) {
+[31.252s]       |                                                                                                                      ~~~~~~~~~~~~^~~~
+[31.252s] /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller/include/multi_mode_controller/base/panda_controller_base.h:102:148: warning: unused parameter ‘resource’ [-Wunused-parameter]
+[31.252s]   102 |   virtual bool initImpl(const std::vector<RobotData*>& robot_data, rclcpp_lifecycle::LifecycleNode::SharedPtr& node, std::string name, std::string resource) {
+[31.252s]       |                                                                                                                                        ~~~~~~~~~~~~^~~~~~~~
+[31.259s] In file included from /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller/include/multi_mode_controller/controllers/des_coupled_dual_cartesian_impedance_controller.h:5,
+[31.259s]                  from /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller/src/des_coupled_dual_cartesian_impedance_controller.cpp:1:
+[31.259s] /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller/include/multi_mode_controller/base/panda_controller_ros_interface.h: In instantiation of ‘void panda_controllers::ControllerRosInterface<ServiceParameter, DesPoseMsg, Parameters, Pose>::startROSCom() [with ServiceParameter = multi_mode_control_msgs::srv::SetCartesianImpedance; DesPoseMsg = multi_mode_control_msgs::msg::CartesianImpedanceGoal_<std::allocator<void> >; Parameters = panda_controllers::DualCartesianImpedanceControllerParams; Pose = panda_controllers::DualCartesianImpedanceControllerPose]’:
+[31.259s] /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller/include/multi_mode_controller/base/panda_controller_ros_interface.h:85:5:   required from ‘void panda_controllers::ControllerRosInterface<ServiceParameter, DesPoseMsg, Parameters, Pose>::start_() [with ServiceParameter = multi_mode_control_msgs::srv::SetCartesianImpedance; DesPoseMsg = multi_mode_control_msgs::msg::CartesianImpedanceGoal_<std::allocator<void> >; Parameters = panda_controllers::DualCartesianImpedanceControllerParams; Pose = panda_controllers::DualCartesianImpedanceControllerPose]’
+[31.259s] /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller/include/multi_mode_controller/base/panda_controller_base.h:105:16:   required from here
+[31.259s] /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller/include/multi_mode_controller/base/panda_controller_ros_interface.h:30:40: warning: comparison of integer expressions of different signedness: ‘int’ and ‘const size_type’ {aka ‘const long unsigned int’} [-Wsign-compare]
+[31.260s]    30 |     while ((pos = resource.find(amps)) != std::string::npos)
+[31.260s]       |            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~
+[31.708s] In file included from /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller/include/multi_mode_controller/base/panda_controller_base.h:6,
+[31.708s]                  from /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller/include/multi_mode_controller/base/panda_controller_ros_interface.h:12,
+[31.709s]                  from /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller/include/multi_mode_controller/controllers/panda_joint_velocity_controller.h:5,
+[31.709s]                  from /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller/src/panda_joint_velocity_controller.cpp:1:
+[31.711s] /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller/include/multi_mode_controller/utils/buffered.h:37:3: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+[31.711s]    37 |   const T* const operator->() {
+[31.711s]       |   ^~~~~
+[31.712s] /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller/include/multi_mode_controller/utils/buffered.h:76:3: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+[31.712s]    76 |   T* const operator->() {
+[31.712s]       |   ^
+[32.066s] /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller/src/panda_joint_velocity_controller.cpp: In member function ‘virtual bool panda_controllers::PandaJointVelocityController::setParametersCallbackImpl(Params&, const Params&, const SharedPtr&, const SharedPtr&)’:
+[32.066s] /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller/src/panda_joint_velocity_controller.cpp:50:71: warning: unused parameter ‘p’ [-Wunused-parameter]
+[32.066s]    50 | bool Controller::setParametersCallbackImpl(Params& p_d, const Params& p,
+[32.066s]       |                                                         ~~~~~~~~~~~~~~^
+[32.067s] /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller/src/panda_joint_velocity_controller.cpp:51:79: warning: unused parameter ‘response’ [-Wunused-parameter]
+[32.067s]    51 |     const ConfigRequest::SharedPtr& request, const ConfigResponse::SharedPtr& response) {
+[32.067s]       |                                              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~
+[33.155s] In file included from /usr/local/include/eigen3/Eigen/Core:503,
+[33.156s]                  from /usr/local/include/eigen3/Eigen/Dense:1,
+[33.159s]                  from /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller/include/multi_mode_controller/controllers/comless_panda_joint_impedance_controller.h:3,
+[33.159s]                  from /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller/src/comless_panda_joint_impedance_controller.cpp:1:
+[33.159s] /usr/local/include/eigen3/Eigen/src/Core/products/SelfadjointMatrixVector.h: In function ‘static void Eigen::internal::selfadjoint_product_impl<Lhs, LhsMode, false, Rhs, 0, true>::run(Dest&, const Lhs&, const Rhs&, const Scalar&) [with Dest = Eigen::Block<Eigen::Matrix<double, 6, 1, 0, 6, 1>, -1, 1, false>; Lhs = Eigen::Block<Eigen::Matrix<double, 7, 7>, -1, -1, false>; int LhsMode = 17; Rhs = Eigen::CwiseBinaryOp<Eigen::internal::scalar_product_op<double, double>, const Eigen::CwiseNullaryOp<Eigen::internal::scalar_constant_op<double>, const Eigen::Matrix<double, -1, 1, 0, 7, 1> >, const Eigen::Block<Eigen::Block<Eigen::Matrix<double, 7, 7>, 7, 1, true>, -1, 1, false> >]’:
+[33.160s] /usr/local/include/eigen3/Eigen/src/Core/products/SelfadjointMatrixVector.h:227:7: warning: ‘result’ may be used uninitialized [-Wmaybe-uninitialized]
+[33.160s]   225 |     internal::selfadjoint_matrix_vector_product<Scalar, Index, (internal::traits<ActualLhsTypeCleaned>::Flags&RowMajorBit) ? RowMajor : ColMajor,
+[33.160s]       |     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[33.160s]   226 |                                                 int(LhsUpLo), bool(LhsBlasTraits::NeedToConjugate), bool(RhsBlasTraits::NeedToConjugate)>::run
+[33.161s]       |                                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[33.161s]   227 |       (
+[33.161s]       |       ^
+[33.161s]   228 |         lhs.rows(),                             // size
+[33.161s]       |         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[33.161s]   229 |         &lhs.coeffRef(0,0),  lhs.outerStride(), // lhs info
+[33.162s]       |         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[33.162s]   230 |         actualRhsPtr,                           // rhs info
+[33.162s]       |         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[33.162s]   231 |         actualDestPtr,                          // result info
+[33.162s]       |         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[33.163s]   232 |         actualAlpha                             // scale factor
+[33.163s]       |         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[33.163s]   233 |       );
+[33.163s]       |       ~
+[33.163s] /usr/local/include/eigen3/Eigen/src/Core/products/SelfadjointMatrixVector.h:39:24: note: by argument 4 of type ‘const double*’ to ‘static void Eigen::internal::selfadjoint_matrix_vector_product<Scalar, Index, StorageOrder, UpLo, ConjugateLhs, ConjugateRhs, Version>::run(Index, const Scalar*, Index, const Scalar*, Scalar*, Scalar) [with Scalar = double; Index = long int; int StorageOrder = 0; int UpLo = 1; bool ConjugateLhs = false; bool ConjugateRhs = false; int Version = 0]’ declared here
+[33.163s]    39 | EIGEN_DONT_INLINE void selfadjoint_matrix_vector_product<Scalar,Index,StorageOrder,UpLo,ConjugateLhs,ConjugateRhs,Version>::run(
+[33.164s]       |                        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[33.299s] In file included from /usr/local/include/eigen3/Eigen/Core:503,
+[33.299s]                  from /usr/local/include/eigen3/Eigen/Dense:1,
+[33.299s]                  from /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller/include/multi_mode_controller/controllers/comless_dual_joint_impedance_controller.h:3,
+[33.299s]                  from /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller/src/comless_dual_joint_impedance_controller.cpp:1:
+[33.300s] /usr/local/include/eigen3/Eigen/src/Core/products/SelfadjointMatrixVector.h: In function ‘static void Eigen::internal::selfadjoint_product_impl<Lhs, LhsMode, false, Rhs, 0, true>::run(Dest&, const Lhs&, const Rhs&, const Scalar&) [with Dest = Eigen::Block<Eigen::Matrix<double, 6, 1, 0, 6, 1>, -1, 1, false>; Lhs = Eigen::Block<Eigen::Matrix<double, 7, 7>, -1, -1, false>; int LhsMode = 17; Rhs = Eigen::CwiseBinaryOp<Eigen::internal::scalar_product_op<double, double>, const Eigen::CwiseNullaryOp<Eigen::internal::scalar_constant_op<double>, const Eigen::Matrix<double, -1, 1, 0, 7, 1> >, const Eigen::Block<Eigen::Block<Eigen::Matrix<double, 7, 7>, 7, 1, true>, -1, 1, false> >]’:
+[33.300s] /usr/local/include/eigen3/Eigen/src/Core/products/SelfadjointMatrixVector.h:227:7: warning: ‘result’ may be used uninitialized [-Wmaybe-uninitialized]
+[33.300s]   225 |     internal::selfadjoint_matrix_vector_product<Scalar, Index, (internal::traits<ActualLhsTypeCleaned>::Flags&RowMajorBit) ? RowMajor : ColMajor,
+[33.300s]       |     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[33.300s]   226 |                                                 int(LhsUpLo), bool(LhsBlasTraits::NeedToConjugate), bool(RhsBlasTraits::NeedToConjugate)>::run
+[33.300s]       |                                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[33.301s]   227 |       (
+[33.301s]       |       ^
+[33.301s]   228 |         lhs.rows(),                             // size
+[33.301s]       |         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[33.301s]   229 |         &lhs.coeffRef(0,0),  lhs.outerStride(), // lhs info
+[33.301s]       |         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[33.301s]   230 |         actualRhsPtr,                           // rhs info
+[33.302s]       |         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[33.302s]   231 |         actualDestPtr,                          // result info
+[33.302s]       |         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[33.302s]   232 |         actualAlpha                             // scale factor
+[33.302s]       |         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[33.302s]   233 |       );
+[33.308s]       |       ~
+[33.308s] /usr/local/include/eigen3/Eigen/src/Core/products/SelfadjointMatrixVector.h:39:24: note: by argument 4 of type ‘const double*’ to ‘static void Eigen::internal::selfadjoint_matrix_vector_product<Scalar, Index, StorageOrder, UpLo, ConjugateLhs, ConjugateRhs, Version>::run(Index, const Scalar*, Index, const Scalar*, Scalar*, Scalar) [with Scalar = double; Index = long int; int StorageOrder = 0; int UpLo = 1; bool ConjugateLhs = false; bool ConjugateRhs = false; int Version = 0]’ declared here
+[33.308s]    39 | EIGEN_DONT_INLINE void selfadjoint_matrix_vector_product<Scalar,Index,StorageOrder,UpLo,ConjugateLhs,ConjugateRhs,Version>::run(
+[33.308s]       |                        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[34.416s] In file included from /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller/include/multi_mode_controller/base/panda_controller_ros_interface.h:12,
+[34.417s]                  from /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller/include/multi_mode_controller/controllers/panda_joint_velocity_controller.h:5,
+[34.417s]                  from /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller/src/panda_joint_velocity_controller.cpp:1:
+[34.417s] /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller/include/multi_mode_controller/base/panda_controller_base.h: In instantiation of ‘bool panda_controllers::PandaControllerBase<Parameters, Pose>::initImpl(const std::vector<panda_controllers::RobotData*>&, rclcpp_lifecycle::LifecycleNode::SharedPtr&, std::string, std::string) [with Parameters = double; Pose = panda_controllers::PandaJointImpedanceControllerPose; rclcpp_lifecycle::LifecycleNode::SharedPtr = std::shared_ptr<rclcpp_lifecycle::LifecycleNode>; std::string = std::__cxx11::basic_string<char>]’:
+[34.417s] /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller/include/multi_mode_controller/base/panda_controller_base.h:102:16:   required from here
+[34.417s] /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller/include/multi_mode_controller/base/panda_controller_base.h:102:56: warning: unused parameter ‘robot_data’ [-Wunused-parameter]
+[34.418s]   102 |   virtual bool initImpl(const std::vector<RobotData*>& robot_data, rclcpp_lifecycle::LifecycleNode::SharedPtr& node, std::string name, std::string resource) {
+[34.418s]       |                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~
+[34.418s] /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller/include/multi_mode_controller/base/panda_controller_base.h:102:112: warning: unused parameter ‘node’ [-Wunused-parameter]
+[34.418s]   102 |   virtual bool initImpl(const std::vector<RobotData*>& robot_data, rclcpp_lifecycle::LifecycleNode::SharedPtr& node, std::string name, std::string resource) {
+[34.418s]       |                                                                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~
+[34.422s] /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller/include/multi_mode_controller/base/panda_controller_base.h:102:130: warning: unused parameter ‘name’ [-Wunused-parameter]
+[34.422s]   102 |   virtual bool initImpl(const std::vector<RobotData*>& robot_data, rclcpp_lifecycle::LifecycleNode::SharedPtr& node, std::string name, std::string resource) {
+[34.422s]       |                                                                                                                      ~~~~~~~~~~~~^~~~
+[34.422s] /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller/include/multi_mode_controller/base/panda_controller_base.h:102:148: warning: unused parameter ‘resource’ [-Wunused-parameter]
+[34.423s]   102 |   virtual bool initImpl(const std::vector<RobotData*>& robot_data, rclcpp_lifecycle::LifecycleNode::SharedPtr& node, std::string name, std::string resource) {
+[34.423s]       |                                                                                                                                        ~~~~~~~~~~~~^~~~~~~~
+[34.423s] In file included from /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller/include/multi_mode_controller/controllers/panda_joint_velocity_controller.h:5,
+[34.423s]                  from /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller/src/panda_joint_velocity_controller.cpp:1:
+[34.423s] /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller/include/multi_mode_controller/base/panda_controller_ros_interface.h: In instantiation of ‘void panda_controllers::ControllerRosInterface<ServiceParameter, DesPoseMsg, Parameters, Pose>::startROSCom() [with ServiceParameter = multi_mode_control_msgs::srv::SetJointImpedance; DesPoseMsg = multi_mode_control_msgs::msg::VelocityGoal_<std::allocator<void> >; Parameters = double; Pose = panda_controllers::PandaJointImpedanceControllerPose]’:
+[34.423s] /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller/include/multi_mode_controller/base/panda_controller_ros_interface.h:85:5:   required from ‘void panda_controllers::ControllerRosInterface<ServiceParameter, DesPoseMsg, Parameters, Pose>::start_() [with ServiceParameter = multi_mode_control_msgs::srv::SetJointImpedance; DesPoseMsg = multi_mode_control_msgs::msg::VelocityGoal_<std::allocator<void> >; Parameters = double; Pose = panda_controllers::PandaJointImpedanceControllerPose]’
+[34.423s] /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller/include/multi_mode_controller/base/panda_controller_base.h:105:16:   required from here
+[34.424s] /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller/include/multi_mode_controller/base/panda_controller_ros_interface.h:30:40: warning: comparison of integer expressions of different signedness: ‘int’ and ‘const size_type’ {aka ‘const long unsigned int’} [-Wsign-compare]
+[34.424s]    30 |     while ((pos = resource.find(amps)) != std::string::npos)
+[34.424s]       |            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~
+[40.097s] In file included from /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller/include/multi_mode_controller/controllers/comless_dual_cartesian_impedance_controller.h:4,
+[40.097s]                  from /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller/src/comless_dual_cartesian_impedance_controller.cpp:1:
+[40.098s] /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller/include/multi_mode_controller/base/panda_controller_base.h: In instantiation of ‘bool panda_controllers::PandaControllerBase<Parameters, Pose>::initImpl(const std::vector<panda_controllers::RobotData*>&, rclcpp_lifecycle::LifecycleNode::SharedPtr&, std::string, std::string) [with Parameters = panda_controllers::DualCartesianImpedanceControllerParams; Pose = panda_controllers::DualCartesianImpedanceControllerPose; rclcpp_lifecycle::LifecycleNode::SharedPtr = std::shared_ptr<rclcpp_lifecycle::LifecycleNode>; std::string = std::__cxx11::basic_string<char>]’:
+[40.098s] /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller/include/multi_mode_controller/base/panda_controller_base.h:102:16:   required from here
+[40.098s] /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller/include/multi_mode_controller/base/panda_controller_base.h:102:56: warning: unused parameter ‘robot_data’ [-Wunused-parameter]
+[40.098s]   102 |   virtual bool initImpl(const std::vector<RobotData*>& robot_data, rclcpp_lifecycle::LifecycleNode::SharedPtr& node, std::string name, std::string resource) {
+[40.098s]       |                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~
+[40.099s] /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller/include/multi_mode_controller/base/panda_controller_base.h:102:112: warning: unused parameter ‘node’ [-Wunused-parameter]
+[40.099s]   102 |   virtual bool initImpl(const std::vector<RobotData*>& robot_data, rclcpp_lifecycle::LifecycleNode::SharedPtr& node, std::string name, std::string resource) {
+[40.099s]       |                                                                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~
+[40.099s] /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller/include/multi_mode_controller/base/panda_controller_base.h:102:130: warning: unused parameter ‘name’ [-Wunused-parameter]
+[40.099s]   102 |   virtual bool initImpl(const std::vector<RobotData*>& robot_data, rclcpp_lifecycle::LifecycleNode::SharedPtr& node, std::string name, std::string resource) {
+[40.099s]       |                                                                                                                      ~~~~~~~~~~~~^~~~
+[40.100s] /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller/include/multi_mode_controller/base/panda_controller_base.h:102:148: warning: unused parameter ‘resource’ [-Wunused-parameter]
+[40.100s]   102 |   virtual bool initImpl(const std::vector<RobotData*>& robot_data, rclcpp_lifecycle::LifecycleNode::SharedPtr& node, std::string name, std::string resource) {
+[40.100s]       |                                                                                                                                        ~~~~~~~~~~~~^~~~~~~~
+[40.459s] In file included from /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller/include/multi_mode_controller/controllers/comless_panda_cartesian_impedance_controller.h:4,
+[40.459s]                  from /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller/src/comless_panda_cartesian_impedance_controller.cpp:1:
+[40.459s] /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller/include/multi_mode_controller/base/panda_controller_base.h: In instantiation of ‘bool panda_controllers::PandaControllerBase<Parameters, Pose>::initImpl(const std::vector<panda_controllers::RobotData*>&, rclcpp_lifecycle::LifecycleNode::SharedPtr&, std::string, std::string) [with Parameters = panda_controllers::PandaCartesianImpedanceControllerParams; Pose = panda_controllers::PandaCartesianImpedanceControllerPose; rclcpp_lifecycle::LifecycleNode::SharedPtr = std::shared_ptr<rclcpp_lifecycle::LifecycleNode>; std::string = std::__cxx11::basic_string<char>]’:
+[40.459s] /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller/include/multi_mode_controller/base/panda_controller_base.h:102:16:   required from here
+[40.460s] /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller/include/multi_mode_controller/base/panda_controller_base.h:102:56: warning: unused parameter ‘robot_data’ [-Wunused-parameter]
+[40.460s]   102 |   virtual bool initImpl(const std::vector<RobotData*>& robot_data, rclcpp_lifecycle::LifecycleNode::SharedPtr& node, std::string name, std::string resource) {
+[40.460s]       |                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~
+[40.460s] /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller/include/multi_mode_controller/base/panda_controller_base.h:102:112: warning: unused parameter ‘node’ [-Wunused-parameter]
+[40.460s]   102 |   virtual bool initImpl(const std::vector<RobotData*>& robot_data, rclcpp_lifecycle::LifecycleNode::SharedPtr& node, std::string name, std::string resource) {
+[40.460s]       |                                                                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~
+[40.461s] /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller/include/multi_mode_controller/base/panda_controller_base.h:102:130: warning: unused parameter ‘name’ [-Wunused-parameter]
+[40.461s]   102 |   virtual bool initImpl(const std::vector<RobotData*>& robot_data, rclcpp_lifecycle::LifecycleNode::SharedPtr& node, std::string name, std::string resource) {
+[40.461s]       |                                                                                                                      ~~~~~~~~~~~~^~~~
+[40.461s] /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller/include/multi_mode_controller/base/panda_controller_base.h:102:148: warning: unused parameter ‘resource’ [-Wunused-parameter]
+[40.461s]   102 |   virtual bool initImpl(const std::vector<RobotData*>& robot_data, rclcpp_lifecycle::LifecycleNode::SharedPtr& node, std::string name, std::string resource) {
+[40.461s]       |                                                                                                                                        ~~~~~~~~~~~~^~~~~~~~
+[41.210s] In file included from /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller/include/multi_mode_controller/controllers/comless_coupled_dual_cartesian_impedance_controller.h:4,
+[41.210s]                  from /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller/src/comless_coupled_dual_cartesian_impedance_controller.cpp:1:
+[41.210s] /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller/include/multi_mode_controller/base/panda_controller_base.h: In instantiation of ‘bool panda_controllers::PandaControllerBase<Parameters, Pose>::initImpl(const std::vector<panda_controllers::RobotData*>&, rclcpp_lifecycle::LifecycleNode::SharedPtr&, std::string, std::string) [with Parameters = panda_controllers::DualCartesianImpedanceControllerParams; Pose = panda_controllers::DualCartesianImpedanceControllerPose; rclcpp_lifecycle::LifecycleNode::SharedPtr = std::shared_ptr<rclcpp_lifecycle::LifecycleNode>; std::string = std::__cxx11::basic_string<char>]’:
+[41.211s] /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller/include/multi_mode_controller/base/panda_controller_base.h:102:16:   required from here
+[41.211s] /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller/include/multi_mode_controller/base/panda_controller_base.h:102:56: warning: unused parameter ‘robot_data’ [-Wunused-parameter]
+[41.211s]   102 |   virtual bool initImpl(const std::vector<RobotData*>& robot_data, rclcpp_lifecycle::LifecycleNode::SharedPtr& node, std::string name, std::string resource) {
+[41.211s]       |                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~
+[41.216s] /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller/include/multi_mode_controller/base/panda_controller_base.h:102:112: warning: unused parameter ‘node’ [-Wunused-parameter]
+[41.216s]   102 |   virtual bool initImpl(const std::vector<RobotData*>& robot_data, rclcpp_lifecycle::LifecycleNode::SharedPtr& node, std::string name, std::string resource) {
+[41.216s]       |                                                                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~
+[41.217s] /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller/include/multi_mode_controller/base/panda_controller_base.h:102:130: warning: unused parameter ‘name’ [-Wunused-parameter]
+[41.217s]   102 |   virtual bool initImpl(const std::vector<RobotData*>& robot_data, rclcpp_lifecycle::LifecycleNode::SharedPtr& node, std::string name, std::string resource) {
+[41.217s]       |                                                                                                                      ~~~~~~~~~~~~^~~~
+[41.217s] /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller/include/multi_mode_controller/base/panda_controller_base.h:102:148: warning: unused parameter ‘resource’ [-Wunused-parameter]
+[41.217s]   102 |   virtual bool initImpl(const std::vector<RobotData*>& robot_data, rclcpp_lifecycle::LifecycleNode::SharedPtr& node, std::string name, std::string resource) {
+[41.217s]       |                                                                                                                                        ~~~~~~~~~~~~^~~~~~~~
+[41.419s] In file included from /usr/local/include/eigen3/Eigen/Core:428,
+[41.419s]                  from /usr/local/include/eigen3/Eigen/Dense:1,
+[41.420s]                  from /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller/src/redundancy_resolution.cpp:1:
+[41.420s] /usr/local/include/eigen3/Eigen/src/Core/functors/BinaryFunctors.h:86:130: warning: ‘deltaTime’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+[41.420s]    86 |   EIGEN_DEVICE_FUNC EIGEN_STRONG_INLINE const result_type operator() (const LhsScalar& a, const RhsScalar& b) const { return a * b; }
+[41.420s]       |                                                                                                                                  ^
+[41.420s] /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller/src/redundancy_resolution.cpp:674:12: note: ‘deltaTime’ was declared here
+[41.421s]   674 |     double deltaTime;
+[41.421s]       |            ^~~~~~~~~
+[47.103s] In file included from /usr/local/include/eigen3/Eigen/Core:503,
+[47.104s]                  from /usr/local/include/eigen3/Eigen/Dense:1,
+[47.104s]                  from /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller/include/multi_mode_controller/controllers/comless_panda_cartesian_impedance_controller.h:3,
+[47.104s]                  from /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller/src/comless_panda_cartesian_impedance_controller.cpp:1:
+[47.104s] /usr/local/include/eigen3/Eigen/src/Core/products/SelfadjointMatrixVector.h: In function ‘static void Eigen::internal::selfadjoint_product_impl<Lhs, LhsMode, false, Rhs, 0, true>::run(Dest&, const Lhs&, const Rhs&, const Scalar&) [with Dest = Eigen::Block<Eigen::Matrix<double, 5, 1, 0, 5, 1>, -1, 1, false>; Lhs = Eigen::Block<Eigen::Matrix<double, 6, 6>, -1, -1, false>; int LhsMode = 17; Rhs = Eigen::CwiseBinaryOp<Eigen::internal::scalar_product_op<double, double>, const Eigen::CwiseNullaryOp<Eigen::internal::scalar_constant_op<double>, const Eigen::Matrix<double, -1, 1, 0, 6, 1> >, const Eigen::Block<Eigen::Block<Eigen::Matrix<double, 6, 6>, 6, 1, true>, -1, 1, false> >]’:
+[47.104s] /usr/local/include/eigen3/Eigen/src/Core/products/SelfadjointMatrixVector.h:227:7: warning: ‘result’ may be used uninitialized [-Wmaybe-uninitialized]
+[47.104s]   225 |     internal::selfadjoint_matrix_vector_product<Scalar, Index, (internal::traits<ActualLhsTypeCleaned>::Flags&RowMajorBit) ? RowMajor : ColMajor,
+[47.104s]       |     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[47.104s]   226 |                                                 int(LhsUpLo), bool(LhsBlasTraits::NeedToConjugate), bool(RhsBlasTraits::NeedToConjugate)>::run
+[47.105s]       |                                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[47.105s]   227 |       (
+[47.105s]       |       ^
+[47.105s]   228 |         lhs.rows(),                             // size
+[47.105s]       |         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[47.105s]   229 |         &lhs.coeffRef(0,0),  lhs.outerStride(), // lhs info
+[47.105s]       |         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[47.105s]   230 |         actualRhsPtr,                           // rhs info
+[47.105s]       |         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[47.105s]   231 |         actualDestPtr,                          // result info
+[47.106s]       |         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[47.106s]   232 |         actualAlpha                             // scale factor
+[47.106s]       |         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[47.106s]   233 |       );
+[47.106s]       |       ~
+[47.106s] /usr/local/include/eigen3/Eigen/src/Core/products/SelfadjointMatrixVector.h:39:24: note: by argument 4 of type ‘const double*’ to ‘static void Eigen::internal::selfadjoint_matrix_vector_product<Scalar, Index, StorageOrder, UpLo, ConjugateLhs, ConjugateRhs, Version>::run(Index, const Scalar*, Index, const Scalar*, Scalar*, Scalar) [with Scalar = double; Index = long int; int StorageOrder = 0; int UpLo = 1; bool ConjugateLhs = false; bool ConjugateRhs = false; int Version = 0]’ declared here
+[47.106s]    39 | EIGEN_DONT_INLINE void selfadjoint_matrix_vector_product<Scalar,Index,StorageOrder,UpLo,ConjugateLhs,ConjugateRhs,Version>::run(
+[47.106s]       |                        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[49.487s] In file included from /usr/local/include/eigen3/Eigen/Core:503,
+[49.487s]                  from /usr/local/include/eigen3/Eigen/Dense:1,
+[49.488s]                  from /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller/include/multi_mode_controller/controllers/comless_dual_cartesian_impedance_controller.h:3,
+[49.488s]                  from /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller/src/comless_dual_cartesian_impedance_controller.cpp:1:
+[49.488s] /usr/local/include/eigen3/Eigen/src/Core/products/SelfadjointMatrixVector.h: In function ‘static void Eigen::internal::selfadjoint_product_impl<Lhs, LhsMode, false, Rhs, 0, true>::run(Dest&, const Lhs&, const Rhs&, const Scalar&) [with Dest = Eigen::Block<Eigen::Matrix<double, 5, 1, 0, 5, 1>, -1, 1, false>; Lhs = Eigen::Block<Eigen::Matrix<double, 6, 6>, -1, -1, false>; int LhsMode = 17; Rhs = Eigen::CwiseBinaryOp<Eigen::internal::scalar_product_op<double, double>, const Eigen::CwiseNullaryOp<Eigen::internal::scalar_constant_op<double>, const Eigen::Matrix<double, -1, 1, 0, 6, 1> >, const Eigen::Block<Eigen::Block<Eigen::Matrix<double, 6, 6>, 6, 1, true>, -1, 1, false> >]’:
+[49.488s] /usr/local/include/eigen3/Eigen/src/Core/products/SelfadjointMatrixVector.h:227:7: warning: ‘result’ may be used uninitialized [-Wmaybe-uninitialized]
+[49.488s]   225 |     internal::selfadjoint_matrix_vector_product<Scalar, Index, (internal::traits<ActualLhsTypeCleaned>::Flags&RowMajorBit) ? RowMajor : ColMajor,
+[49.488s]       |     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[49.488s]   226 |                                                 int(LhsUpLo), bool(LhsBlasTraits::NeedToConjugate), bool(RhsBlasTraits::NeedToConjugate)>::run
+[49.488s]       |                                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[49.488s]   227 |       (
+[49.489s]       |       ^
+[49.489s]   228 |         lhs.rows(),                             // size
+[49.489s]       |         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[49.489s]   229 |         &lhs.coeffRef(0,0),  lhs.outerStride(), // lhs info
+[49.489s]       |         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[49.489s]   230 |         actualRhsPtr,                           // rhs info
+[49.489s]       |         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[49.489s]   231 |         actualDestPtr,                          // result info
+[49.489s]       |         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[49.490s]   232 |         actualAlpha                             // scale factor
+[49.490s]       |         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[49.490s]   233 |       );
+[49.490s]       |       ~
+[49.490s] /usr/local/include/eigen3/Eigen/src/Core/products/SelfadjointMatrixVector.h:39:24: note: by argument 4 of type ‘const double*’ to ‘static void Eigen::internal::selfadjoint_matrix_vector_product<Scalar, Index, StorageOrder, UpLo, ConjugateLhs, ConjugateRhs, Version>::run(Index, const Scalar*, Index, const Scalar*, Scalar*, Scalar) [with Scalar = double; Index = long int; int StorageOrder = 0; int UpLo = 1; bool ConjugateLhs = false; bool ConjugateRhs = false; int Version = 0]’ declared here
+[49.490s]    39 | EIGEN_DONT_INLINE void selfadjoint_matrix_vector_product<Scalar,Index,StorageOrder,UpLo,ConjugateLhs,ConjugateRhs,Version>::run(
+[49.490s]       |                        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[50.148s] In file included from /usr/local/include/eigen3/Eigen/Core:503,
+[50.148s]                  from /usr/local/include/eigen3/Eigen/Dense:1,
+[50.148s]                  from /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller/include/multi_mode_controller/controllers/comless_coupled_dual_cartesian_impedance_controller.h:3,
+[50.148s]                  from /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller/src/comless_coupled_dual_cartesian_impedance_controller.cpp:1:
+[50.149s] /usr/local/include/eigen3/Eigen/src/Core/products/SelfadjointMatrixVector.h: In function ‘static void Eigen::internal::selfadjoint_product_impl<Lhs, LhsMode, false, Rhs, 0, true>::run(Dest&, const Lhs&, const Rhs&, const Scalar&) [with Dest = Eigen::Block<Eigen::Matrix<double, 5, 1, 0, 5, 1>, -1, 1, false>; Lhs = Eigen::Block<Eigen::Matrix<double, 6, 6>, -1, -1, false>; int LhsMode = 17; Rhs = Eigen::CwiseBinaryOp<Eigen::internal::scalar_product_op<double, double>, const Eigen::CwiseNullaryOp<Eigen::internal::scalar_constant_op<double>, const Eigen::Matrix<double, -1, 1, 0, 6, 1> >, const Eigen::Block<Eigen::Block<Eigen::Matrix<double, 6, 6>, 6, 1, true>, -1, 1, false> >]’:
+[50.149s] /usr/local/include/eigen3/Eigen/src/Core/products/SelfadjointMatrixVector.h:227:7: warning: ‘result’ may be used uninitialized [-Wmaybe-uninitialized]
+[50.149s]   225 |     internal::selfadjoint_matrix_vector_product<Scalar, Index, (internal::traits<ActualLhsTypeCleaned>::Flags&RowMajorBit) ? RowMajor : ColMajor,
+[50.149s]       |     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[50.149s]   226 |                                                 int(LhsUpLo), bool(LhsBlasTraits::NeedToConjugate), bool(RhsBlasTraits::NeedToConjugate)>::run
+[50.149s]       |                                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[50.149s]   227 |       (
+[50.149s]       |       ^
+[50.149s]   228 |         lhs.rows(),                             // size
+[50.149s]       |         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[50.150s]   229 |         &lhs.coeffRef(0,0),  lhs.outerStride(), // lhs info
+[50.150s]       |         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[50.150s]   230 |         actualRhsPtr,                           // rhs info
+[50.150s]       |         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[50.150s]   231 |         actualDestPtr,                          // result info
+[50.150s]       |         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[50.150s]   232 |         actualAlpha                             // scale factor
+[50.150s]       |         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[50.150s]   233 |       );
+[50.150s]       |       ~
+[50.151s] /usr/local/include/eigen3/Eigen/src/Core/products/SelfadjointMatrixVector.h:39:24: note: by argument 4 of type ‘const double*’ to ‘static void Eigen::internal::selfadjoint_matrix_vector_product<Scalar, Index, StorageOrder, UpLo, ConjugateLhs, ConjugateRhs, Version>::run(Index, const Scalar*, Index, const Scalar*, Scalar*, Scalar) [with Scalar = double; Index = long int; int StorageOrder = 0; int UpLo = 1; bool ConjugateLhs = false; bool ConjugateRhs = false; int Version = 0]’ declared here
+[50.151s]    39 | EIGEN_DONT_INLINE void selfadjoint_matrix_vector_product<Scalar,Index,StorageOrder,UpLo,ConjugateLhs,ConjugateRhs,Version>::run(
+[50.151s]       |                        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[50.805s] [ 95%] Building CXX object CMakeFiles/multi_mode_controller.dir/src/twin_joint_impedance_controller.cpp.o
+[52.842s] In file included from /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller/include/multi_mode_controller/base/panda_controller_base.h:6,
+[52.842s]                  from /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller/include/multi_mode_controller/base/panda_controller_ros_interface.h:12,
+[52.842s]                  from /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller/include/multi_mode_controller/controllers/twin_joint_impedance_controller.h:5,
+[52.843s]                  from /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller/src/twin_joint_impedance_controller.cpp:1:
+[52.843s] /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller/include/multi_mode_controller/utils/buffered.h:37:3: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+[52.843s]    37 |   const T* const operator->() {
+[52.843s]       |   ^~~~~
+[52.843s] /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller/include/multi_mode_controller/utils/buffered.h:76:3: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+[52.843s]    76 |   T* const operator->() {
+[52.843s]       |   ^
+[52.883s] /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller/src/twin_joint_impedance_controller.cpp: In member function ‘virtual bool panda_controllers::TwinJointImpedanceController::setParametersCallbackImpl(Params&, const Params&, const SharedPtr&, const SharedPtr&)’:
+[52.884s] /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller/src/twin_joint_impedance_controller.cpp:40:71: warning: unused parameter ‘p’ [-Wunused-parameter]
+[52.884s]    40 | bool Controller::setParametersCallbackImpl(Params& p_d, const Params& p,
+[52.884s]       |                                                         ~~~~~~~~~~~~~~^
+[52.884s] /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller/src/twin_joint_impedance_controller.cpp:41:79: warning: unused parameter ‘response’ [-Wunused-parameter]
+[52.884s]    41 |     const ConfigRequest::SharedPtr& request, const ConfigResponse::SharedPtr& response) {
+[52.884s]       |                                              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~
+[53.339s] In file included from /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller/include/multi_mode_controller/base/panda_controller_ros_interface.h:12,
+[53.339s]                  from /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller/include/multi_mode_controller/controllers/twin_joint_impedance_controller.h:5,
+[53.339s]                  from /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller/src/twin_joint_impedance_controller.cpp:1:
+[53.340s] /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller/include/multi_mode_controller/base/panda_controller_base.h: In instantiation of ‘bool panda_controllers::PandaControllerBase<Parameters, Pose>::initImpl(const std::vector<panda_controllers::RobotData*>&, rclcpp_lifecycle::LifecycleNode::SharedPtr&, std::string, std::string) [with Parameters = double; Pose = panda_controllers::DualJointImpedanceControllerPose; rclcpp_lifecycle::LifecycleNode::SharedPtr = std::shared_ptr<rclcpp_lifecycle::LifecycleNode>; std::string = std::__cxx11::basic_string<char>]’:
+[53.340s] /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller/include/multi_mode_controller/base/panda_controller_base.h:102:16:   required from here
+[53.340s] /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller/include/multi_mode_controller/base/panda_controller_base.h:102:56: warning: unused parameter ‘robot_data’ [-Wunused-parameter]
+[53.340s]   102 |   virtual bool initImpl(const std::vector<RobotData*>& robot_data, rclcpp_lifecycle::LifecycleNode::SharedPtr& node, std::string name, std::string resource) {
+[53.340s]       |                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~
+[53.340s] /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller/include/multi_mode_controller/base/panda_controller_base.h:102:112: warning: unused parameter ‘node’ [-Wunused-parameter]
+[53.340s]   102 |   virtual bool initImpl(const std::vector<RobotData*>& robot_data, rclcpp_lifecycle::LifecycleNode::SharedPtr& node, std::string name, std::string resource) {
+[53.340s]       |                                                                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~
+[53.340s] /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller/include/multi_mode_controller/base/panda_controller_base.h:102:130: warning: unused parameter ‘name’ [-Wunused-parameter]
+[53.340s]   102 |   virtual bool initImpl(const std::vector<RobotData*>& robot_data, rclcpp_lifecycle::LifecycleNode::SharedPtr& node, std::string name, std::string resource) {
+[53.340s]       |                                                                                                                      ~~~~~~~~~~~~^~~~
+[53.340s] /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller/include/multi_mode_controller/base/panda_controller_base.h:102:148: warning: unused parameter ‘resource’ [-Wunused-parameter]
+[53.340s]   102 |   virtual bool initImpl(const std::vector<RobotData*>& robot_data, rclcpp_lifecycle::LifecycleNode::SharedPtr& node, std::string name, std::string resource) {
+[53.340s]       |                                                                                                                                        ~~~~~~~~~~~~^~~~~~~~
+[53.341s] In file included from /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller/include/multi_mode_controller/controllers/twin_joint_impedance_controller.h:5,
+[53.342s]                  from /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller/src/twin_joint_impedance_controller.cpp:1:
+[53.342s] /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller/include/multi_mode_controller/base/panda_controller_ros_interface.h: In instantiation of ‘void panda_controllers::ControllerRosInterface<ServiceParameter, DesPoseMsg, Parameters, Pose>::startROSCom() [with ServiceParameter = multi_mode_control_msgs::srv::SetJointImpedance; DesPoseMsg = multi_mode_control_msgs::msg::JointGoal_<std::allocator<void> >; Parameters = double; Pose = panda_controllers::DualJointImpedanceControllerPose]’:
+[53.342s] /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller/include/multi_mode_controller/base/panda_controller_ros_interface.h:85:5:   required from ‘void panda_controllers::ControllerRosInterface<ServiceParameter, DesPoseMsg, Parameters, Pose>::start_() [with ServiceParameter = multi_mode_control_msgs::srv::SetJointImpedance; DesPoseMsg = multi_mode_control_msgs::msg::JointGoal_<std::allocator<void> >; Parameters = double; Pose = panda_controllers::DualJointImpedanceControllerPose]’
+[53.342s] /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller/include/multi_mode_controller/base/panda_controller_base.h:105:16:   required from here
+[53.342s] /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller/include/multi_mode_controller/base/panda_controller_ros_interface.h:30:40: warning: comparison of integer expressions of different signedness: ‘int’ and ‘const size_type’ {aka ‘const long unsigned int’} [-Wsign-compare]
+[53.342s]    30 |     while ((pos = resource.find(amps)) != std::string::npos)
+[53.342s]       |            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~
+[58.505s] [100%] Linking CXX shared library libmulti_mode_controller.so
+[58.835s] [100%] Built target multi_mode_controller
+[58.848s] Invoked command in '/home/user/humble_ws/build/multi_mode_controller' returned '0': AMENT_PREFIX_PATH=/home/user/humble_ws/install/franka_semantic_components:/home/user/humble_ws/install/multi_mode_control_msgs:/home/user/humble_ws/install/franka_hardware:/home/user/humble_ws/install/franka_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/user/humble_ws/install/franka_semantic_components:/home/user/humble_ws/install/multi_mode_control_msgs:/home/user/humble_ws/install/franka_hardware:/home/user/humble_ws/install/franka_msgs:~/Libraries/libfranka/lib/cmake:~/Libraries/mujoco/lib/cmake:/opt/ros/humble LD_LIBRARY_PATH=/home/user/humble_ws/install/franka_semantic_components/lib:/home/user/humble_ws/install/multi_mode_control_msgs/lib:/home/user/humble_ws/install/franka_hardware/lib:/home/user/humble_ws/install/franka_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/user/humble_ws/install/multi_mode_control_msgs/local/lib/python3.10/dist-packages:/home/user/humble_ws/install/franka_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/user/humble_ws/build/multi_mode_controller -- -j12 -l12
+[58.920s] Invoking command in '/home/user/humble_ws/build/multi_mode_controller': AMENT_PREFIX_PATH=/home/user/humble_ws/install/franka_semantic_components:/home/user/humble_ws/install/multi_mode_control_msgs:/home/user/humble_ws/install/franka_hardware:/home/user/humble_ws/install/franka_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/user/humble_ws/install/franka_semantic_components:/home/user/humble_ws/install/multi_mode_control_msgs:/home/user/humble_ws/install/franka_hardware:/home/user/humble_ws/install/franka_msgs:~/Libraries/libfranka/lib/cmake:~/Libraries/mujoco/lib/cmake:/opt/ros/humble LD_LIBRARY_PATH=/home/user/humble_ws/install/franka_semantic_components/lib:/home/user/humble_ws/install/multi_mode_control_msgs/lib:/home/user/humble_ws/install/franka_hardware/lib:/home/user/humble_ws/install/franka_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/user/humble_ws/install/multi_mode_control_msgs/local/lib/python3.10/dist-packages:/home/user/humble_ws/install/franka_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/user/humble_ws/build/multi_mode_controller
+[58.924s] -- Install configuration: "Release"
+[58.924s] -- Installing: /home/user/humble_ws/install/multi_mode_controller/lib/libopenGJK.a
+[58.924s] -- Installing: /home/user/humble_ws/install/multi_mode_controller/lib/libmulti_mode_controller.so
+[58.926s] -- Set runtime path of "/home/user/humble_ws/install/multi_mode_controller/lib/libmulti_mode_controller.so" to ""
+[58.926s] -- Installing: /home/user/humble_ws/install/multi_mode_controller/include
+[58.927s] -- Installing: /home/user/humble_ws/install/multi_mode_controller/include/multi_mode_controller
+[58.927s] -- Installing: /home/user/humble_ws/install/multi_mode_controller/include/multi_mode_controller/controllers
+[58.928s] -- Installing: /home/user/humble_ws/install/multi_mode_controller/include/multi_mode_controller/controllers/panda_cartesian_impedance_controller.h
+[58.928s] -- Installing: /home/user/humble_ws/install/multi_mode_controller/include/multi_mode_controller/controllers/comless_dual_joint_impedance_controller.h
+[58.928s] -- Installing: /home/user/humble_ws/install/multi_mode_controller/include/multi_mode_controller/controllers/twin_joint_impedance_controller.h
+[58.928s] -- Installing: /home/user/humble_ws/install/multi_mode_controller/include/multi_mode_controller/controllers/comless_dual_cartesian_impedance_controller.h
+[58.928s] -- Installing: /home/user/humble_ws/install/multi_mode_controller/include/multi_mode_controller/controllers/twin_cartesian_impedance_controller.h
+[58.928s] -- Installing: /home/user/humble_ws/install/multi_mode_controller/include/multi_mode_controller/controllers/panda_joint_velocity_controller.h
+[58.929s] -- Installing: /home/user/humble_ws/install/multi_mode_controller/include/multi_mode_controller/controllers/comless_panda_cartesian_impedance_controller.h
+[58.929s] -- Installing: /home/user/humble_ws/install/multi_mode_controller/include/multi_mode_controller/controllers/comless_coupled_dual_cartesian_impedance_controller.h
+[58.929s] -- Installing: /home/user/humble_ws/install/multi_mode_controller/include/multi_mode_controller/controllers/dual_cartesian_impedance_controller.h
+[58.929s] -- Installing: /home/user/humble_ws/install/multi_mode_controller/include/multi_mode_controller/controllers/panda_joint_impedance_controller.h
+[58.929s] -- Installing: /home/user/humble_ws/install/multi_mode_controller/include/multi_mode_controller/controllers/comless_panda_joint_impedance_controller.h
+[58.929s] -- Installing: /home/user/humble_ws/install/multi_mode_controller/include/multi_mode_controller/controllers/des_coupled_dual_cartesian_impedance_controller.h
+[58.930s] -- Installing: /home/user/humble_ws/install/multi_mode_controller/include/multi_mode_controller/utils
+[58.930s] -- Installing: /home/user/humble_ws/install/multi_mode_controller/include/multi_mode_controller/utils/factory.h
+[58.930s] -- Installing: /home/user/humble_ws/install/multi_mode_controller/include/multi_mode_controller/utils/damping_design.h
+[58.930s] -- Installing: /home/user/humble_ws/install/multi_mode_controller/include/multi_mode_controller/utils/synchronous_client.h
+[58.930s] -- Installing: /home/user/humble_ws/install/multi_mode_controller/include/multi_mode_controller/utils/robot_data.h
+[58.930s] -- Installing: /home/user/humble_ws/install/multi_mode_controller/include/multi_mode_controller/utils/conversions.h
+[58.930s] -- Installing: /home/user/humble_ws/install/multi_mode_controller/include/multi_mode_controller/utils/get_robot_state_msg.h
+[58.931s] -- Installing: /home/user/humble_ws/install/multi_mode_controller/include/multi_mode_controller/utils/type_name.h
+[58.931s] -- Installing: /home/user/humble_ws/install/multi_mode_controller/include/multi_mode_controller/utils/buffered.h
+[58.931s] -- Installing: /home/user/humble_ws/install/multi_mode_controller/include/multi_mode_controller/utils/controller_factory.h
+[58.931s] -- Installing: /home/user/humble_ws/install/multi_mode_controller/include/multi_mode_controller/utils/nullspace_projection.h
+[58.931s] -- Installing: /home/user/humble_ws/install/multi_mode_controller/include/multi_mode_controller/utils/redundancy_resolution.h
+[58.931s] -- Installing: /home/user/humble_ws/install/multi_mode_controller/include/multi_mode_controller/utils/sync_service_client.hpp
+[58.931s] -- Installing: /home/user/humble_ws/install/multi_mode_controller/include/multi_mode_controller/utils/openGJK.h
+[58.932s] -- Installing: /home/user/humble_ws/install/multi_mode_controller/include/multi_mode_controller/utils/panda_limits.h
+[58.932s] -- Installing: /home/user/humble_ws/install/multi_mode_controller/include/multi_mode_controller/base
+[58.932s] -- Installing: /home/user/humble_ws/install/multi_mode_controller/include/multi_mode_controller/base/panda_controller_interface.h
+[58.932s] -- Installing: /home/user/humble_ws/install/multi_mode_controller/include/multi_mode_controller/base/switch_engine_interface.h
+[58.932s] -- Installing: /home/user/humble_ws/install/multi_mode_controller/include/multi_mode_controller/base/panda_controller_base.h
+[58.932s] -- Installing: /home/user/humble_ws/install/multi_mode_controller/include/multi_mode_controller/base/switch_engine.h
+[58.932s] -- Installing: /home/user/humble_ws/install/multi_mode_controller/include/multi_mode_controller/base/panda_controller_ros_interface.h
+[58.932s] -- Installing: /home/user/humble_ws/install/multi_mode_controller/lib/libsynchronous_client.so
+[58.933s] -- Set runtime path of "/home/user/humble_ws/install/multi_mode_controller/lib/libsynchronous_client.so" to ""
+[58.933s] -- Installing: /home/user/humble_ws/install/multi_mode_controller/share/multi_mode_controller/environment/library_path.sh
+[58.933s] -- Installing: /home/user/humble_ws/install/multi_mode_controller/share/multi_mode_controller/environment/library_path.dsv
+[58.933s] -- Installing: /home/user/humble_ws/install/multi_mode_controller/share/ament_index/resource_index/package_run_dependencies/multi_mode_controller
+[58.933s] -- Installing: /home/user/humble_ws/install/multi_mode_controller/share/ament_index/resource_index/parent_prefix_path/multi_mode_controller
+[58.933s] -- Installing: /home/user/humble_ws/install/multi_mode_controller/share/multi_mode_controller/environment/ament_prefix_path.sh
+[58.934s] -- Installing: /home/user/humble_ws/install/multi_mode_controller/share/multi_mode_controller/environment/ament_prefix_path.dsv
+[58.934s] -- Installing: /home/user/humble_ws/install/multi_mode_controller/share/multi_mode_controller/environment/path.sh
+[58.934s] -- Installing: /home/user/humble_ws/install/multi_mode_controller/share/multi_mode_controller/environment/path.dsv
+[58.934s] -- Installing: /home/user/humble_ws/install/multi_mode_controller/share/multi_mode_controller/local_setup.bash
+[58.934s] -- Installing: /home/user/humble_ws/install/multi_mode_controller/share/multi_mode_controller/local_setup.sh
+[58.934s] -- Installing: /home/user/humble_ws/install/multi_mode_controller/share/multi_mode_controller/local_setup.zsh
+[58.934s] -- Installing: /home/user/humble_ws/install/multi_mode_controller/share/multi_mode_controller/local_setup.dsv
+[58.935s] -- Installing: /home/user/humble_ws/install/multi_mode_controller/share/multi_mode_controller/package.dsv
+[58.935s] -- Installing: /home/user/humble_ws/install/multi_mode_controller/share/ament_index/resource_index/packages/multi_mode_controller
+[58.935s] -- Installing: /home/user/humble_ws/install/multi_mode_controller/share/multi_mode_controller/cmake/ament_cmake_export_include_directories-extras.cmake
+[58.935s] -- Installing: /home/user/humble_ws/install/multi_mode_controller/share/multi_mode_controller/cmake/ament_cmake_export_libraries-extras.cmake
+[58.935s] -- Installing: /home/user/humble_ws/install/multi_mode_controller/share/multi_mode_controller/cmake/ament_cmake_export_dependencies-extras.cmake
+[58.935s] -- Installing: /home/user/humble_ws/install/multi_mode_controller/share/multi_mode_controller/cmake/multi_mode_controllerConfig.cmake
+[58.935s] -- Installing: /home/user/humble_ws/install/multi_mode_controller/share/multi_mode_controller/cmake/multi_mode_controllerConfig-version.cmake
+[58.935s] -- Installing: /home/user/humble_ws/install/multi_mode_controller/share/multi_mode_controller/package.xml
+[58.936s] Invoked command in '/home/user/humble_ws/build/multi_mode_controller' returned '0': AMENT_PREFIX_PATH=/home/user/humble_ws/install/franka_semantic_components:/home/user/humble_ws/install/multi_mode_control_msgs:/home/user/humble_ws/install/franka_hardware:/home/user/humble_ws/install/franka_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/user/humble_ws/install/franka_semantic_components:/home/user/humble_ws/install/multi_mode_control_msgs:/home/user/humble_ws/install/franka_hardware:/home/user/humble_ws/install/franka_msgs:~/Libraries/libfranka/lib/cmake:~/Libraries/mujoco/lib/cmake:/opt/ros/humble LD_LIBRARY_PATH=/home/user/humble_ws/install/franka_semantic_components/lib:/home/user/humble_ws/install/multi_mode_control_msgs/lib:/home/user/humble_ws/install/franka_hardware/lib:/home/user/humble_ws/install/franka_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/user/humble_ws/install/multi_mode_control_msgs/local/lib/python3.10/dist-packages:/home/user/humble_ws/install/franka_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/user/humble_ws/build/multi_mode_controller

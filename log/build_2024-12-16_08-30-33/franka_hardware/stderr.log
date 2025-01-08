@@ -1,0 +1,145 @@
+In file included from /opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155,
+                 from /home/user/humble_ws/src/bimanual_architecture/franka_hardware/include/franka_hardware/franka_multi_hardware_interface.hpp:27,
+                 from /home/user/humble_ws/src/bimanual_architecture/franka_hardware/src/franka_multi_hardware_interface.cpp:1:
+/home/user/humble_ws/src/bimanual_architecture/franka_hardware/src/franka_multi_hardware_interface.cpp: In member function ‘virtual hardware_interface::return_type franka_hardware::FrankaMultiHardwareInterface::prepare_command_mode_switch(const std::vector<std::__cxx11::basic_string<char> >&, const std::vector<std::__cxx11::basic_string<char> >&)’:
+/home/user/humble_ws/src/bimanual_architecture/franka_hardware/src/franka_multi_hardware_interface.cpp:389:45: warning: format ‘%ld’ expects argument of type ‘long int’, but argument 5 has type ‘int’ [-Wformat=]
+  389 |             RCLCPP_ERROR(this->getLogger(), "Requested Cartesian position stop interface's size is not %ld (got %ld)", 16, stop_interfaces.size());
+      |                                             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  ~~
+      |                                                                                                                        |
+      |                                                                                                                        int
+/home/user/humble_ws/src/bimanual_architecture/franka_hardware/src/franka_multi_hardware_interface.cpp:389:106: note: format string is defined here
+  389 |             RCLCPP_ERROR(this->getLogger(), "Requested Cartesian position stop interface's size is not %ld (got %ld)", 16, stop_interfaces.size());
+      |                                                                                                        ~~^
+      |                                                                                                          |
+      |                                                                                                          long int
+      |                                                                                                        %d
+In file included from /opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155,
+                 from /home/user/humble_ws/src/bimanual_architecture/franka_hardware/include/franka_hardware/franka_multi_hardware_interface.hpp:27,
+                 from /home/user/humble_ws/src/bimanual_architecture/franka_hardware/src/franka_multi_hardware_interface.cpp:1:
+/home/user/humble_ws/src/bimanual_architecture/franka_hardware/src/franka_multi_hardware_interface.cpp:395:45: warning: format ‘%ld’ expects argument of type ‘long int’, but argument 5 has type ‘int’ [-Wformat=]
+  395 |             RCLCPP_ERROR(this->getLogger(), "Requested Cartesian velocity stop interface's size is not %ld (got %ld)", 6, arm_stop_interfaces.size());
+      |                                             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  ~
+      |                                                                                                                        |
+      |                                                                                                                        int
+/home/user/humble_ws/src/bimanual_architecture/franka_hardware/src/franka_multi_hardware_interface.cpp:395:106: note: format string is defined here
+  395 |             RCLCPP_ERROR(this->getLogger(), "Requested Cartesian velocity stop interface's size is not %ld (got %ld)", 6, arm_stop_interfaces.size());
+      |                                                                                                        ~~^
+      |                                                                                                          |
+      |                                                                                                          long int
+      |                                                                                                        %d
+/home/user/humble_ws/src/bimanual_architecture/franka_hardware/src/gripper_sim_action_server.cpp: In member function ‘bool franka_gripper::GripperSimActionServer::simGripperGrasp(double, double, double, double, double)’:
+/home/user/humble_ws/src/bimanual_architecture/franka_hardware/src/gripper_sim_action_server.cpp:224:81: warning: unused parameter ‘force’ [-Wunused-parameter]
+  224 | bool GripperSimActionServer::simGripperGrasp(double width, double speed, double force,
+      |                                                                          ~~~~~~~^~~~~
+/home/user/humble_ws/src/bimanual_architecture/franka_hardware/src/gripper_sim_action_server.cpp:225:54: warning: unused parameter ‘epsilon_inner’ [-Wunused-parameter]
+  225 |                                               double epsilon_inner, double epsilon_outer){
+      |                                               ~~~~~~~^~~~~~~~~~~~~
+/home/user/humble_ws/src/bimanual_architecture/franka_hardware/src/gripper_sim_action_server.cpp:225:76: warning: unused parameter ‘epsilon_outer’ [-Wunused-parameter]
+  225 |                                               double epsilon_inner, double epsilon_outer){
+      |                                                                     ~~~~~~~^~~~~~~~~~~~~
+In file included from /opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155,
+                 from /home/user/humble_ws/src/bimanual_architecture/franka_hardware/include/franka_hardware/franka_multi_hardware_interface.hpp:27,
+                 from /home/user/humble_ws/src/bimanual_architecture/franka_hardware/src/franka_multi_hardware_interface.cpp:1:
+/home/user/humble_ws/src/bimanual_architecture/franka_hardware/src/franka_multi_hardware_interface.cpp:483:43: warning: format ‘%ld’ expects argument of type ‘long int’, but argument 5 has type ‘unsigned int’ [-Wformat=]
+  483 |           RCLCPP_ERROR(this->getLogger(), "Requested Cartesian start interface's size is not %ld nor %ld (got %ld)", 16U, 6U, arm_start_interfaces.size());
+      |                                           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  ~~~
+      |                                                                                                                      |
+      |                                                                                                                      unsigned int
+/home/user/humble_ws/src/bimanual_architecture/franka_hardware/src/franka_multi_hardware_interface.cpp:483:96: note: format string is defined here
+  483 |           RCLCPP_ERROR(this->getLogger(), "Requested Cartesian start interface's size is not %ld nor %ld (got %ld)", 16U, 6U, arm_start_interfaces.size());
+      |                                                                                              ~~^
+      |                                                                                                |
+      |                                                                                                long int
+      |                                                                                              %d
+In file included from /opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155,
+                 from /home/user/humble_ws/src/bimanual_architecture/franka_hardware/include/franka_hardware/franka_multi_hardware_interface.hpp:27,
+                 from /home/user/humble_ws/src/bimanual_architecture/franka_hardware/src/franka_multi_hardware_interface.cpp:1:
+/home/user/humble_ws/src/bimanual_architecture/franka_hardware/src/franka_multi_hardware_interface.cpp:483:43: warning: format ‘%ld’ expects argument of type ‘long int’, but argument 6 has type ‘unsigned int’ [-Wformat=]
+  483 |           RCLCPP_ERROR(this->getLogger(), "Requested Cartesian start interface's size is not %ld nor %ld (got %ld)", 16U, 6U, arm_start_interfaces.size());
+      |                                           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~       ~~
+      |                                                                                                                           |
+      |                                                                                                                           unsigned int
+/home/user/humble_ws/src/bimanual_architecture/franka_hardware/src/franka_multi_hardware_interface.cpp:483:104: note: format string is defined here
+  483 |           RCLCPP_ERROR(this->getLogger(), "Requested Cartesian start interface's size is not %ld nor %ld (got %ld)", 16U, 6U, arm_start_interfaces.size());
+      |                                                                                                      ~~^
+      |                                                                                                        |
+      |                                                                                                        long int
+      |                                                                                                      %d
+In file included from /home/user/humble_ws/src/bimanual_architecture/franka_hardware/include/franka_hardware/franka_mujoco_multi_hardware_interface.hpp:38,
+                 from /home/user/humble_ws/src/bimanual_architecture/franka_hardware/src/franka_mujoco_multi_hardware_interface.cpp:15:
+/home/user/humble_ws/src/bimanual_architecture/franka_hardware/include/franka_hardware/mujoco_visualizer.hpp: In lambda function:
+/home/user/humble_ws/src/bimanual_architecture/franka_hardware/include/franka_hardware/mujoco_visualizer.hpp:79:66: warning: unused parameter ‘button’ [-Wunused-parameter]
+   79 |         glfwSetMouseButtonCallback(window, [](GLFWwindow* w, int button, int act, int mods)
+      |                                                              ~~~~^~~~~~
+/home/user/humble_ws/src/bimanual_architecture/franka_hardware/include/franka_hardware/mujoco_visualizer.hpp:79:78: warning: unused parameter ‘act’ [-Wunused-parameter]
+   79 |         glfwSetMouseButtonCallback(window, [](GLFWwindow* w, int button, int act, int mods)
+      |                                                                          ~~~~^~~
+/home/user/humble_ws/src/bimanual_architecture/franka_hardware/include/franka_hardware/mujoco_visualizer.hpp:79:87: warning: unused parameter ‘mods’ [-Wunused-parameter]
+   79 |         glfwSetMouseButtonCallback(window, [](GLFWwindow* w, int button, int act, int mods)
+      |                                                                                   ~~~~^~~~
+/home/user/humble_ws/src/bimanual_architecture/franka_hardware/include/franka_hardware/mujoco_visualizer.hpp: In lambda function:
+/home/user/humble_ws/src/bimanual_architecture/franka_hardware/include/franka_hardware/mujoco_visualizer.hpp:90:69: warning: unused parameter ‘xoffset’ [-Wunused-parameter]
+   90 |         glfwSetScrollCallback(window, [](GLFWwindow* window, double xoffset, double yoffset)
+      |                                                              ~~~~~~~^~~~~~~
+In file included from /home/user/humble_ws/src/bimanual_architecture/franka_hardware/include/franka_hardware/garmi_mujoco_hardware_interface.hpp:40,
+                 from /home/user/humble_ws/src/bimanual_architecture/franka_hardware/src/garmi_mujoco_hardware_interface.cpp:15:
+/home/user/humble_ws/src/bimanual_architecture/franka_hardware/include/franka_hardware/mujoco_visualizer.hpp: In lambda function:
+/home/user/humble_ws/src/bimanual_architecture/franka_hardware/include/franka_hardware/mujoco_visualizer.hpp:79:66: warning: unused parameter ‘button’ [-Wunused-parameter]
+   79 |         glfwSetMouseButtonCallback(window, [](GLFWwindow* w, int button, int act, int mods)
+      |                                                              ~~~~^~~~~~
+/home/user/humble_ws/src/bimanual_architecture/franka_hardware/include/franka_hardware/mujoco_visualizer.hpp:79:78: warning: unused parameter ‘act’ [-Wunused-parameter]
+   79 |         glfwSetMouseButtonCallback(window, [](GLFWwindow* w, int button, int act, int mods)
+      |                                                                          ~~~~^~~
+/home/user/humble_ws/src/bimanual_architecture/franka_hardware/include/franka_hardware/mujoco_visualizer.hpp:79:87: warning: unused parameter ‘mods’ [-Wunused-parameter]
+   79 |         glfwSetMouseButtonCallback(window, [](GLFWwindow* w, int button, int act, int mods)
+      |                                                                                   ~~~~^~~~
+/home/user/humble_ws/src/bimanual_architecture/franka_hardware/include/franka_hardware/mujoco_visualizer.hpp: In lambda function:
+/home/user/humble_ws/src/bimanual_architecture/franka_hardware/include/franka_hardware/mujoco_visualizer.hpp:90:69: warning: unused parameter ‘xoffset’ [-Wunused-parameter]
+   90 |         glfwSetScrollCallback(window, [](GLFWwindow* window, double xoffset, double yoffset)
+      |                                                              ~~~~~~~^~~~~~~
+/home/user/humble_ws/src/bimanual_architecture/franka_hardware/src/franka_multi_hardware_interface.cpp:393:9: warning: ‘is_velocity’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+  393 |         if(is_velocity){
+      |         ^~
+/home/user/humble_ws/src/bimanual_architecture/franka_hardware/src/franka_multi_hardware_interface.cpp:387:9: warning: ‘is_position’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+  387 |         if(is_position){
+      |         ^~

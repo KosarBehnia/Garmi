@@ -1,0 +1,16 @@
+/home/user/humble_ws/install/franka_control2/lib/franka_control2/franka_control2_node
+/home/user/humble_ws/install/franka_control2/share/ament_index/resource_index/package_run_dependencies/franka_control2
+/home/user/humble_ws/install/franka_control2/share/ament_index/resource_index/parent_prefix_path/franka_control2
+/home/user/humble_ws/install/franka_control2/share/franka_control2/environment/ament_prefix_path.sh
+/home/user/humble_ws/install/franka_control2/share/franka_control2/environment/ament_prefix_path.dsv
+/home/user/humble_ws/install/franka_control2/share/franka_control2/environment/path.sh
+/home/user/humble_ws/install/franka_control2/share/franka_control2/environment/path.dsv
+/home/user/humble_ws/install/franka_control2/share/franka_control2/local_setup.bash
+/home/user/humble_ws/install/franka_control2/share/franka_control2/local_setup.sh
+/home/user/humble_ws/install/franka_control2/share/franka_control2/local_setup.zsh
+/home/user/humble_ws/install/franka_control2/share/franka_control2/local_setup.dsv
+/home/user/humble_ws/install/franka_control2/share/franka_control2/package.dsv
+/home/user/humble_ws/install/franka_control2/share/ament_index/resource_index/packages/franka_control2
+/home/user/humble_ws/install/franka_control2/share/franka_control2/cmake/franka_control2Config.cmake
+/home/user/humble_ws/install/franka_control2/share/franka_control2/cmake/franka_control2Config-version.cmake
+/home/user/humble_ws/install/franka_control2/share/franka_control2/package.xml

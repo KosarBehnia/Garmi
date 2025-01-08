@@ -1,0 +1,19 @@
+/home/user/humble_ws/src/bimanual_architecture/garmi_controllers/src/mobile_base_controller.cpp: In member function ‘virtual controller_interface::return_type garmi_controllers::MobileBaseController::update(const rclcpp::Time&, const rclcpp::Duration&)’:
+/home/user/humble_ws/src/bimanual_architecture/garmi_controllers/src/mobile_base_controller.cpp:28:84: warning: unused parameter ‘time’ [-Wunused-parameter]
+   28 | controller_interface::return_type MobileBaseController::update(const rclcpp::Time& time,
+      |                                                                ~~~~~~~~~~~~~~~~~~~~^~~~
+/home/user/humble_ws/src/bimanual_architecture/garmi_controllers/src/mobile_base_controller.cpp:29:88: warning: unused parameter ‘period’ [-Wunused-parameter]
+   29 |                                                                const rclcpp::Duration& period){
+      |                                                                ~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~
+/home/user/humble_ws/src/bimanual_architecture/garmi_controllers/src/mobile_base_controller.cpp: In member function ‘virtual CallbackReturn garmi_controllers::MobileBaseController::on_configure(const rclcpp_lifecycle::State&)’:
+/home/user/humble_ws/src/bimanual_architecture/garmi_controllers/src/mobile_base_controller.cpp:52:82: warning: unused parameter ‘previous_state’ [-Wunused-parameter]
+   52 | CallbackReturn MobileBaseController::on_configure(const rclcpp_lifecycle::State& previous_state){
+      |                                                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~
+/home/user/humble_ws/src/bimanual_architecture/garmi_controllers/src/mobile_base_controller.cpp: In member function ‘virtual CallbackReturn garmi_controllers::MobileBaseController::on_activate(const rclcpp_lifecycle::State&)’:
+/home/user/humble_ws/src/bimanual_architecture/garmi_controllers/src/mobile_base_controller.cpp:60:81: warning: unused parameter ‘previous_state’ [-Wunused-parameter]
+   60 | CallbackReturn MobileBaseController::on_activate(const rclcpp_lifecycle::State& previous_state){
+      |                                                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~
+/home/user/humble_ws/src/bimanual_architecture/garmi_controllers/src/mobile_base_controller.cpp: In member function ‘virtual CallbackReturn garmi_controllers::MobileBaseController::on_deactivate(const rclcpp_lifecycle::State&)’:
+/home/user/humble_ws/src/bimanual_architecture/garmi_controllers/src/mobile_base_controller.cpp:66:83: warning: unused parameter ‘previous_state’ [-Wunused-parameter]
+   66 | CallbackReturn MobileBaseController::on_deactivate(const rclcpp_lifecycle::State& previous_state){
+      |                                                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~

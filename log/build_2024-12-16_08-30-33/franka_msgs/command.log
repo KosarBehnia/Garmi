@@ -1,0 +1,6 @@
+Invoking command in '/home/user/humble_ws/build/franka_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/user/humble_ws/src/bimanual_architecture/franka_msgs -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/user/humble_ws/install/franka_msgs
+Invoked command in '/home/user/humble_ws/build/franka_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/user/humble_ws/src/bimanual_architecture/franka_msgs -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/user/humble_ws/install/franka_msgs
+Invoking command in '/home/user/humble_ws/build/franka_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/user/humble_ws/build/franka_msgs -- -j12 -l12
+Invoked command in '/home/user/humble_ws/build/franka_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/user/humble_ws/build/franka_msgs -- -j12 -l12
+Invoking command in '/home/user/humble_ws/build/franka_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/user/humble_ws/build/franka_msgs
+Invoked command in '/home/user/humble_ws/build/franka_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/user/humble_ws/build/franka_msgs

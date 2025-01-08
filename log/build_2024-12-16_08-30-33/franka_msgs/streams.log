@@ -1,0 +1,728 @@
+[0.015s] Invoking command in '/home/user/humble_ws/build/franka_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/user/humble_ws/src/bimanual_architecture/franka_msgs -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/user/humble_ws/install/franka_msgs
+[0.097s] -- The C compiler identification is GNU 11.4.0
+[0.179s] -- The CXX compiler identification is GNU 11.4.0
+[0.183s] -- Detecting C compiler ABI info
+[0.235s] -- Detecting C compiler ABI info - done
+[0.241s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.241s] -- Detecting C compile features
+[0.241s] -- Detecting C compile features - done
+[0.243s] -- Detecting CXX compiler ABI info
+[0.302s] -- Detecting CXX compiler ABI info - done
+[0.311s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.311s] -- Detecting CXX compile features
+[0.311s] -- Detecting CXX compile features - done
+[0.317s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.418s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.508s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.511s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.519s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.553s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.581s] -- Found std_msgs: 4.2.4 (/opt/ros/humble/share/std_msgs/cmake)
+[0.604s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[1.003s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.148s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.355s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.370s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[1.371s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.383s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[1.383s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.383s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.383s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.393s] -- Found PythonExtra: .so  
+[1.431s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.446s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.448s] -- Added test 'lint_cmake' to check CMake code style
+[1.450s] -- Added test 'xmllint' to check XML markup files
+[1.451s] -- Configuring done
+[1.491s] -- Generating done
+[1.492s] -- Build files have been written to: /home/user/humble_ws/build/franka_msgs
+[1.498s] Invoked command in '/home/user/humble_ws/build/franka_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/user/humble_ws/src/bimanual_architecture/franka_msgs -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/user/humble_ws/install/franka_msgs
+[1.498s] Invoking command in '/home/user/humble_ws/build/franka_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/user/humble_ws/build/franka_msgs -- -j12 -l12
+[1.545s] [  0%] Generating C code for ROS interfaces
+[1.565s] [  0%] Generating C++ code for ROS interfaces
+[1.567s] [  0%] Built target ament_cmake_python_copy_franka_msgs
+[1.784s] running egg_info
+[1.784s] creating franka_msgs.egg-info
+[1.785s] writing franka_msgs.egg-info/PKG-INFO
+[1.785s] writing dependency_links to franka_msgs.egg-info/dependency_links.txt
+[1.785s] writing top-level names to franka_msgs.egg-info/top_level.txt
+[1.785s] writing manifest file 'franka_msgs.egg-info/SOURCES.txt'
+[1.787s] reading manifest file 'franka_msgs.egg-info/SOURCES.txt'
+[1.787s] writing manifest file 'franka_msgs.egg-info/SOURCES.txt'
+[1.813s] [  0%] Built target ament_cmake_python_build_franka_msgs_egg
+[3.173s] [  0%] Built target franka_msgs__cpp
+[3.195s] [  1%] Generating C++ type support dispatch for ROS interfaces
+[3.201s] [  1%] Generating C++ introspection for ROS interfaces
+[3.203s] [  2%] Generating C++ type support for eProsima Fast-RTPS
+[4.011s] [  3%] Building C object CMakeFiles/franka_msgs__rosidl_generator_c.dir/rosidl_generator_c/franka_msgs/action/detail/homing__functions.c.o
+[4.011s] [  3%] Building C object CMakeFiles/franka_msgs__rosidl_generator_c.dir/rosidl_generator_c/franka_msgs/action/detail/move__functions.c.o
+[4.013s] [  4%] Building C object CMakeFiles/franka_msgs__rosidl_generator_c.dir/rosidl_generator_c/franka_msgs/action/detail/grasp__functions.c.o
+[4.018s] [  5%] Building C object CMakeFiles/franka_msgs__rosidl_generator_c.dir/rosidl_generator_c/franka_msgs/srv/detail/set_cartesian_stiffness__functions.c.o
+[4.018s] [  5%] Building C object CMakeFiles/franka_msgs__rosidl_generator_c.dir/rosidl_generator_c/franka_msgs/srv/detail/set_tcp_frame__functions.c.o
+[4.019s] [  6%] Building C object CMakeFiles/franka_msgs__rosidl_generator_c.dir/rosidl_generator_c/franka_msgs/srv/detail/error_recovery__functions.c.o
+[4.025s] [  7%] Building C object CMakeFiles/franka_msgs__rosidl_generator_c.dir/rosidl_generator_c/franka_msgs/srv/detail/set_force_torque_collision_behavior__functions.c.o
+[4.048s] [  7%] Building C object CMakeFiles/franka_msgs__rosidl_generator_c.dir/rosidl_generator_c/franka_msgs/srv/detail/set_full_collision_behavior__functions.c.o
+[4.054s] [  8%] Building C object CMakeFiles/franka_msgs__rosidl_generator_c.dir/rosidl_generator_c/franka_msgs/srv/detail/set_joint_stiffness__functions.c.o
+[4.299s] [  9%] Building C object CMakeFiles/franka_msgs__rosidl_generator_c.dir/rosidl_generator_c/franka_msgs/srv/detail/set_stiffness_frame__functions.c.o
+[4.306s] [  9%] Building C object CMakeFiles/franka_msgs__rosidl_generator_c.dir/rosidl_generator_c/franka_msgs/srv/detail/set_load__functions.c.o
+[4.339s] [ 10%] Building C object CMakeFiles/franka_msgs__rosidl_generator_c.dir/rosidl_generator_c/franka_msgs/srv/detail/set_mujoco_poses__functions.c.o
+[4.401s] [ 11%] Building C object CMakeFiles/franka_msgs__rosidl_generator_c.dir/rosidl_generator_c/franka_msgs/msg/detail/grasp_epsilon__functions.c.o
+[4.404s] [ 11%] Building C object CMakeFiles/franka_msgs__rosidl_generator_c.dir/rosidl_generator_c/franka_msgs/msg/detail/franka_state__functions.c.o
+[4.424s] [ 12%] Building C object CMakeFiles/franka_msgs__rosidl_generator_c.dir/rosidl_generator_c/franka_msgs/msg/detail/franka_model__functions.c.o
+[4.605s] [ 12%] Building C object CMakeFiles/franka_msgs__rosidl_generator_c.dir/rosidl_generator_c/franka_msgs/msg/detail/errors__functions.c.o
+[4.639s] [ 13%] Building C object CMakeFiles/franka_msgs__rosidl_generator_c.dir/rosidl_generator_c/franka_msgs/msg/detail/pose_stamped_array__functions.c.o
+[4.764s] [ 13%] Building CXX object CMakeFiles/franka_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/franka_msgs/action/grasp__type_support.cpp.o
+[4.768s] [ 14%] Building CXX object CMakeFiles/franka_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/franka_msgs/action/homing__type_support.cpp.o
+[4.773s] [ 15%] Building CXX object CMakeFiles/franka_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/franka_msgs/action/move__type_support.cpp.o
+[4.777s] [ 16%] Building CXX object CMakeFiles/franka_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/franka_msgs/srv/set_cartesian_stiffness__type_support.cpp.o
+[4.780s] [ 16%] Building CXX object CMakeFiles/franka_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/franka_msgs/srv/error_recovery__type_support.cpp.o
+[4.791s] [ 16%] Building CXX object CMakeFiles/franka_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/franka_msgs/srv/set_force_torque_collision_behavior__type_support.cpp.o
+[4.791s] [ 18%] Building CXX object CMakeFiles/franka_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/franka_msgs/srv/set_full_collision_behavior__type_support.cpp.o
+[4.795s] [ 18%] Building CXX object CMakeFiles/franka_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/franka_msgs/srv/set_tcp_frame__type_support.cpp.o
+[4.800s] [ 19%] Building CXX object CMakeFiles/franka_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/franka_msgs/srv/set_joint_stiffness__type_support.cpp.o
+[4.834s] [ 20%] Linking C shared library libfranka_msgs__rosidl_generator_c.so
+[4.931s] [ 20%] Built target franka_msgs__rosidl_generator_c
+[4.960s] [ 20%] Building CXX object CMakeFiles/franka_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/franka_msgs/srv/set_stiffness_frame__type_support.cpp.o
+[5.098s] [ 21%] Generating C type support for eProsima Fast-RTPS
+[5.101s] [ 22%] Generating C introspection for ROS interfaces
+[5.146s] [ 23%] Building CXX object CMakeFiles/franka_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/franka_msgs/srv/set_load__type_support.cpp.o
+[5.244s] [ 23%] Building CXX object CMakeFiles/franka_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/franka_msgs/srv/set_mujoco_poses__type_support.cpp.o
+[5.290s] [ 24%] Building CXX object CMakeFiles/franka_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/franka_msgs/msg/grasp_epsilon__type_support.cpp.o
+[5.361s] [ 25%] Building CXX object CMakeFiles/franka_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/franka_msgs/msg/franka_state__type_support.cpp.o
+[5.372s] [ 26%] Generating C type support dispatch for ROS interfaces
+[5.393s] [ 26%] Building CXX object CMakeFiles/franka_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/franka_msgs/msg/franka_model__type_support.cpp.o
+[5.397s] [ 27%] Building CXX object CMakeFiles/franka_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/franka_msgs/msg/errors__type_support.cpp.o
+[5.418s] [ 28%] Building CXX object CMakeFiles/franka_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/franka_msgs/msg/pose_stamped_array__type_support.cpp.o
+[5.619s] [ 28%] Building CXX object CMakeFiles/franka_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/franka_msgs/action/detail/homing__type_support.cpp.o
+[5.621s] [ 29%] Building CXX object CMakeFiles/franka_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/franka_msgs/action/detail/grasp__type_support.cpp.o
+[5.623s] [ 30%] Building CXX object CMakeFiles/franka_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/franka_msgs/action/detail/move__type_support.cpp.o
+[5.661s] [ 31%] Building CXX object CMakeFiles/franka_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/franka_msgs/srv/detail/error_recovery__type_support.cpp.o
+[5.695s] [ 31%] Building CXX object CMakeFiles/franka_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/franka_msgs/srv/detail/set_cartesian_stiffness__type_support.cpp.o
+[5.746s] [ 32%] Building CXX object CMakeFiles/franka_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/franka_msgs/srv/detail/set_tcp_frame__type_support.cpp.o
+[5.801s] [ 33%] Linking CXX shared library libfranka_msgs__rosidl_typesupport_cpp.so
+[5.802s] [ 33%] Building CXX object CMakeFiles/franka_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/franka_msgs/srv/detail/set_force_torque_collision_behavior__type_support.cpp.o
+[5.881s] [ 33%] Built target franka_msgs__rosidl_typesupport_cpp
+[5.914s] [ 33%] Building CXX object CMakeFiles/franka_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/franka_msgs/srv/detail/set_full_collision_behavior__type_support.cpp.o
+[6.152s] [ 34%] Building CXX object CMakeFiles/franka_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/franka_msgs/srv/detail/set_joint_stiffness__type_support.cpp.o
+[6.198s] [ 34%] Building CXX object CMakeFiles/franka_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/franka_msgs/srv/detail/set_stiffness_frame__type_support.cpp.o
+[6.229s] [ 35%] Building CXX object CMakeFiles/franka_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/franka_msgs/action/detail/dds_fastrtps/grasp__type_support.cpp.o
+[6.252s] [ 35%] Building CXX object CMakeFiles/franka_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/franka_msgs/action/detail/dds_fastrtps/homing__type_support.cpp.o
+[6.347s] [ 36%] Building CXX object CMakeFiles/franka_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/franka_msgs/action/detail/dds_fastrtps/move__type_support.cpp.o
+[6.402s] [ 37%] Building CXX object CMakeFiles/franka_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/franka_msgs/srv/detail/dds_fastrtps/error_recovery__type_support.cpp.o
+[6.449s] [ 38%] Building CXX object CMakeFiles/franka_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/franka_msgs/srv/detail/set_load__type_support.cpp.o
+[6.508s] [ 39%] Building CXX object CMakeFiles/franka_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/franka_msgs/srv/detail/set_mujoco_poses__type_support.cpp.o
+[6.596s] [ 39%] Building CXX object CMakeFiles/franka_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/franka_msgs/srv/detail/dds_fastrtps/set_cartesian_stiffness__type_support.cpp.o
+[6.596s] [ 39%] Building CXX object CMakeFiles/franka_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/franka_msgs/msg/detail/grasp_epsilon__type_support.cpp.o
+[6.888s] [ 40%] Building CXX object CMakeFiles/franka_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/franka_msgs/srv/detail/dds_fastrtps/set_tcp_frame__type_support.cpp.o
+[6.917s] [ 40%] Building CXX object CMakeFiles/franka_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/franka_msgs/action/grasp__type_support.cpp.o
+[6.952s] [ 41%] Building CXX object CMakeFiles/franka_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/franka_msgs/msg/detail/franka_state__type_support.cpp.o
+[6.967s] [ 42%] Building CXX object CMakeFiles/franka_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/franka_msgs/msg/detail/franka_model__type_support.cpp.o
+[6.989s] [ 43%] Building CXX object CMakeFiles/franka_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/franka_msgs/action/homing__type_support.cpp.o
+[7.035s] [ 43%] Building CXX object CMakeFiles/franka_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/franka_msgs/msg/detail/errors__type_support.cpp.o
+[7.060s] [ 44%] Building CXX object CMakeFiles/franka_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/franka_msgs/action/move__type_support.cpp.o
+[7.092s] [ 45%] Building CXX object CMakeFiles/franka_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/franka_msgs/msg/detail/pose_stamped_array__type_support.cpp.o
+[7.106s] [ 45%] Building CXX object CMakeFiles/franka_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/franka_msgs/srv/error_recovery__type_support.cpp.o
+[7.141s] [ 46%] Building CXX object CMakeFiles/franka_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/franka_msgs/srv/set_cartesian_stiffness__type_support.cpp.o
+[7.170s] [ 46%] Building CXX object CMakeFiles/franka_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/franka_msgs/srv/set_tcp_frame__type_support.cpp.o
+[7.193s] [ 47%] Building CXX object CMakeFiles/franka_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/franka_msgs/srv/set_force_torque_collision_behavior__type_support.cpp.o
+[7.236s] [ 47%] Building CXX object CMakeFiles/franka_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/franka_msgs/srv/set_joint_stiffness__type_support.cpp.o
+[7.240s] [ 47%] Building CXX object CMakeFiles/franka_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/franka_msgs/srv/detail/dds_fastrtps/set_force_torque_collision_behavior__type_support.cpp.o
+[7.242s] [ 48%] Building CXX object CMakeFiles/franka_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/franka_msgs/srv/set_full_collision_behavior__type_support.cpp.o
+[7.282s] [ 49%] Building CXX object CMakeFiles/franka_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/franka_msgs/srv/set_stiffness_frame__type_support.cpp.o
+[7.305s] [ 50%] Building CXX object CMakeFiles/franka_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/franka_msgs/srv/set_load__type_support.cpp.o
+[7.313s] [ 51%] Building CXX object CMakeFiles/franka_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/franka_msgs/srv/detail/dds_fastrtps/set_full_collision_behavior__type_support.cpp.o
+[7.344s] [ 51%] Building CXX object CMakeFiles/franka_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/franka_msgs/srv/set_mujoco_poses__type_support.cpp.o
+[7.373s] [ 52%] Building CXX object CMakeFiles/franka_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/franka_msgs/srv/detail/dds_fastrtps/set_joint_stiffness__type_support.cpp.o
+[7.383s] [ 53%] Building CXX object CMakeFiles/franka_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/franka_msgs/msg/grasp_epsilon__type_support.cpp.o
+[7.416s] [ 53%] Building CXX object CMakeFiles/franka_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/franka_msgs/msg/franka_state__type_support.cpp.o
+[7.450s] [ 54%] Building CXX object CMakeFiles/franka_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/franka_msgs/msg/franka_model__type_support.cpp.o
+[7.497s] [ 55%] Building CXX object CMakeFiles/franka_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/franka_msgs/msg/errors__type_support.cpp.o
+[7.500s] [ 55%] Building CXX object CMakeFiles/franka_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/franka_msgs/srv/detail/dds_fastrtps/set_stiffness_frame__type_support.cpp.o
+[7.508s] [ 56%] Building CXX object CMakeFiles/franka_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/franka_msgs/srv/detail/dds_fastrtps/set_load__type_support.cpp.o
+[7.527s] [ 56%] Building CXX object CMakeFiles/franka_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/franka_msgs/msg/pose_stamped_array__type_support.cpp.o
+[7.572s] [ 57%] Building CXX object CMakeFiles/franka_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/franka_msgs/srv/detail/dds_fastrtps/set_mujoco_poses__type_support.cpp.o
+[7.573s] [ 57%] Building CXX object CMakeFiles/franka_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/franka_msgs/msg/detail/dds_fastrtps/grasp_epsilon__type_support.cpp.o
+[7.593s] [ 58%] Linking CXX shared library libfranka_msgs__rosidl_typesupport_c.so
+[7.648s] [ 59%] Building C object CMakeFiles/franka_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/franka_msgs/action/detail/grasp__type_support.c.o
+[7.663s] [ 59%] Building C object CMakeFiles/franka_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/franka_msgs/action/detail/homing__type_support.c.o
+[7.713s] [ 59%] Built target franka_msgs__rosidl_typesupport_c
+[7.723s] [ 60%] Linking CXX shared library libfranka_msgs__rosidl_typesupport_introspection_cpp.so
+[7.728s] [ 61%] Building CXX object CMakeFiles/franka_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/franka_msgs/msg/detail/dds_fastrtps/franka_state__type_support.cpp.o
+[7.802s] [ 61%] Building CXX object CMakeFiles/franka_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/franka_msgs/action/detail/grasp__type_support_c.cpp.o
+[7.803s] [ 62%] Building C object CMakeFiles/franka_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/franka_msgs/action/detail/move__type_support.c.o
+[7.827s] [ 62%] Building C object CMakeFiles/franka_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/franka_msgs/srv/detail/error_recovery__type_support.c.o
+[7.885s] [ 62%] Built target franka_msgs__rosidl_typesupport_introspection_cpp
+[7.893s] [ 62%] Building CXX object CMakeFiles/franka_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/franka_msgs/msg/detail/dds_fastrtps/franka_model__type_support.cpp.o
+[7.903s] [ 63%] Building CXX object CMakeFiles/franka_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/franka_msgs/msg/detail/dds_fastrtps/errors__type_support.cpp.o
+[7.939s] [ 64%] Building C object CMakeFiles/franka_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/franka_msgs/srv/detail/set_cartesian_stiffness__type_support.c.o
+[7.952s] [ 65%] Building CXX object CMakeFiles/franka_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/franka_msgs/msg/detail/dds_fastrtps/pose_stamped_array__type_support.cpp.o
+[8.009s] [ 65%] Building C object CMakeFiles/franka_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/franka_msgs/srv/detail/set_force_torque_collision_behavior__type_support.c.o
+[8.011s] [ 66%] Building C object CMakeFiles/franka_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/franka_msgs/srv/detail/set_tcp_frame__type_support.c.o
+[8.014s] [ 67%] Building C object CMakeFiles/franka_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/franka_msgs/srv/detail/set_full_collision_behavior__type_support.c.o
+[8.018s] [ 68%] Building C object CMakeFiles/franka_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/franka_msgs/srv/detail/set_joint_stiffness__type_support.c.o
+[8.089s] [ 69%] Building CXX object CMakeFiles/franka_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/franka_msgs/action/detail/homing__type_support_c.cpp.o
+[8.089s] [ 69%] Building C object CMakeFiles/franka_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/franka_msgs/srv/detail/set_stiffness_frame__type_support.c.o
+[8.091s] [ 69%] Building CXX object CMakeFiles/franka_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/franka_msgs/srv/detail/error_recovery__type_support_c.cpp.o
+[8.091s] [ 70%] Building CXX object CMakeFiles/franka_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/franka_msgs/action/detail/move__type_support_c.cpp.o
+[8.141s] [ 71%] Building CXX object CMakeFiles/franka_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/franka_msgs/srv/detail/set_cartesian_stiffness__type_support_c.cpp.o
+[8.162s] [ 72%] Building C object CMakeFiles/franka_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/franka_msgs/srv/detail/set_load__type_support.c.o
+[8.227s] [ 73%] Building CXX object CMakeFiles/franka_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/franka_msgs/srv/detail/set_tcp_frame__type_support_c.cpp.o
+[8.256s] [ 74%] Building C object CMakeFiles/franka_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/franka_msgs/srv/detail/set_mujoco_poses__type_support.c.o
+[8.405s] [ 74%] Building C object CMakeFiles/franka_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/franka_msgs/msg/detail/grasp_epsilon__type_support.c.o
+[8.417s] [ 75%] Building C object CMakeFiles/franka_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/franka_msgs/msg/detail/franka_state__type_support.c.o
+[8.477s] [ 75%] Building CXX object CMakeFiles/franka_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/franka_msgs/srv/detail/set_force_torque_collision_behavior__type_support_c.cpp.o
+[8.495s] [ 75%] Building C object CMakeFiles/franka_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/franka_msgs/msg/detail/franka_model__type_support.c.o
+[8.525s] [ 76%] Building CXX object CMakeFiles/franka_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/franka_msgs/srv/detail/set_full_collision_behavior__type_support_c.cpp.o
+[8.595s] [ 76%] Building CXX object CMakeFiles/franka_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/franka_msgs/srv/detail/set_joint_stiffness__type_support_c.cpp.o
+[8.617s] [ 77%] Building CXX object CMakeFiles/franka_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/franka_msgs/srv/detail/set_stiffness_frame__type_support_c.cpp.o
+[8.653s] [ 78%] Building C object CMakeFiles/franka_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/franka_msgs/msg/detail/errors__type_support.c.o
+[8.744s] [ 79%] Building C object CMakeFiles/franka_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/franka_msgs/msg/detail/pose_stamped_array__type_support.c.o
+[8.758s] [ 80%] Building CXX object CMakeFiles/franka_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/franka_msgs/srv/detail/set_load__type_support_c.cpp.o
+[8.775s] [ 80%] Linking CXX shared library libfranka_msgs__rosidl_typesupport_fastrtps_cpp.so
+[8.779s] [ 80%] Building CXX object CMakeFiles/franka_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/franka_msgs/srv/detail/set_mujoco_poses__type_support_c.cpp.o
+[8.821s] [ 81%] Building CXX object CMakeFiles/franka_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/franka_msgs/msg/detail/grasp_epsilon__type_support_c.cpp.o
+[8.843s] [ 82%] Building CXX object CMakeFiles/franka_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/franka_msgs/msg/detail/franka_state__type_support_c.cpp.o
+[8.878s] [ 82%] Linking C shared library libfranka_msgs__rosidl_typesupport_introspection_c.so
+[8.884s] [ 82%] Building CXX object CMakeFiles/franka_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/franka_msgs/msg/detail/franka_model__type_support_c.cpp.o
+[8.910s] [ 83%] Building CXX object CMakeFiles/franka_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/franka_msgs/msg/detail/errors__type_support_c.cpp.o
+[8.933s] [ 83%] Built target franka_msgs__rosidl_typesupport_fastrtps_cpp
+[8.945s] [ 83%] Built target franka_msgs__rosidl_typesupport_introspection_c
+[8.947s] [ 84%] Building CXX object CMakeFiles/franka_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/franka_msgs/msg/detail/pose_stamped_array__type_support_c.cpp.o
+[9.439s] [ 84%] Linking CXX shared library libfranka_msgs__rosidl_typesupport_fastrtps_c.so
+[9.540s] [ 84%] Built target franka_msgs__rosidl_typesupport_fastrtps_c
+[9.568s] [ 84%] Built target franka_msgs
+[9.595s] [ 85%] Generating Python code for ROS interfaces
+[12.836s] [ 85%] Built target franka_msgs__py
+[12.864s] [ 87%] Building C object CMakeFiles/franka_msgs__rosidl_generator_py.dir/rosidl_generator_py/franka_msgs/srv/_set_full_collision_behavior_s.c.o
+[12.864s] [ 88%] Building C object CMakeFiles/franka_msgs__rosidl_generator_py.dir/rosidl_generator_py/franka_msgs/action/_grasp_s.c.o
+[12.865s] [ 88%] Building C object CMakeFiles/franka_msgs__rosidl_generator_py.dir/rosidl_generator_py/franka_msgs/action/_homing_s.c.o
+[12.865s] [ 88%] Building C object CMakeFiles/franka_msgs__rosidl_generator_py.dir/rosidl_generator_py/franka_msgs/srv/_set_joint_stiffness_s.c.o
+[12.866s] [ 88%] Building C object CMakeFiles/franka_msgs__rosidl_generator_py.dir/rosidl_generator_py/franka_msgs/srv/_set_cartesian_stiffness_s.c.o
+[12.866s] [ 88%] Building C object CMakeFiles/franka_msgs__rosidl_generator_py.dir/rosidl_generator_py/franka_msgs/srv/_error_recovery_s.c.o
+[12.866s] [ 89%] Building C object CMakeFiles/franka_msgs__rosidl_generator_py.dir/rosidl_generator_py/franka_msgs/action/_move_s.c.o
+[12.866s] [ 89%] Building C object CMakeFiles/franka_msgs__rosidl_generator_py.dir/rosidl_generator_py/franka_msgs/srv/_set_tcp_frame_s.c.o
+[12.866s] [ 90%] Building C object CMakeFiles/franka_msgs__rosidl_generator_py.dir/rosidl_generator_py/franka_msgs/srv/_set_force_torque_collision_behavior_s.c.o
+[12.867s] [ 91%] Building C object CMakeFiles/franka_msgs__rosidl_generator_py.dir/rosidl_generator_py/franka_msgs/srv/_set_stiffness_frame_s.c.o
+[12.870s] [ 92%] Building C object CMakeFiles/franka_msgs__rosidl_generator_py.dir/rosidl_generator_py/franka_msgs/srv/_set_load_s.c.o
+[12.874s] [ 92%] Building C object CMakeFiles/franka_msgs__rosidl_generator_py.dir/rosidl_generator_py/franka_msgs/srv/_set_mujoco_poses_s.c.o
+[13.121s] [ 93%] Building C object CMakeFiles/franka_msgs__rosidl_generator_py.dir/rosidl_generator_py/franka_msgs/msg/_grasp_epsilon_s.c.o
+[13.123s] [ 94%] Building C object CMakeFiles/franka_msgs__rosidl_generator_py.dir/rosidl_generator_py/franka_msgs/msg/_franka_model_s.c.o
+[13.126s] [ 94%] Building C object CMakeFiles/franka_msgs__rosidl_generator_py.dir/rosidl_generator_py/franka_msgs/msg/_franka_state_s.c.o
+[13.176s] [ 95%] Building C object CMakeFiles/franka_msgs__rosidl_generator_py.dir/rosidl_generator_py/franka_msgs/msg/_errors_s.c.o
+[13.180s] [ 95%] Building C object CMakeFiles/franka_msgs__rosidl_generator_py.dir/rosidl_generator_py/franka_msgs/msg/_pose_stamped_array_s.c.o
+[13.745s] [ 96%] Linking C shared library rosidl_generator_py/franka_msgs/libfranka_msgs__rosidl_generator_py.so
+[13.810s] [ 96%] Built target franka_msgs__rosidl_generator_py
+[13.836s] [ 97%] Building C object CMakeFiles/franka_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/franka_msgs/_franka_msgs_s.ep.rosidl_typesupport_introspection_c.c.o
+[13.837s] [ 98%] Building C object CMakeFiles/franka_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/franka_msgs/_franka_msgs_s.ep.rosidl_typesupport_c.c.o
+[13.838s] [ 99%] Building C object CMakeFiles/franka_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/franka_msgs/_franka_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o
+[14.575s] [100%] Linking C shared library rosidl_generator_py/franka_msgs/franka_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[14.641s] [100%] Built target franka_msgs__rosidl_typesupport_introspection_c__pyext
+[14.676s] [100%] Linking C shared library rosidl_generator_py/franka_msgs/franka_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[14.738s] [100%] Built target franka_msgs__rosidl_typesupport_fastrtps_c__pyext
+[14.842s] [100%] Linking C shared library rosidl_generator_py/franka_msgs/franka_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[14.897s] [100%] Built target franka_msgs__rosidl_typesupport_c__pyext
+[14.912s] Invoked command in '/home/user/humble_ws/build/franka_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/user/humble_ws/build/franka_msgs -- -j12 -l12
+[15.292s] Invoking command in '/home/user/humble_ws/build/franka_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/user/humble_ws/build/franka_msgs
+[15.302s] -- Install configuration: "Release"
+[15.302s] -- Installing: /home/user/humble_ws/install/franka_msgs/share/ament_index/resource_index/rosidl_interfaces/franka_msgs
+[15.303s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs
+[15.303s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/action
+[15.303s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/action/grasp.h
+[15.303s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/action/detail
+[15.303s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/action/detail/homing__functions.c
+[15.303s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/action/detail/move__functions.c
+[15.303s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/action/detail/move__type_support.h
+[15.303s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/action/detail/homing__struct.h
+[15.303s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/action/detail/homing__functions.h
+[15.304s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/action/detail/grasp__functions.h
+[15.304s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/action/detail/grasp__struct.h
+[15.304s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/action/detail/grasp__type_support.h
+[15.304s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/action/detail/grasp__functions.c
+[15.304s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/action/detail/move__struct.h
+[15.304s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/action/detail/homing__type_support.h
+[15.304s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/action/detail/move__functions.h
+[15.305s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/action/homing.h
+[15.305s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/action/move.h
+[15.305s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/srv
+[15.305s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/srv/set_tcp_frame.h
+[15.306s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/srv/set_force_torque_collision_behavior.h
+[15.306s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/srv/set_cartesian_stiffness.h
+[15.306s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/srv/detail
+[15.306s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/srv/detail/error_recovery__functions.h
+[15.306s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/srv/detail/set_tcp_frame__functions.c
+[15.306s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/srv/detail/set_mujoco_poses__functions.c
+[15.307s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/srv/detail/set_joint_stiffness__functions.c
+[15.307s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/srv/detail/set_load__struct.h
+[15.307s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/srv/detail/set_force_torque_collision_behavior__functions.c
+[15.307s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/srv/detail/set_joint_stiffness__type_support.h
+[15.307s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/srv/detail/error_recovery__functions.c
+[15.307s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/srv/detail/set_stiffness_frame__type_support.h
+[15.307s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/srv/detail/set_stiffness_frame__functions.h
+[15.307s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/srv/detail/set_stiffness_frame__functions.c
+[15.307s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/srv/detail/set_tcp_frame__struct.h
+[15.307s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/srv/detail/set_stiffness_frame__struct.h
+[15.307s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/srv/detail/set_full_collision_behavior__functions.c
+[15.307s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/srv/detail/error_recovery__struct.h
+[15.308s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/srv/detail/set_full_collision_behavior__type_support.h
+[15.308s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/srv/detail/set_mujoco_poses__struct.h
+[15.308s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/srv/detail/set_cartesian_stiffness__functions.c
+[15.308s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/srv/detail/set_load__functions.h
+[15.308s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/srv/detail/set_force_torque_collision_behavior__struct.h
+[15.308s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/srv/detail/error_recovery__type_support.h
+[15.308s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/srv/detail/set_load__type_support.h
+[15.308s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/srv/detail/set_joint_stiffness__functions.h
+[15.308s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/srv/detail/set_load__functions.c
+[15.308s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/srv/detail/set_mujoco_poses__type_support.h
+[15.308s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/srv/detail/set_mujoco_poses__functions.h
+[15.308s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/srv/detail/set_force_torque_collision_behavior__functions.h
+[15.309s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/srv/detail/set_tcp_frame__type_support.h
+[15.309s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/srv/detail/set_force_torque_collision_behavior__type_support.h
+[15.309s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/srv/detail/set_cartesian_stiffness__struct.h
+[15.309s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/srv/detail/set_cartesian_stiffness__type_support.h
+[15.309s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/srv/detail/set_full_collision_behavior__struct.h
+[15.309s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/srv/detail/set_cartesian_stiffness__functions.h
+[15.309s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/srv/detail/set_joint_stiffness__struct.h
+[15.309s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/srv/detail/set_tcp_frame__functions.h
+[15.309s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/srv/detail/set_full_collision_behavior__functions.h
+[15.310s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/srv/set_load.h
+[15.310s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/srv/set_full_collision_behavior.h
+[15.310s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/srv/set_joint_stiffness.h
+[15.310s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/srv/set_stiffness_frame.h
+[15.310s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/srv/set_mujoco_poses.h
+[15.310s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/srv/error_recovery.h
+[15.310s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/msg
+[15.310s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/msg/rosidl_generator_c__visibility_control.h
+[15.310s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/msg/errors.h
+[15.310s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/msg/grasp_epsilon.h
+[15.311s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/msg/detail
+[15.311s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/msg/detail/pose_stamped_array__functions.h
+[15.311s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/msg/detail/franka_state__functions.c
+[15.311s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/msg/detail/franka_state__type_support.h
+[15.311s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/msg/detail/grasp_epsilon__functions.h
+[15.311s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/msg/detail/errors__functions.h
+[15.311s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/msg/detail/pose_stamped_array__type_support.h
+[15.311s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/msg/detail/errors__type_support.h
+[15.311s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/msg/detail/franka_model__functions.h
+[15.311s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/msg/detail/franka_model__type_support.h
+[15.311s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/msg/detail/grasp_epsilon__functions.c
+[15.311s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/msg/detail/franka_model__functions.c
+[15.312s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/msg/detail/errors__struct.h
+[15.312s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/msg/detail/grasp_epsilon__struct.h
+[15.312s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/msg/detail/franka_model__struct.h
+[15.312s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/msg/detail/errors__functions.c
+[15.312s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/msg/detail/grasp_epsilon__type_support.h
+[15.312s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/msg/detail/franka_state__functions.h
+[15.312s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/msg/detail/pose_stamped_array__functions.c
+[15.312s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/msg/detail/franka_state__struct.h
+[15.312s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/msg/detail/pose_stamped_array__struct.h
+[15.312s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/msg/pose_stamped_array.h
+[15.312s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/msg/franka_model.h
+[15.312s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/msg/franka_state.h
+[15.313s] -- Installing: /home/user/humble_ws/install/franka_msgs/share/franka_msgs/environment/library_path.sh
+[15.313s] -- Installing: /home/user/humble_ws/install/franka_msgs/share/franka_msgs/environment/library_path.dsv
+[15.313s] -- Installing: /home/user/humble_ws/install/franka_msgs/lib/libfranka_msgs__rosidl_generator_c.so
+[15.313s] -- Set runtime path of "/home/user/humble_ws/install/franka_msgs/lib/libfranka_msgs__rosidl_generator_c.so" to ""
+[15.313s] -- Up-to-date: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs
+[15.313s] -- Up-to-date: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/action
+[15.313s] -- Up-to-date: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/action/detail
+[15.313s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/action/detail/homing__rosidl_typesupport_fastrtps_c.h
+[15.313s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/action/detail/grasp__rosidl_typesupport_fastrtps_c.h
+[15.313s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/action/detail/move__rosidl_typesupport_fastrtps_c.h
+[15.313s] -- Up-to-date: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/srv
+[15.313s] -- Up-to-date: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/srv/detail
+[15.314s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/srv/detail/set_cartesian_stiffness__rosidl_typesupport_fastrtps_c.h
+[15.314s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/srv/detail/set_force_torque_collision_behavior__rosidl_typesupport_fastrtps_c.h
+[15.314s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/srv/detail/set_full_collision_behavior__rosidl_typesupport_fastrtps_c.h
+[15.314s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/srv/detail/set_stiffness_frame__rosidl_typesupport_fastrtps_c.h
+[15.314s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/srv/detail/set_joint_stiffness__rosidl_typesupport_fastrtps_c.h
+[15.314s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/srv/detail/set_tcp_frame__rosidl_typesupport_fastrtps_c.h
+[15.314s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/srv/detail/error_recovery__rosidl_typesupport_fastrtps_c.h
+[15.314s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/srv/detail/set_mujoco_poses__rosidl_typesupport_fastrtps_c.h
+[15.314s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/srv/detail/set_load__rosidl_typesupport_fastrtps_c.h
+[15.314s] -- Up-to-date: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/msg
+[15.314s] -- Up-to-date: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/msg/detail
+[15.315s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/msg/detail/pose_stamped_array__rosidl_typesupport_fastrtps_c.h
+[15.315s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/msg/detail/franka_state__rosidl_typesupport_fastrtps_c.h
+[15.315s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/msg/detail/grasp_epsilon__rosidl_typesupport_fastrtps_c.h
+[15.315s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/msg/detail/franka_model__rosidl_typesupport_fastrtps_c.h
+[15.315s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/msg/detail/errors__rosidl_typesupport_fastrtps_c.h
+[15.315s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[15.315s] -- Installing: /home/user/humble_ws/install/franka_msgs/lib/libfranka_msgs__rosidl_typesupport_fastrtps_c.so
+[15.315s] -- Set runtime path of "/home/user/humble_ws/install/franka_msgs/lib/libfranka_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[15.315s] -- Up-to-date: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs
+[15.315s] -- Up-to-date: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/action
+[15.315s] -- Up-to-date: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/action/detail
+[15.315s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/action/detail/move__rosidl_typesupport_introspection_c.h
+[15.316s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/action/detail/grasp__type_support.c
+[15.316s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/action/detail/move__type_support.c
+[15.316s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/action/detail/homing__rosidl_typesupport_introspection_c.h
+[15.316s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/action/detail/homing__type_support.c
+[15.316s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/action/detail/grasp__rosidl_typesupport_introspection_c.h
+[15.316s] -- Up-to-date: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/srv
+[15.316s] -- Up-to-date: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/srv/detail
+[15.316s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/srv/detail/set_stiffness_frame__type_support.c
+[15.316s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/srv/detail/set_mujoco_poses__type_support.c
+[15.316s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/srv/detail/set_joint_stiffness__type_support.c
+[15.316s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/srv/detail/error_recovery__type_support.c
+[15.316s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/srv/detail/set_full_collision_behavior__rosidl_typesupport_introspection_c.h
+[15.316s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/srv/detail/set_force_torque_collision_behavior__rosidl_typesupport_introspection_c.h
+[15.316s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/srv/detail/set_joint_stiffness__rosidl_typesupport_introspection_c.h
+[15.316s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/srv/detail/set_load__rosidl_typesupport_introspection_c.h
+[15.316s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/srv/detail/set_cartesian_stiffness__rosidl_typesupport_introspection_c.h
+[15.316s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/srv/detail/error_recovery__rosidl_typesupport_introspection_c.h
+[15.316s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/srv/detail/set_force_torque_collision_behavior__type_support.c
+[15.317s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/srv/detail/set_tcp_frame__type_support.c
+[15.317s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/srv/detail/set_stiffness_frame__rosidl_typesupport_introspection_c.h
+[15.317s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/srv/detail/set_cartesian_stiffness__type_support.c
+[15.317s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/srv/detail/set_load__type_support.c
+[15.317s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/srv/detail/set_full_collision_behavior__type_support.c
+[15.317s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/srv/detail/set_tcp_frame__rosidl_typesupport_introspection_c.h
+[15.317s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/srv/detail/set_mujoco_poses__rosidl_typesupport_introspection_c.h
+[15.317s] -- Up-to-date: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/msg
+[15.317s] -- Up-to-date: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/msg/detail
+[15.317s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/msg/detail/pose_stamped_array__rosidl_typesupport_introspection_c.h
+[15.317s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/msg/detail/franka_model__type_support.c
+[15.317s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/msg/detail/pose_stamped_array__type_support.c
+[15.317s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/msg/detail/grasp_epsilon__rosidl_typesupport_introspection_c.h
+[15.317s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/msg/detail/franka_state__rosidl_typesupport_introspection_c.h
+[15.317s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/msg/detail/grasp_epsilon__type_support.c
+[15.317s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/msg/detail/errors__rosidl_typesupport_introspection_c.h
+[15.317s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/msg/detail/franka_model__rosidl_typesupport_introspection_c.h
+[15.317s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/msg/detail/errors__type_support.c
+[15.317s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/msg/detail/franka_state__type_support.c
+[15.317s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[15.317s] -- Installing: /home/user/humble_ws/install/franka_msgs/lib/libfranka_msgs__rosidl_typesupport_introspection_c.so
+[15.317s] -- Set runtime path of "/home/user/humble_ws/install/franka_msgs/lib/libfranka_msgs__rosidl_typesupport_introspection_c.so" to ""
+[15.317s] -- Installing: /home/user/humble_ws/install/franka_msgs/lib/libfranka_msgs__rosidl_typesupport_c.so
+[15.317s] -- Set runtime path of "/home/user/humble_ws/install/franka_msgs/lib/libfranka_msgs__rosidl_typesupport_c.so" to ""
+[15.317s] -- Up-to-date: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs
+[15.317s] -- Up-to-date: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/action
+[15.317s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/action/move.hpp
+[15.317s] -- Up-to-date: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/action/detail
+[15.318s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/action/detail/homing__struct.hpp
+[15.318s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/action/detail/homing__traits.hpp
+[15.318s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/action/detail/grasp__traits.hpp
+[15.318s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/action/detail/grasp__struct.hpp
+[15.318s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/action/detail/homing__builder.hpp
+[15.318s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/action/detail/move__traits.hpp
+[15.318s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/action/detail/grasp__builder.hpp
+[15.318s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/action/detail/move__builder.hpp
+[15.318s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/action/detail/move__struct.hpp
+[15.318s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/action/grasp.hpp
+[15.318s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/action/homing.hpp
+[15.318s] -- Up-to-date: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/srv
+[15.318s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/srv/error_recovery.hpp
+[15.318s] -- Up-to-date: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/srv/detail
+[15.318s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/srv/detail/set_joint_stiffness__struct.hpp
+[15.318s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/srv/detail/set_full_collision_behavior__builder.hpp
+[15.318s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/srv/detail/set_mujoco_poses__traits.hpp
+[15.318s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/srv/detail/set_force_torque_collision_behavior__traits.hpp
+[15.318s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/srv/detail/set_cartesian_stiffness__traits.hpp
+[15.319s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/srv/detail/set_stiffness_frame__traits.hpp
+[15.319s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/srv/detail/set_force_torque_collision_behavior__struct.hpp
+[15.319s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/srv/detail/set_tcp_frame__struct.hpp
+[15.319s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/srv/detail/error_recovery__builder.hpp
+[15.319s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/srv/detail/set_load__traits.hpp
+[15.319s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/srv/detail/set_joint_stiffness__builder.hpp
+[15.319s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/srv/detail/set_load__struct.hpp
+[15.319s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/srv/detail/set_stiffness_frame__struct.hpp
+[15.319s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/srv/detail/set_tcp_frame__builder.hpp
+[15.319s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/srv/detail/set_mujoco_poses__struct.hpp
+[15.319s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/srv/detail/set_full_collision_behavior__struct.hpp
+[15.319s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/srv/detail/set_cartesian_stiffness__builder.hpp
+[15.319s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/srv/detail/set_cartesian_stiffness__struct.hpp
+[15.319s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/srv/detail/set_joint_stiffness__traits.hpp
+[15.320s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/srv/detail/set_force_torque_collision_behavior__builder.hpp
+[15.320s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/srv/detail/error_recovery__traits.hpp
+[15.320s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/srv/detail/set_full_collision_behavior__traits.hpp
+[15.320s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/srv/detail/set_tcp_frame__traits.hpp
+[15.320s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/srv/detail/set_mujoco_poses__builder.hpp
+[15.320s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/srv/detail/set_stiffness_frame__builder.hpp
+[15.320s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/srv/detail/set_load__builder.hpp
+[15.320s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/srv/detail/error_recovery__struct.hpp
+[15.320s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/srv/set_cartesian_stiffness.hpp
+[15.320s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/srv/set_joint_stiffness.hpp
+[15.320s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/srv/set_force_torque_collision_behavior.hpp
+[15.321s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/srv/set_load.hpp
+[15.321s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/srv/set_stiffness_frame.hpp
+[15.321s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/srv/set_tcp_frame.hpp
+[15.321s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/srv/set_mujoco_poses.hpp
+[15.321s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/srv/set_full_collision_behavior.hpp
+[15.321s] -- Up-to-date: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/msg
+[15.321s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/msg/grasp_epsilon.hpp
+[15.321s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/msg/errors.hpp
+[15.321s] -- Up-to-date: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/msg/detail
+[15.321s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/msg/detail/franka_model__traits.hpp
+[15.321s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/msg/detail/pose_stamped_array__traits.hpp
+[15.321s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/msg/detail/franka_state__builder.hpp
+[15.322s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/msg/detail/grasp_epsilon__traits.hpp
+[15.322s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/msg/detail/franka_state__traits.hpp
+[15.322s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/msg/detail/franka_state__struct.hpp
+[15.322s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/msg/detail/errors__builder.hpp
+[15.322s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/msg/detail/errors__traits.hpp
+[15.322s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/msg/detail/franka_model__struct.hpp
+[15.322s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/msg/detail/pose_stamped_array__builder.hpp
+[15.322s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/msg/detail/errors__struct.hpp
+[15.322s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/msg/detail/grasp_epsilon__builder.hpp
+[15.322s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/msg/detail/franka_model__builder.hpp
+[15.322s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/msg/detail/pose_stamped_array__struct.hpp
+[15.322s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/msg/detail/grasp_epsilon__struct.hpp
+[15.322s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/msg/pose_stamped_array.hpp
+[15.322s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/msg/franka_state.hpp
+[15.322s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/msg/franka_model.hpp
+[15.322s] -- Up-to-date: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs
+[15.323s] -- Up-to-date: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/action
+[15.323s] -- Up-to-date: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/action/detail
+[15.323s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/action/detail/dds_fastrtps
+[15.323s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/action/detail/grasp__rosidl_typesupport_fastrtps_cpp.hpp
+[15.323s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/action/detail/move__rosidl_typesupport_fastrtps_cpp.hpp
+[15.323s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/action/detail/homing__rosidl_typesupport_fastrtps_cpp.hpp
+[15.323s] -- Up-to-date: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/srv
+[15.323s] -- Up-to-date: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/srv/detail
+[15.323s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/srv/detail/dds_fastrtps
+[15.323s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/srv/detail/set_stiffness_frame__rosidl_typesupport_fastrtps_cpp.hpp
+[15.323s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/srv/detail/set_joint_stiffness__rosidl_typesupport_fastrtps_cpp.hpp
+[15.323s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/srv/detail/set_load__rosidl_typesupport_fastrtps_cpp.hpp
+[15.324s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/srv/detail/error_recovery__rosidl_typesupport_fastrtps_cpp.hpp
+[15.324s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/srv/detail/set_full_collision_behavior__rosidl_typesupport_fastrtps_cpp.hpp
+[15.324s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/srv/detail/set_mujoco_poses__rosidl_typesupport_fastrtps_cpp.hpp
+[15.324s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/srv/detail/set_tcp_frame__rosidl_typesupport_fastrtps_cpp.hpp
+[15.324s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/srv/detail/set_force_torque_collision_behavior__rosidl_typesupport_fastrtps_cpp.hpp
+[15.324s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/srv/detail/set_cartesian_stiffness__rosidl_typesupport_fastrtps_cpp.hpp
+[15.324s] -- Up-to-date: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/msg
+[15.324s] -- Up-to-date: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/msg/detail
+[15.324s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/msg/detail/pose_stamped_array__rosidl_typesupport_fastrtps_cpp.hpp
+[15.324s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/msg/detail/grasp_epsilon__rosidl_typesupport_fastrtps_cpp.hpp
+[15.324s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/msg/detail/dds_fastrtps
+[15.324s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/msg/detail/franka_model__rosidl_typesupport_fastrtps_cpp.hpp
+[15.324s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/msg/detail/franka_state__rosidl_typesupport_fastrtps_cpp.hpp
+[15.325s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/msg/detail/errors__rosidl_typesupport_fastrtps_cpp.hpp
+[15.325s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[15.325s] -- Installing: /home/user/humble_ws/install/franka_msgs/lib/libfranka_msgs__rosidl_typesupport_fastrtps_cpp.so
+[15.325s] -- Set runtime path of "/home/user/humble_ws/install/franka_msgs/lib/libfranka_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[15.325s] -- Up-to-date: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs
+[15.325s] -- Up-to-date: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/action
+[15.325s] -- Up-to-date: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/action/detail
+[15.325s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/action/detail/homing__type_support.cpp
+[15.325s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/action/detail/move__type_support.cpp
+[15.325s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/action/detail/homing__rosidl_typesupport_introspection_cpp.hpp
+[15.325s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/action/detail/grasp__rosidl_typesupport_introspection_cpp.hpp
+[15.325s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/action/detail/move__rosidl_typesupport_introspection_cpp.hpp
+[15.326s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/action/detail/grasp__type_support.cpp
+[15.326s] -- Up-to-date: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/srv
+[15.326s] -- Up-to-date: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/srv/detail
+[15.326s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/srv/detail/error_recovery__rosidl_typesupport_introspection_cpp.hpp
+[15.326s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/srv/detail/set_tcp_frame__rosidl_typesupport_introspection_cpp.hpp
+[15.326s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/srv/detail/set_tcp_frame__type_support.cpp
+[15.326s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/srv/detail/set_full_collision_behavior__rosidl_typesupport_introspection_cpp.hpp
+[15.326s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/srv/detail/set_cartesian_stiffness__rosidl_typesupport_introspection_cpp.hpp
+[15.326s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/srv/detail/set_stiffness_frame__rosidl_typesupport_introspection_cpp.hpp
+[15.326s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/srv/detail/error_recovery__type_support.cpp
+[15.326s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/srv/detail/set_joint_stiffness__rosidl_typesupport_introspection_cpp.hpp
+[15.326s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/srv/detail/set_force_torque_collision_behavior__rosidl_typesupport_introspection_cpp.hpp
+[15.326s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/srv/detail/set_mujoco_poses__type_support.cpp
+[15.326s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/srv/detail/set_stiffness_frame__type_support.cpp
+[15.326s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/srv/detail/set_load__type_support.cpp
+[15.326s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/srv/detail/set_full_collision_behavior__type_support.cpp
+[15.326s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/srv/detail/set_cartesian_stiffness__type_support.cpp
+[15.326s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/srv/detail/set_mujoco_poses__rosidl_typesupport_introspection_cpp.hpp
+[15.326s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/srv/detail/set_joint_stiffness__type_support.cpp
+[15.326s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/srv/detail/set_force_torque_collision_behavior__type_support.cpp
+[15.326s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/srv/detail/set_load__rosidl_typesupport_introspection_cpp.hpp
+[15.327s] -- Up-to-date: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/msg
+[15.327s] -- Up-to-date: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/msg/detail
+[15.327s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/msg/detail/pose_stamped_array__rosidl_typesupport_introspection_cpp.hpp
+[15.327s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/msg/detail/franka_state__type_support.cpp
+[15.327s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/msg/detail/franka_state__rosidl_typesupport_introspection_cpp.hpp
+[15.327s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/msg/detail/franka_model__rosidl_typesupport_introspection_cpp.hpp
+[15.327s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/msg/detail/grasp_epsilon__type_support.cpp
+[15.327s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/msg/detail/franka_model__type_support.cpp
+[15.327s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/msg/detail/grasp_epsilon__rosidl_typesupport_introspection_cpp.hpp
+[15.327s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/msg/detail/pose_stamped_array__type_support.cpp
+[15.327s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/msg/detail/errors__rosidl_typesupport_introspection_cpp.hpp
+[15.327s] -- Installing: /home/user/humble_ws/install/franka_msgs/include/franka_msgs/franka_msgs/msg/detail/errors__type_support.cpp
+[15.327s] -- Installing: /home/user/humble_ws/install/franka_msgs/lib/libfranka_msgs__rosidl_typesupport_introspection_cpp.so
+[15.327s] -- Set runtime path of "/home/user/humble_ws/install/franka_msgs/lib/libfranka_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[15.327s] -- Installing: /home/user/humble_ws/install/franka_msgs/lib/libfranka_msgs__rosidl_typesupport_cpp.so
+[15.327s] -- Set runtime path of "/home/user/humble_ws/install/franka_msgs/lib/libfranka_msgs__rosidl_typesupport_cpp.so" to ""
+[15.328s] -- Installing: /home/user/humble_ws/install/franka_msgs/share/franka_msgs/environment/pythonpath.sh
+[15.328s] -- Installing: /home/user/humble_ws/install/franka_msgs/share/franka_msgs/environment/pythonpath.dsv
+[15.328s] -- Installing: /home/user/humble_ws/install/franka_msgs/local/lib/python3.10/dist-packages/franka_msgs-0.0.0-py3.10.egg-info
+[15.328s] -- Installing: /home/user/humble_ws/install/franka_msgs/local/lib/python3.10/dist-packages/franka_msgs-0.0.0-py3.10.egg-info/top_level.txt
+[15.328s] -- Installing: /home/user/humble_ws/install/franka_msgs/local/lib/python3.10/dist-packages/franka_msgs-0.0.0-py3.10.egg-info/dependency_links.txt
+[15.328s] -- Installing: /home/user/humble_ws/install/franka_msgs/local/lib/python3.10/dist-packages/franka_msgs-0.0.0-py3.10.egg-info/SOURCES.txt
+[15.328s] -- Installing: /home/user/humble_ws/install/franka_msgs/local/lib/python3.10/dist-packages/franka_msgs-0.0.0-py3.10.egg-info/PKG-INFO
+[15.328s] -- Installing: /home/user/humble_ws/install/franka_msgs/local/lib/python3.10/dist-packages/franka_msgs
+[15.328s] -- Installing: /home/user/humble_ws/install/franka_msgs/local/lib/python3.10/dist-packages/franka_msgs/action
+[15.328s] -- Installing: /home/user/humble_ws/install/franka_msgs/local/lib/python3.10/dist-packages/franka_msgs/action/_homing_s.c
+[15.328s] -- Installing: /home/user/humble_ws/install/franka_msgs/local/lib/python3.10/dist-packages/franka_msgs/action/_homing.py
+[15.328s] -- Installing: /home/user/humble_ws/install/franka_msgs/local/lib/python3.10/dist-packages/franka_msgs/action/_grasp_s.c
+[15.329s] -- Installing: /home/user/humble_ws/install/franka_msgs/local/lib/python3.10/dist-packages/franka_msgs/action/_move.py
+[15.329s] -- Installing: /home/user/humble_ws/install/franka_msgs/local/lib/python3.10/dist-packages/franka_msgs/action/_grasp.py
+[15.329s] -- Installing: /home/user/humble_ws/install/franka_msgs/local/lib/python3.10/dist-packages/franka_msgs/action/_move_s.c
+[15.329s] -- Installing: /home/user/humble_ws/install/franka_msgs/local/lib/python3.10/dist-packages/franka_msgs/action/__init__.py
+[15.329s] -- Installing: /home/user/humble_ws/install/franka_msgs/local/lib/python3.10/dist-packages/franka_msgs/franka_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[15.329s] -- Installing: /home/user/humble_ws/install/franka_msgs/local/lib/python3.10/dist-packages/franka_msgs/franka_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[15.329s] -- Installing: /home/user/humble_ws/install/franka_msgs/local/lib/python3.10/dist-packages/franka_msgs/_franka_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[15.329s] -- Installing: /home/user/humble_ws/install/franka_msgs/local/lib/python3.10/dist-packages/franka_msgs/_franka_msgs_s.ep.rosidl_typesupport_c.c
+[15.329s] -- Installing: /home/user/humble_ws/install/franka_msgs/local/lib/python3.10/dist-packages/franka_msgs/srv
+[15.329s] -- Installing: /home/user/humble_ws/install/franka_msgs/local/lib/python3.10/dist-packages/franka_msgs/srv/_set_joint_stiffness.py
+[15.329s] -- Installing: /home/user/humble_ws/install/franka_msgs/local/lib/python3.10/dist-packages/franka_msgs/srv/_set_mujoco_poses.py
+[15.330s] -- Installing: /home/user/humble_ws/install/franka_msgs/local/lib/python3.10/dist-packages/franka_msgs/srv/_set_cartesian_stiffness_s.c
+[15.330s] -- Installing: /home/user/humble_ws/install/franka_msgs/local/lib/python3.10/dist-packages/franka_msgs/srv/_set_load.py
+[15.330s] -- Installing: /home/user/humble_ws/install/franka_msgs/local/lib/python3.10/dist-packages/franka_msgs/srv/_set_full_collision_behavior.py
+[15.330s] -- Installing: /home/user/humble_ws/install/franka_msgs/local/lib/python3.10/dist-packages/franka_msgs/srv/_error_recovery.py
+[15.330s] -- Installing: /home/user/humble_ws/install/franka_msgs/local/lib/python3.10/dist-packages/franka_msgs/srv/_set_mujoco_poses_s.c
+[15.330s] -- Installing: /home/user/humble_ws/install/franka_msgs/local/lib/python3.10/dist-packages/franka_msgs/srv/_set_cartesian_stiffness.py
+[15.330s] -- Installing: /home/user/humble_ws/install/franka_msgs/local/lib/python3.10/dist-packages/franka_msgs/srv/_set_load_s.c
+[15.330s] -- Installing: /home/user/humble_ws/install/franka_msgs/local/lib/python3.10/dist-packages/franka_msgs/srv/_set_joint_stiffness_s.c
+[15.330s] -- Installing: /home/user/humble_ws/install/franka_msgs/local/lib/python3.10/dist-packages/franka_msgs/srv/_set_stiffness_frame_s.c
+[15.330s] -- Installing: /home/user/humble_ws/install/franka_msgs/local/lib/python3.10/dist-packages/franka_msgs/srv/_set_stiffness_frame.py
+[15.330s] -- Installing: /home/user/humble_ws/install/franka_msgs/local/lib/python3.10/dist-packages/franka_msgs/srv/_set_tcp_frame_s.c
+[15.330s] -- Installing: /home/user/humble_ws/install/franka_msgs/local/lib/python3.10/dist-packages/franka_msgs/srv/_error_recovery_s.c
+[15.330s] -- Installing: /home/user/humble_ws/install/franka_msgs/local/lib/python3.10/dist-packages/franka_msgs/srv/_set_tcp_frame.py
+[15.330s] -- Installing: /home/user/humble_ws/install/franka_msgs/local/lib/python3.10/dist-packages/franka_msgs/srv/__init__.py
+[15.331s] -- Installing: /home/user/humble_ws/install/franka_msgs/local/lib/python3.10/dist-packages/franka_msgs/srv/_set_force_torque_collision_behavior_s.c
+[15.331s] -- Installing: /home/user/humble_ws/install/franka_msgs/local/lib/python3.10/dist-packages/franka_msgs/srv/_set_force_torque_collision_behavior.py
+[15.331s] -- Installing: /home/user/humble_ws/install/franka_msgs/local/lib/python3.10/dist-packages/franka_msgs/srv/_set_full_collision_behavior_s.c
+[15.331s] -- Installing: /home/user/humble_ws/install/franka_msgs/local/lib/python3.10/dist-packages/franka_msgs/msg
+[15.331s] -- Installing: /home/user/humble_ws/install/franka_msgs/local/lib/python3.10/dist-packages/franka_msgs/msg/_grasp_epsilon.py
+[15.331s] -- Installing: /home/user/humble_ws/install/franka_msgs/local/lib/python3.10/dist-packages/franka_msgs/msg/_grasp_epsilon_s.c
+[15.331s] -- Installing: /home/user/humble_ws/install/franka_msgs/local/lib/python3.10/dist-packages/franka_msgs/msg/_franka_state.py
+[15.331s] -- Installing: /home/user/humble_ws/install/franka_msgs/local/lib/python3.10/dist-packages/franka_msgs/msg/_pose_stamped_array_s.c
+[15.331s] -- Installing: /home/user/humble_ws/install/franka_msgs/local/lib/python3.10/dist-packages/franka_msgs/msg/_franka_model.py
+[15.331s] -- Installing: /home/user/humble_ws/install/franka_msgs/local/lib/python3.10/dist-packages/franka_msgs/msg/_franka_model_s.c
+[15.331s] -- Installing: /home/user/humble_ws/install/franka_msgs/local/lib/python3.10/dist-packages/franka_msgs/msg/_errors.py
+[15.331s] -- Installing: /home/user/humble_ws/install/franka_msgs/local/lib/python3.10/dist-packages/franka_msgs/msg/_franka_state_s.c
+[15.331s] -- Installing: /home/user/humble_ws/install/franka_msgs/local/lib/python3.10/dist-packages/franka_msgs/msg/_pose_stamped_array.py
+[15.331s] -- Installing: /home/user/humble_ws/install/franka_msgs/local/lib/python3.10/dist-packages/franka_msgs/msg/_errors_s.c
+[15.331s] -- Installing: /home/user/humble_ws/install/franka_msgs/local/lib/python3.10/dist-packages/franka_msgs/msg/__init__.py
+[15.332s] -- Installing: /home/user/humble_ws/install/franka_msgs/local/lib/python3.10/dist-packages/franka_msgs/franka_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[15.332s] -- Installing: /home/user/humble_ws/install/franka_msgs/local/lib/python3.10/dist-packages/franka_msgs/_franka_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[15.332s] -- Installing: /home/user/humble_ws/install/franka_msgs/local/lib/python3.10/dist-packages/franka_msgs/libfranka_msgs__rosidl_generator_py.so
+[15.332s] -- Installing: /home/user/humble_ws/install/franka_msgs/local/lib/python3.10/dist-packages/franka_msgs/__init__.py
+[15.383s] Listing '/home/user/humble_ws/install/franka_msgs/local/lib/python3.10/dist-packages/franka_msgs'...
+[15.383s] Compiling '/home/user/humble_ws/install/franka_msgs/local/lib/python3.10/dist-packages/franka_msgs/__init__.py'...
+[15.383s] Listing '/home/user/humble_ws/install/franka_msgs/local/lib/python3.10/dist-packages/franka_msgs/action'...
+[15.383s] Compiling '/home/user/humble_ws/install/franka_msgs/local/lib/python3.10/dist-packages/franka_msgs/action/__init__.py'...
+[15.383s] Compiling '/home/user/humble_ws/install/franka_msgs/local/lib/python3.10/dist-packages/franka_msgs/action/_grasp.py'...
+[15.383s] Compiling '/home/user/humble_ws/install/franka_msgs/local/lib/python3.10/dist-packages/franka_msgs/action/_homing.py'...
+[15.383s] Compiling '/home/user/humble_ws/install/franka_msgs/local/lib/python3.10/dist-packages/franka_msgs/action/_move.py'...
+[15.383s] Listing '/home/user/humble_ws/install/franka_msgs/local/lib/python3.10/dist-packages/franka_msgs/msg'...
+[15.383s] Compiling '/home/user/humble_ws/install/franka_msgs/local/lib/python3.10/dist-packages/franka_msgs/msg/__init__.py'...
+[15.383s] Compiling '/home/user/humble_ws/install/franka_msgs/local/lib/python3.10/dist-packages/franka_msgs/msg/_errors.py'...
+[15.383s] Compiling '/home/user/humble_ws/install/franka_msgs/local/lib/python3.10/dist-packages/franka_msgs/msg/_franka_model.py'...
+[15.383s] Compiling '/home/user/humble_ws/install/franka_msgs/local/lib/python3.10/dist-packages/franka_msgs/msg/_franka_state.py'...
+[15.383s] Compiling '/home/user/humble_ws/install/franka_msgs/local/lib/python3.10/dist-packages/franka_msgs/msg/_grasp_epsilon.py'...
+[15.383s] Compiling '/home/user/humble_ws/install/franka_msgs/local/lib/python3.10/dist-packages/franka_msgs/msg/_pose_stamped_array.py'...
+[15.383s] Listing '/home/user/humble_ws/install/franka_msgs/local/lib/python3.10/dist-packages/franka_msgs/srv'...
+[15.383s] Compiling '/home/user/humble_ws/install/franka_msgs/local/lib/python3.10/dist-packages/franka_msgs/srv/__init__.py'...
+[15.383s] Compiling '/home/user/humble_ws/install/franka_msgs/local/lib/python3.10/dist-packages/franka_msgs/srv/_error_recovery.py'...
+[15.383s] Compiling '/home/user/humble_ws/install/franka_msgs/local/lib/python3.10/dist-packages/franka_msgs/srv/_set_cartesian_stiffness.py'...
+[15.383s] Compiling '/home/user/humble_ws/install/franka_msgs/local/lib/python3.10/dist-packages/franka_msgs/srv/_set_force_torque_collision_behavior.py'...
+[15.383s] Compiling '/home/user/humble_ws/install/franka_msgs/local/lib/python3.10/dist-packages/franka_msgs/srv/_set_full_collision_behavior.py'...
+[15.383s] Compiling '/home/user/humble_ws/install/franka_msgs/local/lib/python3.10/dist-packages/franka_msgs/srv/_set_joint_stiffness.py'...
+[15.383s] Compiling '/home/user/humble_ws/install/franka_msgs/local/lib/python3.10/dist-packages/franka_msgs/srv/_set_load.py'...
+[15.383s] Compiling '/home/user/humble_ws/install/franka_msgs/local/lib/python3.10/dist-packages/franka_msgs/srv/_set_mujoco_poses.py'...
+[15.383s] Compiling '/home/user/humble_ws/install/franka_msgs/local/lib/python3.10/dist-packages/franka_msgs/srv/_set_stiffness_frame.py'...
+[15.383s] Compiling '/home/user/humble_ws/install/franka_msgs/local/lib/python3.10/dist-packages/franka_msgs/srv/_set_tcp_frame.py'...
+[15.386s] -- Installing: /home/user/humble_ws/install/franka_msgs/local/lib/python3.10/dist-packages/franka_msgs/franka_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[15.386s] -- Set runtime path of "/home/user/humble_ws/install/franka_msgs/local/lib/python3.10/dist-packages/franka_msgs/franka_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[15.386s] -- Installing: /home/user/humble_ws/install/franka_msgs/local/lib/python3.10/dist-packages/franka_msgs/franka_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[15.386s] -- Set runtime path of "/home/user/humble_ws/install/franka_msgs/local/lib/python3.10/dist-packages/franka_msgs/franka_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[15.386s] -- Installing: /home/user/humble_ws/install/franka_msgs/local/lib/python3.10/dist-packages/franka_msgs/franka_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[15.386s] -- Set runtime path of "/home/user/humble_ws/install/franka_msgs/local/lib/python3.10/dist-packages/franka_msgs/franka_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[15.386s] -- Installing: /home/user/humble_ws/install/franka_msgs/lib/libfranka_msgs__rosidl_generator_py.so
+[15.387s] -- Set runtime path of "/home/user/humble_ws/install/franka_msgs/lib/libfranka_msgs__rosidl_generator_py.so" to ""
+[15.387s] -- Installing: /home/user/humble_ws/install/franka_msgs/share/franka_msgs/action/Grasp.idl
+[15.387s] -- Installing: /home/user/humble_ws/install/franka_msgs/share/franka_msgs/action/Homing.idl
+[15.387s] -- Installing: /home/user/humble_ws/install/franka_msgs/share/franka_msgs/action/Move.idl
+[15.387s] -- Installing: /home/user/humble_ws/install/franka_msgs/share/franka_msgs/srv/ErrorRecovery.idl
+[15.387s] -- Installing: /home/user/humble_ws/install/franka_msgs/share/franka_msgs/srv/SetCartesianStiffness.idl
+[15.387s] -- Installing: /home/user/humble_ws/install/franka_msgs/share/franka_msgs/srv/SetTCPFrame.idl
+[15.387s] -- Installing: /home/user/humble_ws/install/franka_msgs/share/franka_msgs/srv/SetForceTorqueCollisionBehavior.idl
+[15.387s] -- Installing: /home/user/humble_ws/install/franka_msgs/share/franka_msgs/srv/SetFullCollisionBehavior.idl
+[15.387s] -- Installing: /home/user/humble_ws/install/franka_msgs/share/franka_msgs/srv/SetJointStiffness.idl
+[15.387s] -- Installing: /home/user/humble_ws/install/franka_msgs/share/franka_msgs/srv/SetStiffnessFrame.idl
+[15.388s] -- Installing: /home/user/humble_ws/install/franka_msgs/share/franka_msgs/srv/SetLoad.idl
+[15.388s] -- Installing: /home/user/humble_ws/install/franka_msgs/share/franka_msgs/srv/SetMujocoPoses.idl
+[15.388s] -- Installing: /home/user/humble_ws/install/franka_msgs/share/franka_msgs/msg/GraspEpsilon.idl
+[15.388s] -- Installing: /home/user/humble_ws/install/franka_msgs/share/franka_msgs/msg/FrankaState.idl
+[15.388s] -- Installing: /home/user/humble_ws/install/franka_msgs/share/franka_msgs/msg/FrankaModel.idl
+[15.388s] -- Installing: /home/user/humble_ws/install/franka_msgs/share/franka_msgs/msg/Errors.idl
+[15.388s] -- Installing: /home/user/humble_ws/install/franka_msgs/share/franka_msgs/msg/PoseStampedArray.idl
+[15.388s] -- Installing: /home/user/humble_ws/install/franka_msgs/share/franka_msgs/action/Grasp.action
+[15.388s] -- Installing: /home/user/humble_ws/install/franka_msgs/share/franka_msgs/action/Homing.action
+[15.388s] -- Installing: /home/user/humble_ws/install/franka_msgs/share/franka_msgs/action/Move.action
+[15.389s] -- Installing: /home/user/humble_ws/install/franka_msgs/share/franka_msgs/srv/ErrorRecovery.srv
+[15.389s] -- Installing: /home/user/humble_ws/install/franka_msgs/share/franka_msgs/srv/ErrorRecovery_Request.msg
+[15.389s] -- Installing: /home/user/humble_ws/install/franka_msgs/share/franka_msgs/srv/ErrorRecovery_Response.msg
+[15.389s] -- Installing: /home/user/humble_ws/install/franka_msgs/share/franka_msgs/srv/SetCartesianStiffness.srv
+[15.389s] -- Installing: /home/user/humble_ws/install/franka_msgs/share/franka_msgs/srv/SetCartesianStiffness_Request.msg
+[15.389s] -- Installing: /home/user/humble_ws/install/franka_msgs/share/franka_msgs/srv/SetCartesianStiffness_Response.msg
+[15.389s] -- Installing: /home/user/humble_ws/install/franka_msgs/share/franka_msgs/srv/SetTCPFrame.srv
+[15.389s] -- Installing: /home/user/humble_ws/install/franka_msgs/share/franka_msgs/srv/SetTCPFrame_Request.msg
+[15.389s] -- Installing: /home/user/humble_ws/install/franka_msgs/share/franka_msgs/srv/SetTCPFrame_Response.msg
+[15.389s] -- Installing: /home/user/humble_ws/install/franka_msgs/share/franka_msgs/srv/SetForceTorqueCollisionBehavior.srv
+[15.389s] -- Installing: /home/user/humble_ws/install/franka_msgs/share/franka_msgs/srv/SetForceTorqueCollisionBehavior_Request.msg
+[15.389s] -- Installing: /home/user/humble_ws/install/franka_msgs/share/franka_msgs/srv/SetForceTorqueCollisionBehavior_Response.msg
+[15.389s] -- Installing: /home/user/humble_ws/install/franka_msgs/share/franka_msgs/srv/SetFullCollisionBehavior.srv
+[15.390s] -- Installing: /home/user/humble_ws/install/franka_msgs/share/franka_msgs/srv/SetFullCollisionBehavior_Request.msg
+[15.390s] -- Installing: /home/user/humble_ws/install/franka_msgs/share/franka_msgs/srv/SetFullCollisionBehavior_Response.msg
+[15.390s] -- Installing: /home/user/humble_ws/install/franka_msgs/share/franka_msgs/srv/SetJointStiffness.srv
+[15.390s] -- Installing: /home/user/humble_ws/install/franka_msgs/share/franka_msgs/srv/SetJointStiffness_Request.msg
+[15.390s] -- Installing: /home/user/humble_ws/install/franka_msgs/share/franka_msgs/srv/SetJointStiffness_Response.msg
+[15.390s] -- Installing: /home/user/humble_ws/install/franka_msgs/share/franka_msgs/srv/SetStiffnessFrame.srv
+[15.390s] -- Installing: /home/user/humble_ws/install/franka_msgs/share/franka_msgs/srv/SetStiffnessFrame_Request.msg
+[15.390s] -- Installing: /home/user/humble_ws/install/franka_msgs/share/franka_msgs/srv/SetStiffnessFrame_Response.msg
+[15.390s] -- Installing: /home/user/humble_ws/install/franka_msgs/share/franka_msgs/srv/SetLoad.srv
+[15.390s] -- Installing: /home/user/humble_ws/install/franka_msgs/share/franka_msgs/srv/SetLoad_Request.msg
+[15.390s] -- Installing: /home/user/humble_ws/install/franka_msgs/share/franka_msgs/srv/SetLoad_Response.msg
+[15.390s] -- Installing: /home/user/humble_ws/install/franka_msgs/share/franka_msgs/srv/SetMujocoPoses.srv
+[15.391s] -- Installing: /home/user/humble_ws/install/franka_msgs/share/franka_msgs/srv/SetMujocoPoses_Request.msg
+[15.391s] -- Installing: /home/user/humble_ws/install/franka_msgs/share/franka_msgs/srv/SetMujocoPoses_Response.msg
+[15.391s] -- Installing: /home/user/humble_ws/install/franka_msgs/share/franka_msgs/msg/GraspEpsilon.msg
+[15.391s] -- Installing: /home/user/humble_ws/install/franka_msgs/share/franka_msgs/msg/FrankaState.msg
+[15.391s] -- Installing: /home/user/humble_ws/install/franka_msgs/share/franka_msgs/msg/FrankaModel.msg
+[15.391s] -- Installing: /home/user/humble_ws/install/franka_msgs/share/franka_msgs/msg/Errors.msg
+[15.391s] -- Installing: /home/user/humble_ws/install/franka_msgs/share/franka_msgs/msg/PoseStampedArray.msg
+[15.391s] -- Installing: /home/user/humble_ws/install/franka_msgs/share/ament_index/resource_index/package_run_dependencies/franka_msgs
+[15.391s] -- Installing: /home/user/humble_ws/install/franka_msgs/share/ament_index/resource_index/parent_prefix_path/franka_msgs
+[15.391s] -- Installing: /home/user/humble_ws/install/franka_msgs/share/franka_msgs/environment/ament_prefix_path.sh
+[15.391s] -- Installing: /home/user/humble_ws/install/franka_msgs/share/franka_msgs/environment/ament_prefix_path.dsv
+[15.391s] -- Installing: /home/user/humble_ws/install/franka_msgs/share/franka_msgs/environment/path.sh
+[15.391s] -- Installing: /home/user/humble_ws/install/franka_msgs/share/franka_msgs/environment/path.dsv
+[15.392s] -- Installing: /home/user/humble_ws/install/franka_msgs/share/franka_msgs/local_setup.bash
+[15.392s] -- Installing: /home/user/humble_ws/install/franka_msgs/share/franka_msgs/local_setup.sh
+[15.392s] -- Installing: /home/user/humble_ws/install/franka_msgs/share/franka_msgs/local_setup.zsh
+[15.392s] -- Installing: /home/user/humble_ws/install/franka_msgs/share/franka_msgs/local_setup.dsv
+[15.392s] -- Installing: /home/user/humble_ws/install/franka_msgs/share/franka_msgs/package.dsv
+[15.392s] -- Installing: /home/user/humble_ws/install/franka_msgs/share/ament_index/resource_index/packages/franka_msgs
+[15.392s] -- Installing: /home/user/humble_ws/install/franka_msgs/share/franka_msgs/cmake/export_franka_msgs__rosidl_generator_cExport.cmake
+[15.392s] -- Installing: /home/user/humble_ws/install/franka_msgs/share/franka_msgs/cmake/export_franka_msgs__rosidl_generator_cExport-release.cmake
+[15.392s] -- Installing: /home/user/humble_ws/install/franka_msgs/share/franka_msgs/cmake/export_franka_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[15.392s] -- Installing: /home/user/humble_ws/install/franka_msgs/share/franka_msgs/cmake/export_franka_msgs__rosidl_typesupport_fastrtps_cExport-release.cmake
+[15.392s] -- Installing: /home/user/humble_ws/install/franka_msgs/share/franka_msgs/cmake/franka_msgs__rosidl_typesupport_introspection_cExport.cmake
+[15.392s] -- Installing: /home/user/humble_ws/install/franka_msgs/share/franka_msgs/cmake/franka_msgs__rosidl_typesupport_introspection_cExport-release.cmake
+[15.393s] -- Installing: /home/user/humble_ws/install/franka_msgs/share/franka_msgs/cmake/franka_msgs__rosidl_typesupport_cExport.cmake
+[15.393s] -- Installing: /home/user/humble_ws/install/franka_msgs/share/franka_msgs/cmake/franka_msgs__rosidl_typesupport_cExport-release.cmake
+[15.393s] -- Installing: /home/user/humble_ws/install/franka_msgs/share/franka_msgs/cmake/export_franka_msgs__rosidl_generator_cppExport.cmake
+[15.393s] -- Installing: /home/user/humble_ws/install/franka_msgs/share/franka_msgs/cmake/export_franka_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[15.393s] -- Installing: /home/user/humble_ws/install/franka_msgs/share/franka_msgs/cmake/export_franka_msgs__rosidl_typesupport_fastrtps_cppExport-release.cmake
+[15.393s] -- Installing: /home/user/humble_ws/install/franka_msgs/share/franka_msgs/cmake/franka_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[15.393s] -- Installing: /home/user/humble_ws/install/franka_msgs/share/franka_msgs/cmake/franka_msgs__rosidl_typesupport_introspection_cppExport-release.cmake
+[15.393s] -- Installing: /home/user/humble_ws/install/franka_msgs/share/franka_msgs/cmake/franka_msgs__rosidl_typesupport_cppExport.cmake
+[15.393s] -- Installing: /home/user/humble_ws/install/franka_msgs/share/franka_msgs/cmake/franka_msgs__rosidl_typesupport_cppExport-release.cmake
+[15.393s] -- Installing: /home/user/humble_ws/install/franka_msgs/share/franka_msgs/cmake/export_franka_msgs__rosidl_generator_pyExport.cmake
+[15.394s] -- Installing: /home/user/humble_ws/install/franka_msgs/share/franka_msgs/cmake/export_franka_msgs__rosidl_generator_pyExport-release.cmake
+[15.394s] -- Installing: /home/user/humble_ws/install/franka_msgs/share/franka_msgs/cmake/rosidl_cmake-extras.cmake
+[15.394s] -- Installing: /home/user/humble_ws/install/franka_msgs/share/franka_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[15.394s] -- Installing: /home/user/humble_ws/install/franka_msgs/share/franka_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[15.394s] -- Installing: /home/user/humble_ws/install/franka_msgs/share/franka_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[15.394s] -- Installing: /home/user/humble_ws/install/franka_msgs/share/franka_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[15.394s] -- Installing: /home/user/humble_ws/install/franka_msgs/share/franka_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[15.394s] -- Installing: /home/user/humble_ws/install/franka_msgs/share/franka_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[15.394s] -- Installing: /home/user/humble_ws/install/franka_msgs/share/franka_msgs/cmake/franka_msgsConfig.cmake
+[15.394s] -- Installing: /home/user/humble_ws/install/franka_msgs/share/franka_msgs/cmake/franka_msgsConfig-version.cmake
+[15.394s] -- Installing: /home/user/humble_ws/install/franka_msgs/share/franka_msgs/package.xml
+[15.396s] Invoked command in '/home/user/humble_ws/build/franka_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/user/humble_ws/build/franka_msgs

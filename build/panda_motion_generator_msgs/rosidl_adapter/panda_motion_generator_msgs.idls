@@ -1,0 +1,5 @@
+/home/user/humble_ws/build/panda_motion_generator_msgs/rosidl_adapter/panda_motion_generator_msgs:msg/JointPose.idl
+/home/user/humble_ws/build/panda_motion_generator_msgs/rosidl_adapter/panda_motion_generator_msgs:msg/SetTimeScaling.idl
+/home/user/humble_ws/build/panda_motion_generator_msgs/rosidl_adapter/panda_motion_generator_msgs:msg/SimpleActionResult.idl
+/home/user/humble_ws/build/panda_motion_generator_msgs/rosidl_adapter/panda_motion_generator_msgs:action/CartesianViaMotion.idl
+/home/user/humble_ws/build/panda_motion_generator_msgs/rosidl_adapter/panda_motion_generator_msgs:action/JointViaMotion.idl

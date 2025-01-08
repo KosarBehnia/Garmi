@@ -1,0 +1,81 @@
+[0.015s] Invoking command in '/home/user/humble_ws/build/franka_control2': AMENT_PREFIX_PATH=/home/user/humble_ws/install/franka_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/user/humble_ws/install/franka_msgs:~/Libraries/libfranka/lib/cmake:~/Libraries/mujoco/lib/cmake:/opt/ros/humble LD_LIBRARY_PATH=/home/user/humble_ws/install/franka_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/user/humble_ws/install/franka_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/user/humble_ws/src/bimanual_architecture/franka_control2 -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/user/humble_ws/install/franka_control2
+[0.065s] -- The C compiler identification is GNU 11.4.0
+[0.109s] -- The CXX compiler identification is GNU 11.4.0
+[0.116s] -- Detecting C compiler ABI info
+[0.178s] -- Detecting C compiler ABI info - done
+[0.187s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.187s] -- Detecting C compile features
+[0.187s] -- Detecting C compile features - done
+[0.191s] -- Detecting CXX compiler ABI info
+[0.270s] -- Detecting CXX compiler ABI info - done
+[0.280s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.280s] -- Detecting CXX compile features
+[0.281s] -- Detecting CXX compile features - done
+[0.284s] -- Looking for pthread.h
+[0.355s] -- Looking for pthread.h - found
+[0.355s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.437s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.438s] -- Found Threads: TRUE  
+[0.443s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.581s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.690s] -- Found ament_index_cpp: 1.4.0 (/opt/ros/humble/share/ament_index_cpp/cmake)
+[0.694s] -- Found controller_interface: 2.44.0 (/opt/ros/humble/share/controller_interface/cmake)
+[0.732s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.737s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.748s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.770s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.791s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.972s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.975s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.000s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.068s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.071s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.082s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.085s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.093s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.102s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.159s] -- Found controller_manager_msgs: 2.44.0 (/opt/ros/humble/share/controller_manager_msgs/cmake)
+[1.175s] -- Found realtime_tools: 2.8.1 (/opt/ros/humble/share/realtime_tools/cmake)
+[1.190s] -- Found franka_msgs: 0.0.0 (/home/user/humble_ws/install/franka_msgs/share/franka_msgs/cmake)
+[1.209s] -- Found controller_manager: 2.44.0 (/opt/ros/humble/share/controller_manager/cmake)
+[1.237s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.315s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.315s] -- Configured cppcheck include dirs: /home/user/humble_ws/src/bimanual_architecture/franka_control2/include
+[1.316s] -- Configured cppcheck exclude dirs and/or files: 
+[1.316s] -- Added test 'lint_cmake' to check CMake code style
+[1.317s] -- Added test 'uncrustify' to check C / C++ code style
+[1.317s] -- Configured uncrustify additional arguments: 
+[1.317s] -- Added test 'xmllint' to check XML markup files
+[1.318s] -- Configuring done
+[1.361s] -- Generating done
+[1.364s] -- Build files have been written to: /home/user/humble_ws/build/franka_control2
+[1.375s] Invoked command in '/home/user/humble_ws/build/franka_control2' returned '0': AMENT_PREFIX_PATH=/home/user/humble_ws/install/franka_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/user/humble_ws/install/franka_msgs:~/Libraries/libfranka/lib/cmake:~/Libraries/mujoco/lib/cmake:/opt/ros/humble LD_LIBRARY_PATH=/home/user/humble_ws/install/franka_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/user/humble_ws/install/franka_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/user/humble_ws/src/bimanual_architecture/franka_control2 -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/user/humble_ws/install/franka_control2
+[1.376s] Invoking command in '/home/user/humble_ws/build/franka_control2': AMENT_PREFIX_PATH=/home/user/humble_ws/install/franka_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/user/humble_ws/install/franka_msgs:~/Libraries/libfranka/lib/cmake:~/Libraries/mujoco/lib/cmake:/opt/ros/humble LD_LIBRARY_PATH=/home/user/humble_ws/install/franka_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/user/humble_ws/install/franka_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/user/humble_ws/build/franka_control2 -- -j12 -l12
+[1.442s] [ 50%] Building CXX object CMakeFiles/franka_control2_node.dir/src/franka_control2_node.cpp.o
+[2.012s] In file included from /home/user/humble_ws/src/bimanual_architecture/franka_control2/src/franka_control2_node.cpp:24:
+[2.012s] /opt/ros/humble/include/realtime_tools/realtime_tools/thread_priority.hpp:39:2: warning: #warning "This header include is deprecated. Please update your code to use 'realtime_helpers.hpp' header and link against 'realtime_tools' library." [-Wcpp]
+[2.012s]    39 | #warning \
+[2.013s]       |  ^~~~~~~
+[19.189s] [100%] Linking CXX executable franka_control2_node
+[20.236s] [100%] Built target franka_control2_node
+[20.295s] Invoked command in '/home/user/humble_ws/build/franka_control2' returned '0': AMENT_PREFIX_PATH=/home/user/humble_ws/install/franka_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/user/humble_ws/install/franka_msgs:~/Libraries/libfranka/lib/cmake:~/Libraries/mujoco/lib/cmake:/opt/ros/humble LD_LIBRARY_PATH=/home/user/humble_ws/install/franka_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/user/humble_ws/install/franka_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/user/humble_ws/build/franka_control2 -- -j12 -l12
+[20.401s] Invoking command in '/home/user/humble_ws/build/franka_control2': AMENT_PREFIX_PATH=/home/user/humble_ws/install/franka_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/user/humble_ws/install/franka_msgs:~/Libraries/libfranka/lib/cmake:~/Libraries/mujoco/lib/cmake:/opt/ros/humble LD_LIBRARY_PATH=/home/user/humble_ws/install/franka_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/user/humble_ws/install/franka_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/user/humble_ws/build/franka_control2
+[20.431s] -- Install configuration: "Release"
+[20.431s] -- Installing: /home/user/humble_ws/install/franka_control2/lib/franka_control2/franka_control2_node
+[20.434s] -- Set runtime path of "/home/user/humble_ws/install/franka_control2/lib/franka_control2/franka_control2_node" to ""
+[20.435s] -- Installing: /home/user/humble_ws/install/franka_control2/share/ament_index/resource_index/package_run_dependencies/franka_control2
+[20.436s] -- Installing: /home/user/humble_ws/install/franka_control2/share/ament_index/resource_index/parent_prefix_path/franka_control2
+[20.436s] -- Installing: /home/user/humble_ws/install/franka_control2/share/franka_control2/environment/ament_prefix_path.sh
+[20.436s] -- Installing: /home/user/humble_ws/install/franka_control2/share/franka_control2/environment/ament_prefix_path.dsv
+[20.437s] -- Installing: /home/user/humble_ws/install/franka_control2/share/franka_control2/environment/path.sh
+[20.437s] -- Installing: /home/user/humble_ws/install/franka_control2/share/franka_control2/environment/path.dsv
+[20.437s] -- Installing: /home/user/humble_ws/install/franka_control2/share/franka_control2/local_setup.bash
+[20.437s] -- Installing: /home/user/humble_ws/install/franka_control2/share/franka_control2/local_setup.sh
+[20.437s] -- Installing: /home/user/humble_ws/install/franka_control2/share/franka_control2/local_setup.zsh
+[20.437s] -- Installing: /home/user/humble_ws/install/franka_control2/share/franka_control2/local_setup.dsv
+[20.438s] -- Installing: /home/user/humble_ws/install/franka_control2/share/franka_control2/package.dsv
+[20.441s] -- Installing: /home/user/humble_ws/install/franka_control2/share/ament_index/resource_index/packages/franka_control2
+[20.442s] -- Installing: /home/user/humble_ws/install/franka_control2/share/franka_control2/cmake/franka_control2Config.cmake
+[20.442s] -- Installing: /home/user/humble_ws/install/franka_control2/share/franka_control2/cmake/franka_control2Config-version.cmake
+[20.444s] -- Installing: /home/user/humble_ws/install/franka_control2/share/franka_control2/package.xml
+[20.462s] Invoked command in '/home/user/humble_ws/build/franka_control2' returned '0': AMENT_PREFIX_PATH=/home/user/humble_ws/install/franka_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/user/humble_ws/install/franka_msgs:~/Libraries/libfranka/lib/cmake:~/Libraries/mujoco/lib/cmake:/opt/ros/humble LD_LIBRARY_PATH=/home/user/humble_ws/install/franka_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/user/humble_ws/install/franka_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/user/humble_ws/build/franka_control2

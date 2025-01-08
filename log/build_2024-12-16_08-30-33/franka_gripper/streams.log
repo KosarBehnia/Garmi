@@ -1,0 +1,105 @@
+[0.019s] Invoking command in '/home/user/humble_ws/build/franka_gripper': AMENT_PREFIX_PATH=/home/user/humble_ws/install/franka_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/user/humble_ws/install/franka_msgs:~/Libraries/libfranka/lib/cmake:~/Libraries/mujoco/lib/cmake:/opt/ros/humble LD_LIBRARY_PATH=/home/user/humble_ws/install/franka_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/user/humble_ws/install/franka_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/user/humble_ws/src/bimanual_architecture/franka_gripper -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/user/humble_ws/install/franka_gripper
+[0.077s] -- The C compiler identification is GNU 11.4.0
+[0.122s] -- The CXX compiler identification is GNU 11.4.0
+[0.126s] -- Detecting C compiler ABI info
+[0.191s] -- Detecting C compiler ABI info - done
+[0.195s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.196s] -- Detecting C compile features
+[0.196s] -- Detecting C compile features - done
+[0.198s] -- Detecting CXX compiler ABI info
+[0.267s] -- Detecting CXX compiler ABI info - done
+[0.276s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.277s] -- Detecting CXX compile features
+[0.277s] -- Detecting CXX compile features - done
+[0.281s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.435s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.559s] -- Found franka_msgs: 0.0.0 (/home/user/humble_ws/install/franka_msgs/share/franka_msgs/cmake)
+[0.590s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.594s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.604s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.624s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.648s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.718s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.754s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.756s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.857s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.887s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.932s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.948s] -- Looking for pthread.h
+[1.039s] -- Looking for pthread.h - found
+[1.039s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.130s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.132s] -- Found Threads: TRUE  
+[1.180s] -- Found rclcpp_action: 16.0.10 (/opt/ros/humble/share/rclcpp_action/cmake)
+[1.191s] -- Found rclcpp_components: 16.0.10 (/opt/ros/humble/share/rclcpp_components/cmake)
+[1.216s] -- Found std_srvs: 4.2.4 (/opt/ros/humble/share/std_srvs/cmake)
+[1.225s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.242s] -- Found control_msgs: 4.7.0 (/opt/ros/humble/share/control_msgs/cmake)
+[1.402s] -- Found ament_cmake_clang_format: 0.12.11 (/opt/ros/humble/share/ament_cmake_clang_format/cmake)
+[1.406s] -- Found ament_cmake_copyright: 0.12.11 (/opt/ros/humble/share/ament_cmake_copyright/cmake)
+[1.408s] -- Found ament_cmake_cppcheck: 0.12.11 (/opt/ros/humble/share/ament_cmake_cppcheck/cmake)
+[1.410s] -- Found ament_cmake_flake8: 0.12.11 (/opt/ros/humble/share/ament_cmake_flake8/cmake)
+[1.412s] -- Found ament_cmake_lint_cmake: 0.12.11 (/opt/ros/humble/share/ament_cmake_lint_cmake/cmake)
+[1.414s] -- Found ament_cmake_pep257: 0.12.11 (/opt/ros/humble/share/ament_cmake_pep257/cmake)
+[1.416s] -- Found ament_cmake_xmllint: 0.12.11 (/opt/ros/humble/share/ament_cmake_xmllint/cmake)
+[1.482s] -- Configuring done
+[1.514s] -- Generating done
+[1.517s] -- Build files have been written to: /home/user/humble_ws/build/franka_gripper
+[1.529s] Invoked command in '/home/user/humble_ws/build/franka_gripper' returned '0': AMENT_PREFIX_PATH=/home/user/humble_ws/install/franka_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/user/humble_ws/install/franka_msgs:~/Libraries/libfranka/lib/cmake:~/Libraries/mujoco/lib/cmake:/opt/ros/humble LD_LIBRARY_PATH=/home/user/humble_ws/install/franka_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/user/humble_ws/install/franka_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/user/humble_ws/src/bimanual_architecture/franka_gripper -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/user/humble_ws/install/franka_gripper
+[1.530s] Invoking command in '/home/user/humble_ws/build/franka_gripper': AMENT_PREFIX_PATH=/home/user/humble_ws/install/franka_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/user/humble_ws/install/franka_msgs:~/Libraries/libfranka/lib/cmake:~/Libraries/mujoco/lib/cmake:/opt/ros/humble LD_LIBRARY_PATH=/home/user/humble_ws/install/franka_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/user/humble_ws/install/franka_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/user/humble_ws/build/franka_gripper -- -j12 -l12
+[1.602s] [ 25%] Building CXX object CMakeFiles/franka_gripper_node.dir/rclcpp_components/node_main_franka_gripper_node.cpp.o
+[1.603s] [ 50%] Building CXX object CMakeFiles/gripper_server.dir/src/gripper_action_server.cpp.o
+[1.616s] [ 50%] Built target ament_cmake_python_copy_franka_gripper
+[2.047s] running egg_info
+[2.047s] creating franka_gripper.egg-info
+[2.047s] writing franka_gripper.egg-info/PKG-INFO
+[2.047s] writing dependency_links to franka_gripper.egg-info/dependency_links.txt
+[2.047s] writing top-level names to franka_gripper.egg-info/top_level.txt
+[2.047s] writing manifest file 'franka_gripper.egg-info/SOURCES.txt'
+[2.056s] reading manifest file 'franka_gripper.egg-info/SOURCES.txt'
+[2.062s] writing manifest file 'franka_gripper.egg-info/SOURCES.txt'
+[2.167s] [ 50%] Built target ament_cmake_python_build_franka_gripper_egg
+[12.163s] [ 75%] Linking CXX executable franka_gripper_node
+[12.787s] [ 75%] Built target franka_gripper_node
+[33.391s] [100%] Linking CXX shared library libgripper_server.so
+[33.683s] [100%] Built target gripper_server
+[33.699s] Invoked command in '/home/user/humble_ws/build/franka_gripper' returned '0': AMENT_PREFIX_PATH=/home/user/humble_ws/install/franka_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/user/humble_ws/install/franka_msgs:~/Libraries/libfranka/lib/cmake:~/Libraries/mujoco/lib/cmake:/opt/ros/humble LD_LIBRARY_PATH=/home/user/humble_ws/install/franka_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/user/humble_ws/install/franka_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/user/humble_ws/build/franka_gripper -- -j12 -l12
+[33.741s] Invoking command in '/home/user/humble_ws/build/franka_gripper': AMENT_PREFIX_PATH=/home/user/humble_ws/install/franka_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/user/humble_ws/install/franka_msgs:~/Libraries/libfranka/lib/cmake:~/Libraries/mujoco/lib/cmake:/opt/ros/humble LD_LIBRARY_PATH=/home/user/humble_ws/install/franka_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/user/humble_ws/install/franka_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/user/humble_ws/build/franka_gripper
+[33.752s] -- Install configuration: "Release"
+[33.753s] -- Installing: /home/user/humble_ws/install/franka_gripper/lib/franka_gripper/franka_gripper_node
+[33.754s] -- Set runtime path of "/home/user/humble_ws/install/franka_gripper/lib/franka_gripper/franka_gripper_node" to ""
+[33.754s] -- Installing: /home/user/humble_ws/install/franka_gripper/lib/libgripper_server.so
+[33.756s] -- Set runtime path of "/home/user/humble_ws/install/franka_gripper/lib/libgripper_server.so" to ""
+[33.756s] -- Installing: /home/user/humble_ws/install/franka_gripper/share/franka_gripper//launch
+[33.757s] -- Installing: /home/user/humble_ws/install/franka_gripper/share/franka_gripper//launch/gripper.launch.py
+[33.757s] -- Installing: /home/user/humble_ws/install/franka_gripper/share/franka_gripper//config
+[33.757s] -- Installing: /home/user/humble_ws/install/franka_gripper/share/franka_gripper//config/franka_gripper_node.yaml
+[33.757s] -- Installing: /home/user/humble_ws/install/franka_gripper/share/franka_gripper/environment/pythonpath.sh
+[33.758s] -- Installing: /home/user/humble_ws/install/franka_gripper/share/franka_gripper/environment/pythonpath.dsv
+[33.758s] -- Installing: /home/user/humble_ws/install/franka_gripper/local/lib/python3.10/dist-packages/franka_gripper-0.0.0-py3.10.egg-info
+[33.758s] -- Installing: /home/user/humble_ws/install/franka_gripper/local/lib/python3.10/dist-packages/franka_gripper-0.0.0-py3.10.egg-info/top_level.txt
+[33.759s] -- Installing: /home/user/humble_ws/install/franka_gripper/local/lib/python3.10/dist-packages/franka_gripper-0.0.0-py3.10.egg-info/dependency_links.txt
+[33.759s] -- Installing: /home/user/humble_ws/install/franka_gripper/local/lib/python3.10/dist-packages/franka_gripper-0.0.0-py3.10.egg-info/SOURCES.txt
+[33.759s] -- Installing: /home/user/humble_ws/install/franka_gripper/local/lib/python3.10/dist-packages/franka_gripper-0.0.0-py3.10.egg-info/PKG-INFO
+[33.760s] -- Installing: /home/user/humble_ws/install/franka_gripper/local/lib/python3.10/dist-packages/franka_gripper
+[33.760s] -- Installing: /home/user/humble_ws/install/franka_gripper/local/lib/python3.10/dist-packages/franka_gripper/__init__.py
+[33.812s] Listing '/home/user/humble_ws/install/franka_gripper/local/lib/python3.10/dist-packages/franka_gripper'...
+[33.812s] Compiling '/home/user/humble_ws/install/franka_gripper/local/lib/python3.10/dist-packages/franka_gripper/__init__.py'...
+[33.819s] -- Installing: /home/user/humble_ws/install/franka_gripper/lib/franka_gripper/fake_gripper_state_publisher.py
+[33.820s] -- Installing: /home/user/humble_ws/install/franka_gripper/share/ament_index/resource_index/package_run_dependencies/franka_gripper
+[33.820s] -- Installing: /home/user/humble_ws/install/franka_gripper/share/ament_index/resource_index/parent_prefix_path/franka_gripper
+[33.820s] -- Installing: /home/user/humble_ws/install/franka_gripper/share/franka_gripper/environment/ament_prefix_path.sh
+[33.821s] -- Installing: /home/user/humble_ws/install/franka_gripper/share/franka_gripper/environment/ament_prefix_path.dsv
+[33.821s] -- Installing: /home/user/humble_ws/install/franka_gripper/share/franka_gripper/environment/path.sh
+[33.821s] -- Installing: /home/user/humble_ws/install/franka_gripper/share/franka_gripper/environment/path.dsv
+[33.822s] -- Installing: /home/user/humble_ws/install/franka_gripper/share/franka_gripper/local_setup.bash
+[33.822s] -- Installing: /home/user/humble_ws/install/franka_gripper/share/franka_gripper/local_setup.sh
+[33.822s] -- Installing: /home/user/humble_ws/install/franka_gripper/share/franka_gripper/local_setup.zsh
+[33.822s] -- Installing: /home/user/humble_ws/install/franka_gripper/share/franka_gripper/local_setup.dsv
+[33.822s] -- Installing: /home/user/humble_ws/install/franka_gripper/share/franka_gripper/package.dsv
+[33.823s] -- Installing: /home/user/humble_ws/install/franka_gripper/share/ament_index/resource_index/packages/franka_gripper
+[33.823s] -- Installing: /home/user/humble_ws/install/franka_gripper/share/ament_index/resource_index/rclcpp_components/franka_gripper
+[33.824s] -- Installing: /home/user/humble_ws/install/franka_gripper/share/franka_gripper/cmake/franka_gripperConfig.cmake
+[33.824s] -- Installing: /home/user/humble_ws/install/franka_gripper/share/franka_gripper/cmake/franka_gripperConfig-version.cmake
+[33.824s] -- Installing: /home/user/humble_ws/install/franka_gripper/share/franka_gripper/package.xml
+[33.827s] Invoked command in '/home/user/humble_ws/build/franka_gripper' returned '0': AMENT_PREFIX_PATH=/home/user/humble_ws/install/franka_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/user/humble_ws/install/franka_msgs:~/Libraries/libfranka/lib/cmake:~/Libraries/mujoco/lib/cmake:/opt/ros/humble LD_LIBRARY_PATH=/home/user/humble_ws/install/franka_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/user/humble_ws/install/franka_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/user/humble_ws/build/franka_gripper

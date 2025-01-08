@@ -1,0 +1,88 @@
+[0.024s] Invoking command in '/home/user/humble_ws/build/franka_robot_state_broadcaster': AMENT_PREFIX_PATH=/home/user/humble_ws/install/franka_semantic_components:/home/user/humble_ws/install/franka_hardware:/home/user/humble_ws/install/franka_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/user/humble_ws/install/franka_semantic_components:/home/user/humble_ws/install/franka_hardware:/home/user/humble_ws/install/franka_msgs:~/Libraries/libfranka/lib/cmake:~/Libraries/mujoco/lib/cmake:/opt/ros/humble LD_LIBRARY_PATH=/home/user/humble_ws/install/franka_semantic_components/lib:/home/user/humble_ws/install/franka_hardware/lib:/home/user/humble_ws/install/franka_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/user/humble_ws/install/franka_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/user/humble_ws/src/bimanual_architecture/franka_robot_state_broadcaster -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/user/humble_ws/install/franka_robot_state_broadcaster
+[0.072s] -- The C compiler identification is GNU 11.4.0
+[0.121s] -- The CXX compiler identification is GNU 11.4.0
+[0.128s] -- Detecting C compiler ABI info
+[0.182s] -- Detecting C compiler ABI info - done
+[0.190s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.190s] -- Detecting C compile features
+[0.190s] -- Detecting C compile features - done
+[0.194s] -- Detecting CXX compiler ABI info
+[0.273s] -- Detecting CXX compiler ABI info - done
+[0.281s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.281s] -- Detecting CXX compile features
+[0.282s] -- Detecting CXX compile features - done
+[0.284s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.388s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.480s] -- Found builtin_interfaces: 1.2.1 (/opt/ros/humble/share/builtin_interfaces/cmake)
+[0.520s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.525s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.534s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.544s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.558s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.570s] -- Found control_msgs: 4.7.0 (/opt/ros/humble/share/control_msgs/cmake)
+[0.658s] -- Found controller_interface: 2.44.0 (/opt/ros/humble/share/controller_interface/cmake)
+[0.728s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.731s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.753s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.817s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.820s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.834s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.839s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.849s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.860s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.868s] -- Looking for pthread.h
+[0.937s] -- Looking for pthread.h - found
+[0.937s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.015s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.016s] -- Found Threads: TRUE  
+[1.063s] -- Found controller_manager: 2.44.0 (/opt/ros/humble/share/controller_manager/cmake)
+[1.093s] -- Found franka_msgs: 0.0.0 (/home/user/humble_ws/install/franka_msgs/share/franka_msgs/cmake)
+[1.107s] -- Found franka_semantic_components: 0.0.0 (/home/user/humble_ws/install/franka_semantic_components/share/franka_semantic_components/cmake)
+[1.121s] -- Found generate_parameter_library: 0.3.9 (/opt/ros/humble/share/generate_parameter_library/cmake)
+[1.123s] -- Found parameter_traits: 0.3.9 (/opt/ros/humble/share/parameter_traits/cmake)
+[1.163s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.234s] -- Configuring done
+[1.289s] -- Generating done
+[1.292s] -- Build files have been written to: /home/user/humble_ws/build/franka_robot_state_broadcaster
+[1.305s] Invoked command in '/home/user/humble_ws/build/franka_robot_state_broadcaster' returned '0': AMENT_PREFIX_PATH=/home/user/humble_ws/install/franka_semantic_components:/home/user/humble_ws/install/franka_hardware:/home/user/humble_ws/install/franka_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/user/humble_ws/install/franka_semantic_components:/home/user/humble_ws/install/franka_hardware:/home/user/humble_ws/install/franka_msgs:~/Libraries/libfranka/lib/cmake:~/Libraries/mujoco/lib/cmake:/opt/ros/humble LD_LIBRARY_PATH=/home/user/humble_ws/install/franka_semantic_components/lib:/home/user/humble_ws/install/franka_hardware/lib:/home/user/humble_ws/install/franka_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/user/humble_ws/install/franka_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/user/humble_ws/src/bimanual_architecture/franka_robot_state_broadcaster -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/user/humble_ws/install/franka_robot_state_broadcaster
+[1.306s] Invoking command in '/home/user/humble_ws/build/franka_robot_state_broadcaster': AMENT_PREFIX_PATH=/home/user/humble_ws/install/franka_semantic_components:/home/user/humble_ws/install/franka_hardware:/home/user/humble_ws/install/franka_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/user/humble_ws/install/franka_semantic_components:/home/user/humble_ws/install/franka_hardware:/home/user/humble_ws/install/franka_msgs:~/Libraries/libfranka/lib/cmake:~/Libraries/mujoco/lib/cmake:/opt/ros/humble LD_LIBRARY_PATH=/home/user/humble_ws/install/franka_semantic_components/lib:/home/user/humble_ws/install/franka_hardware/lib:/home/user/humble_ws/install/franka_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/user/humble_ws/install/franka_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/user/humble_ws/build/franka_robot_state_broadcaster -- -j12 -l12
+[1.366s] [ 25%] Running `/opt/ros/humble/bin/generate_parameter_library_cpp /home/user/humble_ws/build/franka_robot_state_broadcaster/franka_robot_state_broadcaster_parameters/include//franka_robot_state_broadcaster_parameters.hpp /home/user/humble_ws/src/bimanual_architecture/franka_robot_state_broadcaster/src/franka_robot_state_broadcaster_parameters.yaml `
+[1.556s] [ 25%] Built target franka_robot_state_broadcaster_parameters
+[1.624s] [ 50%] Building CXX object CMakeFiles/franka_robot_state_broadcaster.dir/src/franka_robot_state_broadcaster.cpp.o
+[1.626s] [ 75%] Building CXX object CMakeFiles/franka_robot_state_broadcaster.dir/src/franka_robot_model_broadcaster.cpp.o
+[31.437s] [100%] Linking CXX shared library libfranka_robot_state_broadcaster.so
+[32.614s] [100%] Built target franka_robot_state_broadcaster
+[32.666s] Invoked command in '/home/user/humble_ws/build/franka_robot_state_broadcaster' returned '0': AMENT_PREFIX_PATH=/home/user/humble_ws/install/franka_semantic_components:/home/user/humble_ws/install/franka_hardware:/home/user/humble_ws/install/franka_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/user/humble_ws/install/franka_semantic_components:/home/user/humble_ws/install/franka_hardware:/home/user/humble_ws/install/franka_msgs:~/Libraries/libfranka/lib/cmake:~/Libraries/mujoco/lib/cmake:/opt/ros/humble LD_LIBRARY_PATH=/home/user/humble_ws/install/franka_semantic_components/lib:/home/user/humble_ws/install/franka_hardware/lib:/home/user/humble_ws/install/franka_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/user/humble_ws/install/franka_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/user/humble_ws/build/franka_robot_state_broadcaster -- -j12 -l12
+[32.826s] Invoking command in '/home/user/humble_ws/build/franka_robot_state_broadcaster': AMENT_PREFIX_PATH=/home/user/humble_ws/install/franka_semantic_components:/home/user/humble_ws/install/franka_hardware:/home/user/humble_ws/install/franka_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/user/humble_ws/install/franka_semantic_components:/home/user/humble_ws/install/franka_hardware:/home/user/humble_ws/install/franka_msgs:~/Libraries/libfranka/lib/cmake:~/Libraries/mujoco/lib/cmake:/opt/ros/humble LD_LIBRARY_PATH=/home/user/humble_ws/install/franka_semantic_components/lib:/home/user/humble_ws/install/franka_hardware/lib:/home/user/humble_ws/install/franka_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/user/humble_ws/install/franka_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/user/humble_ws/build/franka_robot_state_broadcaster
+[32.860s] -- Install configuration: "Release"
+[32.861s] -- Installing: /home/user/humble_ws/install/franka_robot_state_broadcaster/include/franka_robot_state_broadcaster_parameters
+[32.861s] -- Installing: /home/user/humble_ws/install/franka_robot_state_broadcaster/include/franka_robot_state_broadcaster_parameters/franka_robot_state_broadcaster_parameters.hpp
+[32.868s] -- Installing: /home/user/humble_ws/install/franka_robot_state_broadcaster/share/franka_robot_state_broadcaster/franka_robot_state_broadcaster.xml
+[32.868s] -- Installing: /home/user/humble_ws/install/franka_robot_state_broadcaster/lib/libfranka_robot_state_broadcaster.so
+[32.869s] -- Set runtime path of "/home/user/humble_ws/install/franka_robot_state_broadcaster/lib/libfranka_robot_state_broadcaster.so" to ""
+[32.869s] -- Up-to-date: /home/user/humble_ws/install/franka_robot_state_broadcaster/include
+[32.871s] -- Installing: /home/user/humble_ws/install/franka_robot_state_broadcaster/include/franka_robot_state_broadcaster
+[32.872s] -- Installing: /home/user/humble_ws/install/franka_robot_state_broadcaster/include/franka_robot_state_broadcaster/franka_robot_state_broadcaster.hpp
+[32.872s] -- Installing: /home/user/humble_ws/install/franka_robot_state_broadcaster/include/franka_robot_state_broadcaster/franka_robot_model_broadcaster.hpp
+[32.877s] -- Installing: /home/user/humble_ws/install/franka_robot_state_broadcaster/share/franka_robot_state_broadcaster/environment/library_path.sh
+[32.877s] -- Installing: /home/user/humble_ws/install/franka_robot_state_broadcaster/share/franka_robot_state_broadcaster/environment/library_path.dsv
+[32.881s] -- Installing: /home/user/humble_ws/install/franka_robot_state_broadcaster/share/ament_index/resource_index/package_run_dependencies/franka_robot_state_broadcaster
+[32.881s] -- Installing: /home/user/humble_ws/install/franka_robot_state_broadcaster/share/ament_index/resource_index/parent_prefix_path/franka_robot_state_broadcaster
+[32.882s] -- Installing: /home/user/humble_ws/install/franka_robot_state_broadcaster/share/franka_robot_state_broadcaster/environment/ament_prefix_path.sh
+[32.882s] -- Installing: /home/user/humble_ws/install/franka_robot_state_broadcaster/share/franka_robot_state_broadcaster/environment/ament_prefix_path.dsv
+[32.882s] -- Installing: /home/user/humble_ws/install/franka_robot_state_broadcaster/share/franka_robot_state_broadcaster/environment/path.sh
+[32.883s] -- Installing: /home/user/humble_ws/install/franka_robot_state_broadcaster/share/franka_robot_state_broadcaster/environment/path.dsv
+[32.884s] -- Installing: /home/user/humble_ws/install/franka_robot_state_broadcaster/share/franka_robot_state_broadcaster/local_setup.bash
+[32.884s] -- Installing: /home/user/humble_ws/install/franka_robot_state_broadcaster/share/franka_robot_state_broadcaster/local_setup.sh
+[32.885s] -- Installing: /home/user/humble_ws/install/franka_robot_state_broadcaster/share/franka_robot_state_broadcaster/local_setup.zsh
+[32.885s] -- Installing: /home/user/humble_ws/install/franka_robot_state_broadcaster/share/franka_robot_state_broadcaster/local_setup.dsv
+[32.888s] -- Installing: /home/user/humble_ws/install/franka_robot_state_broadcaster/share/franka_robot_state_broadcaster/package.dsv
+[32.889s] -- Installing: /home/user/humble_ws/install/franka_robot_state_broadcaster/share/ament_index/resource_index/packages/franka_robot_state_broadcaster
+[32.889s] -- Installing: /home/user/humble_ws/install/franka_robot_state_broadcaster/share/ament_index/resource_index/controller_interface__pluginlib__plugin/franka_robot_state_broadcaster
+[32.889s] -- Installing: /home/user/humble_ws/install/franka_robot_state_broadcaster/share/franka_robot_state_broadcaster/cmake/ament_cmake_export_include_directories-extras.cmake
+[32.892s] -- Installing: /home/user/humble_ws/install/franka_robot_state_broadcaster/share/franka_robot_state_broadcaster/cmake/ament_cmake_export_libraries-extras.cmake
+[32.894s] -- Installing: /home/user/humble_ws/install/franka_robot_state_broadcaster/share/franka_robot_state_broadcaster/cmake/ament_cmake_export_dependencies-extras.cmake
+[32.894s] -- Installing: /home/user/humble_ws/install/franka_robot_state_broadcaster/share/franka_robot_state_broadcaster/cmake/franka_robot_state_broadcasterConfig.cmake
+[32.895s] -- Installing: /home/user/humble_ws/install/franka_robot_state_broadcaster/share/franka_robot_state_broadcaster/cmake/franka_robot_state_broadcasterConfig-version.cmake
+[32.895s] -- Installing: /home/user/humble_ws/install/franka_robot_state_broadcaster/share/franka_robot_state_broadcaster/package.xml
+[32.908s] Invoked command in '/home/user/humble_ws/build/franka_robot_state_broadcaster' returned '0': AMENT_PREFIX_PATH=/home/user/humble_ws/install/franka_semantic_components:/home/user/humble_ws/install/franka_hardware:/home/user/humble_ws/install/franka_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/user/humble_ws/install/franka_semantic_components:/home/user/humble_ws/install/franka_hardware:/home/user/humble_ws/install/franka_msgs:~/Libraries/libfranka/lib/cmake:~/Libraries/mujoco/lib/cmake:/opt/ros/humble LD_LIBRARY_PATH=/home/user/humble_ws/install/franka_semantic_components/lib:/home/user/humble_ws/install/franka_hardware/lib:/home/user/humble_ws/install/franka_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/user/humble_ws/install/franka_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/user/humble_ws/build/franka_robot_state_broadcaster

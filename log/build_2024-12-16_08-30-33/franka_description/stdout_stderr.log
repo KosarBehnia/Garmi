@@ -1,0 +1,203 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/user/humble_ws/build/franka_description
+-- Install configuration: "Release"
+-- Installing: /home/user/humble_ws/install/franka_description/share/franka_description//launch
+-- Installing: /home/user/humble_ws/install/franka_description/share/franka_description//launch/visualize_franka.launch.py
+-- Installing: /home/user/humble_ws/install/franka_description/share/franka_description//robots
+-- Installing: /home/user/humble_ws/install/franka_description/share/franka_description//robots/mobile_platform.xacro
+-- Installing: /home/user/humble_ws/install/franka_description/share/franka_description//robots/panda_arm_sim.urdf.xacro
+-- Installing: /home/user/humble_ws/install/franka_description/share/franka_description//robots/dual_panda_arm_sim.ros2_control.xacro
+-- Installing: /home/user/humble_ws/install/franka_description/share/franka_description//robots/lidar_with_wheel_mount.xacro
+-- Installing: /home/user/humble_ws/install/franka_description/share/franka_description//robots/hand.urdf.xacro
+-- Installing: /home/user/humble_ws/install/franka_description/share/franka_description//robots/garmi_sim.urdf.xacro
+-- Installing: /home/user/humble_ws/install/franka_description/share/franka_description//robots/mixed_dual_panda_arm.urdf.xacro
+-- Installing: /home/user/humble_ws/install/franka_description/share/franka_description//robots/panda_arm.xacro
+-- Installing: /home/user/humble_ws/install/franka_description/share/franka_description//robots/mixed_quad_panda_arm.urdf.xacro
+-- Installing: /home/user/humble_ws/install/franka_description/share/franka_description//robots/panda_arm.urdf.xacro
+-- Installing: /home/user/humble_ws/install/franka_description/share/franka_description//robots/hand.xacro
+-- Installing: /home/user/humble_ws/install/franka_description/share/franka_description//robots/dual_panda_arm.ros2_control.xacro
+-- Installing: /home/user/humble_ws/install/franka_description/share/franka_description//robots/head.xacro
+-- Installing: /home/user/humble_ws/install/franka_description/share/franka_description//robots/garmi_wheel.xacro
+-- Installing: /home/user/humble_ws/install/franka_description/share/franka_description//robots/dual_panda_arm_sim.urdf.xacro
+-- Installing: /home/user/humble_ws/install/franka_description/share/franka_description//robots/dual_panda_arm.urdf.xacro
+-- Installing: /home/user/humble_ws/install/franka_description/share/franka_description//robots/garmi_sim.ros2_control.xacro
+-- Installing: /home/user/humble_ws/install/franka_description/share/franka_description//robots/base.xacro
+-- Installing: /home/user/humble_ws/install/franka_description/share/franka_description//robots/panda_arm.ros2_control.xacro
+-- Installing: /home/user/humble_ws/install/franka_description/share/franka_description//robots/panda_arm_sim.ros2_control.xacro
+-- Installing: /home/user/humble_ws/install/franka_description/share/franka_description//sensors
+-- Installing: /home/user/humble_ws/install/franka_description/share/franka_description//sensors/rplidarA2.xacro
+-- Installing: /home/user/humble_ws/install/franka_description/share/franka_description//meshes
+-- Installing: /home/user/humble_ws/install/franka_description/share/franka_description//meshes/visual
+-- Installing: /home/user/humble_ws/install/franka_description/share/franka_description//meshes/visual/hand.dae
+-- Installing: /home/user/humble_ws/install/franka_description/share/franka_description//meshes/visual/link7.dae
+-- Installing: /home/user/humble_ws/install/franka_description/share/franka_description//meshes/visual/torso.dae
+-- Installing: /home/user/humble_ws/install/franka_description/share/franka_description//meshes/visual/link1.dae
+-- Installing: /home/user/humble_ws/install/franka_description/share/franka_description//meshes/visual/mobile_platform.dae
+-- Installing: /home/user/humble_ws/install/franka_description/share/franka_description//meshes/visual/head.dae
+-- Installing: /home/user/humble_ws/install/franka_description/share/franka_description//meshes/visual/link6.dae
+-- Installing: /home/user/humble_ws/install/franka_description/share/franka_description//meshes/visual/rplidarA2.dae
+-- Installing: /home/user/humble_ws/install/franka_description/share/franka_description//meshes/visual/link3.dae
+-- Installing: /home/user/humble_ws/install/franka_description/share/franka_description//meshes/visual/meshes.blend
+-- Installing: /home/user/humble_ws/install/franka_description/share/franka_description//meshes/visual/link2.dae
+-- Installing: /home/user/humble_ws/install/franka_description/share/franka_description//meshes/visual/mobile_platform.dae.meta
+-- Installing: /home/user/humble_ws/install/franka_description/share/franka_description//meshes/visual/finger.dae
+-- Installing: /home/user/humble_ws/install/franka_description/share/franka_description//meshes/visual/link5.dae
+-- Installing: /home/user/humble_ws/install/franka_description/share/franka_description//meshes/visual/link0.dae
+-- Installing: /home/user/humble_ws/install/franka_description/share/franka_description//meshes/visual/link4.dae
+-- Installing: /home/user/humble_ws/install/franka_description/share/franka_description//rviz
+-- Installing: /home/user/humble_ws/install/franka_description/share/franka_description//rviz/visualize_franka.rviz
+-- Installing: /home/user/humble_ws/install/franka_description/share/franka_description//rviz/visualize_dual_franka.rviz
+-- Installing: /home/user/humble_ws/install/franka_description/share/franka_description//mujoco
+-- Installing: /home/user/humble_ws/install/franka_description/share/franka_description//mujoco/franka
+-- Installing: /home/user/humble_ws/install/franka_description/share/franka_description//mujoco/franka/objects.xml
+-- Installing: /home/user/humble_ws/install/franka_description/share/franka_description//mujoco/franka/mj_right.xml
+-- Installing: /home/user/humble_ws/install/franka_description/share/franka_description//mujoco/franka/assets
+-- Installing: /home/user/humble_ws/install/franka_description/share/franka_description//mujoco/franka/assets/link4_1.obj
+-- Installing: /home/user/humble_ws/install/franka_description/share/franka_description//mujoco/franka/assets/link3_1.obj
+-- Installing: /home/user/humble_ws/install/franka_description/share/franka_description//mujoco/franka/assets/link2.obj
+-- Installing: /home/user/humble_ws/install/franka_description/share/franka_description//mujoco/franka/assets/link0_5.obj
+-- Installing: /home/user/humble_ws/install/franka_description/share/franka_description//mujoco/franka/assets/link4.stl
+-- Installing: /home/user/humble_ws/install/franka_description/share/franka_description//mujoco/franka/assets/link6_10.obj
+-- Installing: /home/user/humble_ws/install/franka_description/share/franka_description//mujoco/franka/assets/link6_3.obj
+-- Installing: /home/user/humble_ws/install/franka_description/share/franka_description//mujoco/franka/assets/link0.stl
+-- Installing: /home/user/humble_ws/install/franka_description/share/franka_description//mujoco/franka/assets/link0_4.obj
+-- Installing: /home/user/humble_ws/install/franka_description/share/franka_description//mujoco/franka/assets/link7_3.obj
+-- Installing: /home/user/humble_ws/install/franka_description/share/franka_description//mujoco/franka/assets/link4_3.obj
+-- Installing: /home/user/humble_ws/install/franka_description/share/franka_description//mujoco/franka/assets/hand_3.obj
+-- Installing: /home/user/humble_ws/install/franka_description/share/franka_description//mujoco/franka/assets/link0_1.obj
+-- Installing: /home/user/humble_ws/install/franka_description/share/franka_description//mujoco/franka/assets/link6_14.obj
+-- Installing: /home/user/humble_ws/install/franka_description/share/franka_description//mujoco/franka/assets/link6_5.obj
+-- Installing: /home/user/humble_ws/install/franka_description/share/franka_description//mujoco/franka/assets/link7.stl
+-- Installing: /home/user/humble_ws/install/franka_description/share/franka_description//mujoco/franka/assets/link0_11.obj
+-- Installing: /home/user/humble_ws/install/franka_description/share/franka_description//mujoco/franka/assets/link5_0.obj
+-- Installing: /home/user/humble_ws/install/franka_description/share/franka_description//mujoco/franka/assets/link7_2.obj
+-- Installing: /home/user/humble_ws/install/franka_description/share/franka_description//mujoco/franka/assets/link0_0.obj
+-- Installing: /home/user/humble_ws/install/franka_description/share/franka_description//mujoco/franka/assets/link4_0.obj
+-- Installing: /home/user/humble_ws/install/franka_description/share/franka_description//mujoco/franka/assets/link0_2.obj
+-- Installing: /home/user/humble_ws/install/franka_description/share/franka_description//mujoco/franka/assets/link3_2.obj
+-- Installing: /home/user/humble_ws/install/franka_description/share/franka_description//mujoco/franka/assets/link0_8.obj
+-- Installing: /home/user/humble_ws/install/franka_description/share/franka_description//mujoco/franka/assets/finger_0.obj
+-- Installing: /home/user/humble_ws/install/franka_description/share/franka_description//mujoco/franka/assets/link0_9.obj
+-- Installing: /home/user/humble_ws/install/franka_description/share/franka_description//mujoco/franka/assets/finger_1.obj
+-- Installing: /home/user/humble_ws/install/franka_description/share/franka_description//mujoco/franka/assets/link7_4.obj
+-- Installing: /home/user/humble_ws/install/franka_description/share/franka_description//mujoco/franka/assets/hand.stl
+-- Installing: /home/user/humble_ws/install/franka_description/share/franka_description//mujoco/franka/assets/link5_1.obj
+-- Installing: /home/user/humble_ws/install/franka_description/share/franka_description//mujoco/franka/assets/link6_11.obj
+-- Installing: /home/user/humble_ws/install/franka_description/share/franka_description//mujoco/franka/assets/link7_6.obj
+-- Installing: /home/user/humble_ws/install/franka_description/share/franka_description//mujoco/franka/assets/hand_2.obj
+-- Installing: /home/user/humble_ws/install/franka_description/share/franka_description//mujoco/franka/assets/link0_7.obj
+-- Installing: /home/user/humble_ws/install/franka_description/share/franka_description//mujoco/franka/assets/link6.stl
+-- Installing: /home/user/humble_ws/install/franka_description/share/franka_description//mujoco/franka/assets/link3.stl
+-- Installing: /home/user/humble_ws/install/franka_description/share/franka_description//mujoco/franka/assets/link6_2.obj
+-- Installing: /home/user/humble_ws/install/franka_description/share/franka_description//mujoco/franka/assets/hand_4.obj
+-- Installing: /home/user/humble_ws/install/franka_description/share/franka_description//mujoco/franka/assets/link7_0.obj
+-- Installing: /home/user/humble_ws/install/franka_description/share/franka_description//mujoco/franka/assets/link7_5.obj
+-- Installing: /home/user/humble_ws/install/franka_description/share/franka_description//mujoco/franka/assets/link4_2.obj
+-- Installing: /home/user/humble_ws/install/franka_description/share/franka_description//mujoco/franka/assets/link5_collision_0.obj
+-- Installing: /home/user/humble_ws/install/franka_description/share/franka_description//mujoco/franka/assets/link7_7.obj
+-- Installing: /home/user/humble_ws/install/franka_description/share/franka_description//mujoco/franka/assets/link5_collision_1.obj
+-- Installing: /home/user/humble_ws/install/franka_description/share/franka_description//mujoco/franka/assets/link0_10.obj
+-- Installing: /home/user/humble_ws/install/franka_description/share/franka_description//mujoco/franka/assets/link6_0.obj
+-- Installing: /home/user/humble_ws/install/franka_description/share/franka_description//mujoco/franka/assets/hand_0.obj
+-- Installing: /home/user/humble_ws/install/franka_description/share/franka_description//mujoco/franka/assets/link5_collision_2.obj
+-- Installing: /home/user/humble_ws/install/franka_description/share/franka_description//mujoco/franka/assets/link1.stl
+-- Installing: /home/user/humble_ws/install/franka_description/share/franka_description//mujoco/franka/assets/link5_2.obj
+-- Installing: /home/user/humble_ws/install/franka_description/share/franka_description//mujoco/franka/assets/link6_7.obj
+-- Installing: /home/user/humble_ws/install/franka_description/share/franka_description//mujoco/franka/assets/link6_15.obj
+-- Installing: /home/user/humble_ws/install/franka_description/share/franka_description//mujoco/franka/assets/link6_1.obj
+-- Installing: /home/user/humble_ws/install/franka_description/share/franka_description//mujoco/franka/assets/link6_16.obj
+-- Installing: /home/user/humble_ws/install/franka_description/share/franka_description//mujoco/franka/assets/link6_13.obj
+-- Installing: /home/user/humble_ws/install/franka_description/share/franka_description//mujoco/franka/assets/link6_9.obj
+-- Installing: /home/user/humble_ws/install/franka_description/share/franka_description//mujoco/franka/assets/link1.obj
+-- Installing: /home/user/humble_ws/install/franka_description/share/franka_description//mujoco/franka/assets/link6_12.obj
+-- Installing: /home/user/humble_ws/install/franka_description/share/franka_description//mujoco/franka/assets/link7_1.obj
+-- Installing: /home/user/humble_ws/install/franka_description/share/franka_description//mujoco/franka/assets/link2.stl
+-- Installing: /home/user/humble_ws/install/franka_description/share/franka_description//mujoco/franka/assets/link0_3.obj
+-- Installing: /home/user/humble_ws/install/franka_description/share/franka_description//mujoco/franka/assets/link6_6.obj
+-- Installing: /home/user/humble_ws/install/franka_description/share/franka_description//mujoco/franka/assets/link6_8.obj
+-- Installing: /home/user/humble_ws/install/franka_description/share/franka_description//mujoco/franka/assets/link3_3.obj
+-- Installing: /home/user/humble_ws/install/franka_description/share/franka_description//mujoco/franka/assets/link6_4.obj
+-- Installing: /home/user/humble_ws/install/franka_description/share/franka_description//mujoco/franka/assets/hand_1.obj
+-- Installing: /home/user/humble_ws/install/franka_description/share/franka_description//mujoco/franka/assets/link3_0.obj
+-- Installing: /home/user/humble_ws/install/franka_description/share/franka_description//mujoco/franka/dual_scene.xml
+-- Installing: /home/user/humble_ws/install/franka_description/share/franka_description//mujoco/franka/scene.xml
+-- Installing: /home/user/humble_ws/install/franka_description/share/franka_description//mujoco/franka/TEMPLATE_panda.xml
+-- Installing: /home/user/humble_ws/install/franka_description/share/franka_description//mujoco/franka/mj_right_scene.xml
+-- Installing: /home/user/humble_ws/install/franka_description/share/franka_description//mujoco/franka/panda.xml
+-- Installing: /home/user/humble_ws/install/franka_description/share/franka_description//mujoco/franka/mj_dual.xml
+-- Installing: /home/user/humble_ws/install/franka_description/share/franka_description//mujoco/garmi
+-- Installing: /home/user/humble_ws/install/franka_description/share/franka_description//mujoco/garmi/assets
+-- Installing: /home/user/humble_ws/install/franka_description/share/franka_description//mujoco/garmi/assets/textures
+-- Installing: /home/user/humble_ws/install/franka_description/share/franka_description//mujoco/garmi/assets/textures/eyes.png
+-- Installing: /home/user/humble_ws/install/franka_description/share/franka_description//mujoco/garmi/assets/textures/panda
+-- Installing: /home/user/humble_ws/install/franka_description/share/franka_description//mujoco/garmi/assets/textures/panda/panda.png
+-- Installing: /home/user/humble_ws/install/franka_description/share/franka_description//mujoco/garmi/assets/textures/garmi
+-- Installing: /home/user/humble_ws/install/franka_description/share/franka_description//mujoco/garmi/assets/textures/garmi/torso.png
+-- Installing: /home/user/humble_ws/install/franka_description/share/franka_description//mujoco/garmi/assets/textures/garmi/head.png
+-- Installing: /home/user/humble_ws/install/franka_description/share/franka_description//mujoco/garmi/assets/xml
+-- Installing: /home/user/humble_ws/install/franka_description/share/franka_description//mujoco/garmi/assets/xml/include
+-- Installing: /home/user/humble_ws/install/franka_description/share/franka_description//mujoco/garmi/assets/xml/include/panda_assets.xml
+-- Installing: /home/user/humble_ws/install/franka_description/share/franka_description//mujoco/garmi/assets/xml/include/garmi.xml
+-- Installing: /home/user/humble_ws/install/franka_description/share/franka_description//mujoco/garmi/assets/xml/garmi.xml
+-- Installing: /home/user/humble_ws/install/franka_description/share/franka_description//mujoco/garmi/assets/meshes
+-- Installing: /home/user/humble_ws/install/franka_description/share/franka_description//mujoco/garmi/assets/meshes/cameras
+-- Installing: /home/user/humble_ws/install/franka_description/share/franka_description//mujoco/garmi/assets/meshes/cameras/d435_glass.obj
+-- Installing: /home/user/humble_ws/install/franka_description/share/franka_description//mujoco/garmi/assets/meshes/cameras/d435.obj
+-- Installing: /home/user/humble_ws/install/franka_description/share/franka_description//mujoco/garmi/assets/meshes/panda
+-- Installing: /home/user/humble_ws/install/franka_description/share/franka_description//mujoco/garmi/assets/meshes/panda/link2.obj
+-- Installing: /home/user/humble_ws/install/franka_description/share/franka_description//mujoco/garmi/assets/meshes/panda/link6.obj
+-- Installing: /home/user/humble_ws/install/franka_description/share/franka_description//mujoco/garmi/assets/meshes/panda/link7.obj
+-- Installing: /home/user/humble_ws/install/franka_description/share/franka_description//mujoco/garmi/assets/meshes/panda/link0.obj
+-- Installing: /home/user/humble_ws/install/franka_description/share/franka_description//mujoco/garmi/assets/meshes/panda/link5.obj
+-- Installing: /home/user/humble_ws/install/franka_description/share/franka_description//mujoco/garmi/assets/meshes/panda/hand.obj
+-- Installing: /home/user/humble_ws/install/franka_description/share/franka_description//mujoco/garmi/assets/meshes/panda/link1.obj
+-- Installing: /home/user/humble_ws/install/franka_description/share/franka_description//mujoco/garmi/assets/meshes/panda/link4.obj
+-- Installing: /home/user/humble_ws/install/franka_description/share/franka_description//mujoco/garmi/assets/meshes/panda/finger.obj
+-- Installing: /home/user/humble_ws/install/franka_description/share/franka_description//mujoco/garmi/assets/meshes/panda/link0.mtl
+-- Installing: /home/user/humble_ws/install/franka_description/share/franka_description//mujoco/garmi/assets/meshes/panda/link3.obj
+-- Installing: /home/user/humble_ws/install/franka_description/share/franka_description//mujoco/garmi/assets/meshes/garmi
+-- Installing: /home/user/humble_ws/install/franka_description/share/franka_description//mujoco/garmi/assets/meshes/garmi/tire.obj
+-- Installing: /home/user/humble_ws/install/franka_description/share/franka_description//mujoco/garmi/assets/meshes/garmi/wheel.obj
+-- Installing: /home/user/humble_ws/install/franka_description/share/franka_description//mujoco/garmi/assets/meshes/garmi/caster_wheel.obj
+-- Installing: /home/user/humble_ws/install/franka_description/share/franka_description//mujoco/garmi/assets/meshes/garmi/head.obj
+-- Installing: /home/user/humble_ws/install/franka_description/share/franka_description//mujoco/garmi/assets/meshes/garmi/head.mtl
+-- Installing: /home/user/humble_ws/install/franka_description/share/franka_description//mujoco/garmi/assets/meshes/garmi/visor.obj
+-- Installing: /home/user/humble_ws/install/franka_description/share/franka_description//mujoco/garmi/assets/meshes/garmi/inlet.obj
+-- Installing: /home/user/humble_ws/install/franka_description/share/franka_description//mujoco/garmi/assets/meshes/garmi/torso.obj
+-- Installing: /home/user/humble_ws/install/franka_description/share/franka_description//mujoco/garmi/assets/meshes/garmi/base.obj
+-- Installing: /home/user/humble_ws/install/franka_description/share/ament_index/resource_index/package_run_dependencies/franka_description
+-- Installing: /home/user/humble_ws/install/franka_description/share/ament_index/resource_index/parent_prefix_path/franka_description
+-- Installing: /home/user/humble_ws/install/franka_description/share/franka_description/environment/ament_prefix_path.sh
+-- Installing: /home/user/humble_ws/install/franka_description/share/franka_description/environment/ament_prefix_path.dsv
+-- Installing: /home/user/humble_ws/install/franka_description/share/franka_description/environment/path.sh
+-- Installing: /home/user/humble_ws/install/franka_description/share/franka_description/environment/path.dsv
+-- Installing: /home/user/humble_ws/install/franka_description/share/franka_description/local_setup.bash
+-- Installing: /home/user/humble_ws/install/franka_description/share/franka_description/local_setup.sh
+-- Installing: /home/user/humble_ws/install/franka_description/share/franka_description/local_setup.zsh
+-- Installing: /home/user/humble_ws/install/franka_description/share/franka_description/local_setup.dsv
+-- Installing: /home/user/humble_ws/install/franka_description/share/franka_description/package.dsv
+-- Installing: /home/user/humble_ws/install/franka_description/share/ament_index/resource_index/packages/franka_description
+-- Installing: /home/user/humble_ws/install/franka_description/share/franka_description/cmake/franka_descriptionConfig.cmake
+-- Installing: /home/user/humble_ws/install/franka_description/share/franka_description/cmake/franka_descriptionConfig-version.cmake
+-- Installing: /home/user/humble_ws/install/franka_description/share/franka_description/package.xml

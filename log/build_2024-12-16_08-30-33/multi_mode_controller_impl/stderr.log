@@ -1,0 +1,16 @@
+In file included from /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller_impl/include/multi_mode_controller_impl/single_multi_mode_controller.h:33,
+                 from /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller_impl/src/single_multi_mode_controller.cpp:15:
+/home/user/humble_ws/install/multi_mode_controller/include/multi_mode_controller/utils/conversions.h: In function ‘std::string vectorToResource(const std::vector<std::__cxx11::basic_string<char> >&)’:
+/home/user/humble_ws/install/multi_mode_controller/include/multi_mode_controller/utils/conversions.h:32:17: warning: comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<std::__cxx11::basic_string<char> >::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+   32 |   for (int i=1;i<vec.size();++i) {
+      |                ~^~~~~~~~~~~
+In file included from /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller_impl/include/multi_mode_controller_impl/single_multi_mode_controller.h:34,
+                 from /home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_controller_impl/src/single_multi_mode_controller.cpp:15:
+/home/user/humble_ws/install/multi_mode_controller/include/multi_mode_controller/base/switch_engine.h: In member function ‘bool switch_engine::SwitchEngine::getRobotStatesCallback(std::shared_ptr<rmw_request_id_s>, const SharedPtr&, const SharedPtr&)’:
+/home/user/humble_ws/install/multi_mode_controller/include/multi_mode_controller/base/switch_engine.h:30:49: warning: unused parameter ‘request_header’ [-Wunused-parameter]
+   30 |         const std::shared_ptr<rmw_request_id_t> request_header,
+      |         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~
+/home/user/humble_ws/install/multi_mode_controller/include/multi_mode_controller/base/switch_engine.h: In member function ‘virtual bool switch_engine::SwitchEngine::initImpl(const std::vector<panda_controllers::RobotData*>&, rclcpp_lifecycle::LifecycleNode::SharedPtr&, std::string, std::string)’:
+/home/user/humble_ws/install/multi_mode_controller/include/multi_mode_controller/base/switch_engine.h:40:69: warning: unused parameter ‘name’ [-Wunused-parameter]
+   40 |       rclcpp_lifecycle::LifecycleNode::SharedPtr& node, std::string name, std::string resource) override {
+      |                                                         ~~~~~~~~~~~~^~~~

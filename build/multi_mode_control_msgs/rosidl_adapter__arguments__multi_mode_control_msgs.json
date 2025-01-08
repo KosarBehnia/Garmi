@@ -1,0 +1,22 @@
+{
+  "package_name": "multi_mode_control_msgs",
+  "non_idl_tuples": [
+    "/home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_control_msgs:msg/CartesianImpedanceGoal.msg",
+    "/home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_control_msgs:msg/DualCartesianImpedanceGoal.msg",
+    "/home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_control_msgs:msg/ContactThresholds.msg",
+    "/home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_control_msgs:msg/Controller.msg",
+    "/home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_control_msgs:msg/JointArray.msg",
+    "/home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_control_msgs:msg/JointGoal.msg",
+    "/home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_control_msgs:msg/VelocityGoal.msg",
+    "/home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_control_msgs:msg/Wrench.msg",
+    "/home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_control_msgs:srv/GetControllers.srv",
+    "/home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_control_msgs:srv/GetRobotStates.srv",
+    "/home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_control_msgs:srv/SetCartesianImpedance.srv",
+    "/home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_control_msgs:srv/SetControllers.srv",
+    "/home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_control_msgs:srv/SetJointImpedance.srv",
+    "/home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_control_msgs:srv/SetRecoveryMode.srv",
+    "/home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_control_msgs:srv/SetReflex.srv",
+    "/home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_control_msgs:srv/SetThresholds.srv",
+    "/home/user/humble_ws/src/bimanual_architecture/franka_multi_mode_controller/multi_mode_control_msgs:srv/SetWorldState.srv"
+  ]
+}

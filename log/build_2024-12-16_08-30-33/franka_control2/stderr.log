@@ -1,0 +1,4 @@
+In file included from /home/user/humble_ws/src/bimanual_architecture/franka_control2/src/franka_control2_node.cpp:24:
+/opt/ros/humble/include/realtime_tools/realtime_tools/thread_priority.hpp:39:2: warning: #warning "This header include is deprecated. Please update your code to use 'realtime_helpers.hpp' header and link against 'realtime_tools' library." [-Wcpp]
+   39 | #warning \
+      |  ^~~~~~~

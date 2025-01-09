@@ -17,6 +17,20 @@
   <include file="include/garmi.xml" />
 
   <asset>
+    <texture name="pot_texture" type="2d" file="pot.png" />
+    <material name="pot_material" texture="pot_texture" texrepeat="2 2" texuniform="true" />
+    <texture name="stem_texture" type="2d" file="stem.png" />
+    <material name="stem_material" texture="stem_texture" texrepeat="2 2" texuniform="true" />
+    <texture name="foliage_texture" type="2d" file="foliage.png" />
+    <material name="foliage_material" texture="foliage_texture" texrepeat="2 2" texuniform="true" />
+    <texture name="plate_texture" type="2d" file="plate.png" />
+    <material name="plate" texture="plate_texture" texrepeat="2 2" texuniform="true" />
+    <texture name="sponge_texture" type="2d" file="sponge.png" />
+    <material name="matsponge" texture="sponge_texture" texrepeat="2 2" texuniform="true" />
+    <texture name="mat_texture" type="2d" file="mat.png" />
+    <material name="matcarpet" texture="mat_texture" texrepeat="2 2" texuniform="true" />
+    <texture name="ball_texture" type="2d" file="ball.png" />
+    <material name="ball" texture="ball_texture" texrepeat="2 2" texuniform="true" />
     <texture type="skybox" builtin="gradient" rgb1="0.3 0.5 0.7" rgb2="0 0 0" width="512" height="512" />
     <texture name="plane" type="2d" builtin="checker" rgb1=".2 .3 .4" rgb2=".1 0.15 0.2" width="512" height="512" mark="cross" markrgb=".8 .8 .8" />
     <texture name="clothes_texture" type="2d" file="white-cloth-on-ground-260nw-358302005.png" />
@@ -26,6 +40,8 @@
     <!-- Define the material with the texture -->
     <material name="clothes_material" texture="clothes_texture" reflectance="0.5" />
     <material name="plane" reflectance="0" texture="plane" texrepeat="1 1" texuniform="true" />
+    <texture name="table_texture" type="2d" file="table.png" />
+    <material name="table" texture="table_texture" texrepeat="2 2" />
     <mesh name="box2_mesh" file="temp/box.obj" />
     <material name="box2_material" rgba="1 0 0 1" />
     <mesh name="plant_mesh" file="garmi/head.obj" />
@@ -42,21 +58,55 @@
     <light directional="false" diffuse=".8 .8 .8" specular="0.3 0.3 0.3" pos="0 -1 4" dir="0 0 -1" />
     <light directional="true" diffuse="0 0 0" specular=".7 .7 .7" pos="0 3 3" dir="0 -3 -3" />
     <geom name="floor" pos="0 0 0" group="1" size="0 0 .1" type="plane" material="plane" condim="3" />
-    <geom name="box1" type="box" pos="-1 3 0" size=".3 .3 .3" rgba="0.8 0.2 0.2 1" material="box_material" />
-    <geom name="cylinder1" type="cylinder" pos="1 3 0" size="0.06 0.6" rgba="0.8 0.8 0.2 1" />
-    <geom name="sphere1" type="sphere" pos="-2 0 0" size="0.02" rgba="0.2 0.2 0.8 1" />
-    <geom name="plant" type="mesh" mesh="plant_mesh" pos="2 0 .1" rgba="0.2 0.5 0.8 0.8" />
-    <geom name="wheelw" type="mesh" mesh="wheel_mesh" pos="2 2 .1" rgba="0.2 0.5 0.8 1" />
-    <geom name="tirew" type="mesh" mesh="tire_mesh" pos="1 2 .1" rgba="0.2 1 0.8 1" />
-    <geom name="tirew2" type="mesh" mesh="tire_mesh" pos="0 2 .1" rgba="0.2 1 0.8 1" />
-    <geom name="tirew3" type="mesh" mesh="tire_mesh" pos="-1 2 .1" rgba="0.2 1 0.8 1" />
-    <geom name="tirew4" type="mesh" mesh="tire_mesh" pos="1 -2 .1" rgba="0.2 1 0.8 1" />
-    <geom name="tirew5" type="mesh" mesh="tire_mesh" pos="0 -2 .1" rgba="0.2 1 0.8 1" />
-    <geom name="tirew6" type="mesh" mesh="tire_mesh" pos="-1 -2 .1" rgba="0.2 1 0.8 1" />
-    <geom name="linkw1" type="mesh" mesh="link1_mesh" pos="2 0 .1" rgba="0.2 1 0.8 1" />
+    <geom name="ball" type="sphere" size="0.2" pos="2 1.5 0.2" material="ball"/>
 
+<!-- Table Structure -->
+    <body name="table" pos="1 1 0.75">
+      <!-- Tabletop -->
+      <geom name="tabletop" type="box" size="1 0.3 0.05" pos="0 0 0.05" material="table" />
+      
+      <!-- Table Legs -->
+      <body name="leg1" pos="-0.45 -0.25 -0.35">
+        <geom name="leg1_geom" type="cylinder" size="0.03 0.7" pos="-.3 0 -0.35" material="table" />
+      </body>
+      <body name="leg2" pos="0.45 -0.25 -0.35">
+        <geom name="leg2_geom" type="cylinder" size="0.03 0.7" pos=".3 0 -0.35" material="table" />
+      </body>
+      <body name="leg3" pos="-0.45 0.25 -0.35">
+        <geom name="leg3_geom" type="cylinder" size="0.03 0.7" pos="-.3 0 -0.35" material="table" />
+      </body>
+      <body name="leg4" pos="0.45 0.25 -0.35">
+        <geom name="leg4_geom" type="cylinder" size="0.03 0.7" pos=".3 0 -0.35" material="table" />
+      </body>
+    </body>  
+    <!-- Define the sponge -->
+    <body name="sponge" pos="1 1 .85">
+      <!-- Apply the material to the geometry -->
+      <geom name="sponge_geom" type="box" size="0.1 0.1 0.05" material="matsponge" />
+    </body>
+    <composite type="grid" count="9 9 1" spacing="0.08" offset="2 0 0">
+  <!-- Define the skin material for the grid -->
+      <skin material="matcarpet" inflate="0.01" subgrid="3" texcoord="true"/>
+  
+  <!-- Define the geometry for each grid element -->
+       <geom size=".02"/>
 
+  <!-- Pin elements at specific coordinates -->
+       <pin coord="0 0"/>
+       <pin coord="0 2"/>
+    </composite>
 
+   <geom name="box" type="box" size="0.5 0.3 0.05" pos="2 2 0.05" material="table" />
+   <geom name="plate" type="cylinder" size="0.2 0.03" pos="1.6 1 0.85" material="plate"/>
+   <!-- Pot (cylinder) -->
+   <geom name="pot" type="cylinder" size="0.1 0.05" pos="2 2 0.095" material="pot_material"/>
 
+<!-- Plant Stem (small cylinder) -->
+   <geom name="plant_stem" type="cylinder" size="0.02 0.1" pos="2 2 0.22" material="stem_material"/>
+
+<!-- Plant Foliage (3 spheres for leaves) -->
+   <geom name="plant_foliage_1" type="sphere" size="0.05" pos="2 2 0.32" material="foliage_material"/>
+   <geom name="plant_foliage_2" type="sphere" size="0.05" pos="2.1 2 0.37" material="foliage_material"/>
+   <geom name="plant_foliage_3" type="sphere" size="0.05" pos="1.9 2 0.37" material="foliage_material"/>
   </worldbody>
 </mujoco>

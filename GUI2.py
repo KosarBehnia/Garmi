@@ -81,9 +81,9 @@ class BaseControl(QWidget):
         self.setLayout(layout)
 
     def create_slider(self, label_text, min_value, max_value, initial_value):
-        layout = QVBoxLayout()
+        layout = QHBoxLayout()
         label = QLabel(f"{label_text}: {initial_value}")
-        label.setStyleSheet("font-size: 16px; color: #333;")
+#        label.setStyleSheet("font-size: 16px; color: #333;")
         layout.addWidget(label)
 
         slider = QSlider(Qt.Horizontal)
@@ -91,18 +91,22 @@ class BaseControl(QWidget):
         slider.setValue(initial_value)
         slider.setTickInterval(10)
         slider.setTickPosition(QSlider.TicksBelow)
-        slider.setStyleSheet("""
-            QSlider::handle:horizontal {
-                background-color: #28a745;
-                border: 1px solid #1e7e34;
-                width: 15px;
-                margin: -5px 0;
-            }
-        """)
-        slider.valueChanged.connect(lambda value: label.setText(f"{label_text}: {value}"))
+#        slider.setStyleSheet("""
+#            QSlider::handle:horizontal {
+#                background-color: #28a745;
+#                border: 1px solid #1e7e34;
+#                width: 15px;
+#                margin: -5px 0;
+#            }
+#        """)
+        slider.valueChanged.connect( lambda value: self.update_label(label, value))
+#lambda value: label.setText(f"{label_text}: {value}"))
         layout.addWidget(slider)
 
         return layout, slider
+    def update_label(self, label, value):
+        # Update the label with the current slider value (scaled back down)
+        label.setText(f"Value: {value / 100.0:.2f}")
 
 #    def submit_command(self):
 #        linear = {
@@ -155,19 +159,27 @@ class PoseStep(QWidget):
         layout.addWidget(title_label)
 
         self.sliders = {}
-        for axis in ['X', 'Y', 'Z']:
-            slider_layout, slider = self.create_slider(f"{axis} Position", -100, 100, 0)
-            layout.addLayout(slider_layout)
-            self.sliders[axis] = slider
+#        for axis in ['X position', 'Y position', 'Z position','Angular X', 'Angular Y', 'Angular Z' ]:
+#            slider_layout, slider = self.create_slider(f"{axis} Position", -100, 100, 0)
+#            layout.addLayout(slider_layout)
+#            self.sliders[axis] = slider
 
         button_layout = QHBoxLayout()
 
         if self.is_final_step:
+            for axis in ['Force', 'Speed', 'width' ]:
+              slider_layout, slider = self.create_slider(f"{axis}", -100, 100, 0)
+              layout.addLayout(slider_layout)
+              self.sliders[axis] = slider
             submit_button = QPushButton("Submit")
             submit_button.setStyleSheet("background-color: #28a745; color: white; padding: 10px; border-radius: 5px;")
             submit_button.clicked.connect(self.next_step)
             button_layout.addWidget(submit_button)
         else:
+            for axis in ['X position', 'Y position', 'Z position','Angular X', 'Angular Y', 'Angular Z' ]:
+              slider_layout, slider = self.create_slider(f"{axis}", -100, 100, 0)
+              layout.addLayout(slider_layout)
+              self.sliders[axis] = slider
             next_button = QPushButton("Next")
             next_button.setStyleSheet("background-color: #28a745; color: white; padding: 10px; border-radius: 5px;")
             next_button.clicked.connect(self.next_step)
@@ -184,7 +196,7 @@ class PoseStep(QWidget):
     def create_slider(self, label_text, min_value, max_value, initial_value):
         layout = QVBoxLayout()
         label = QLabel(f"{label_text}: {initial_value}")
-        label.setStyleSheet("font-size: 16px; color: #333;")
+#        label.setStyleSheet("font-size: 16px; color: #333;")
         layout.addWidget(label)
 
         slider = QSlider(Qt.Horizontal)
@@ -192,18 +204,23 @@ class PoseStep(QWidget):
         slider.setValue(initial_value)
         slider.setTickInterval(10)
         slider.setTickPosition(QSlider.TicksBelow)
-        slider.setStyleSheet("""
-            QSlider::handle:horizontal {
-                background-color: #28a745;
-                border: 1px solid #1e7e34;
-                width: 15px;
-                margin: -5px 0;
-            }
-        """)
-        slider.valueChanged.connect(lambda value: label.setText(f"{label_text}: {value}"))
+#        slider.setStyleSheet("""
+#            QSlider::handle:horizontal {
+#                background-color: #28a745;
+#                border: 1px solid #1e7e34;
+#                width: 15px;
+#                margin: -5px 0;
+#            }
+#        """)
+#        slider.valueChanged.connect(lambda value: label.setText(f"{label_text}: {value}"))'
+        slider.valueChanged.connect( lambda value: self.update_label(label, value))
+
         layout.addWidget(slider)
 
         return layout, slider
+    def update_label(self, label, value):
+        # Update the label with the current slider value (scaled back down)
+        label.setText(f"Value: {value / 100.0:.2f}")
 
     def next_step(self):
         pose = {axis: slider.value() for axis, slider in self.sliders.items()}
